@@ -28,6 +28,12 @@
     return `<span class="pill ${cls}">${status}</span>`;
   };
 
+  const noWork = (name) => /казаров/i.test(name || "");
+  const clientLabel = (name) =>
+    noWork(name)
+      ? `${name} <span class="pill gone">суд · не работать</span>`
+      : name;
+
   document.getElementById("as-of").textContent = `На ${R.as_of}`;
   document.getElementById("lede").textContent =
     `Только склад «Магазин №10/Старый Тобольский тракт 3 км, 6 ст4». Реализации ${iso(R.period.from)} — ${iso(R.period.to)}. ${money(K.docs)} отгрузок, ${K.clients} контрагентов. Другие магазины и РЦ в расчёт не входят.`;
@@ -191,8 +197,8 @@
     lostCount.textContent = `${rows.length} из ${R.lost_clients.length}`;
     lostBody.innerHTML = rows
       .map(
-        (c) => `<tr class="${c.status === "пропал" ? "gone" : "leaving"}">
-        <td>${c.client}</td>
+        (c) => `<tr class="${c.status === "пропал" || noWork(c.client) ? "gone" : "leaving"}">
+        <td>${clientLabel(c.client)}</td>
         <td>${pill(c.status)}</td>
         <td>${c.manager_short}${c.role === "former" ? ' <span class="pill former">был</span>' : ""}</td>
         <td class="num">${rub(c.revenue)}</td>
@@ -248,8 +254,8 @@
     }
     mgrRows.innerHTML = rows
       .map(
-        (c) => `<tr>
-        <td>${c.client}</td>
+        (c) => `<tr class="${noWork(c.client) ? "gone" : ""}">
+        <td>${clientLabel(c.client)}</td>
         <td class="num">${rub(c.revenue)}</td>
         <td class="num">${c.docs}</td>
         <td>${iso(c.last)}</td>
@@ -266,8 +272,8 @@
     .map((c) => {
       const delta = c.avg_delta;
       const cls = delta < 0 ? "delta-neg" : "delta-pos";
-      return `<tr>
-        <td>${c.client}</td>
+      return `<tr class="${noWork(c.client) ? "gone" : ""}">
+        <td>${clientLabel(c.client)}</td>
         <td>${c.manager_short}</td>
         <td class="num">${rub(c.avg_first)}</td>
         <td class="num">${rub(c.avg_last)}</td>
@@ -283,13 +289,14 @@
         c.status === "уходит" &&
         c.revenue >= 100000 &&
         !/калбаев ислам/i.test(c.client) &&
+        !noWork(c.client) &&
         ["Калбаев", "Гудилов", "Глухов"].includes(c.manager_short)
     )
     .slice(0, 12);
   document.getElementById("act-leaving").innerHTML = leavingNow
     .map(
       (c) => `<tr class="leaving">
-        <td>${c.client}</td>
+        <td>${clientLabel(c.client)}</td>
         <td>${c.manager_short}</td>
         <td class="num">${rub(c.revenue)}</td>
         <td class="num">${c.silent_days} дн.</td>
@@ -302,14 +309,15 @@
       (c) =>
         ["Калбаев", "Гудилов", "Глухов", "Никитина"].includes(c.manager_short) &&
         c.status === "живой" &&
-        c.significant
+        c.significant &&
+        !noWork(c.client)
     )
     .sort((a, b) => b.revenue - a.revenue)
     .slice(0, 15);
   document.getElementById("act-claim").innerHTML = claimNow
     .map(
       (c) => `<tr>
-        <td>${c.client}</td>
+        <td>${clientLabel(c.client)}</td>
         <td>${c.manager_short}</td>
         <td class="num">${rub(c.revenue)}</td>
         <td class="num">${c.y2026 ? rub(c.y2026) : "—"}</td>
