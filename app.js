@@ -30,7 +30,7 @@
 
   document.getElementById("as-of").textContent = `На ${R.as_of}`;
   document.getElementById("lede").textContent =
-    `${R.store}. Реализации ${iso(R.period.from)} — ${iso(R.period.to)}. ${money(K.docs)} отгрузок, ${K.clients} контрагентов.`;
+    `Только склад «Магазин №10/Старый Тобольский тракт 3 км, 6 ст4». Реализации ${iso(R.period.from)} — ${iso(R.period.to)}. ${money(K.docs)} отгрузок, ${K.clients} контрагентов. Другие магазины и РЦ в расчёт не входят.`;
 
   document.getElementById("a-lost").textContent =
     `Да: ${K.lost_significant} значимых из ${K.clients}`;
@@ -284,5 +284,5 @@
     .join("");
 
   document.getElementById("foot").textContent =
-    `«У Михалыча» · B2B Антипино · реализации 1С ${iso(R.period.from)} — ${iso(R.period.to)} · собрано ${R.as_of}. Значимый пропавший: 90+ дней тишины и ≥100 тыс. ₽ или ≥3 отгрузки.`;
+    `«У Михалыча» · только Магазин №10 / Старый Тобольский тракт 3 км, 6 ст4 · реализации 1С ${iso(R.period.from)} — ${iso(R.period.to)} · собрано ${R.as_of}. Другие магазины и РЦ исключены.`;
 })();

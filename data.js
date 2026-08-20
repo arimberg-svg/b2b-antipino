@@ -5,7 +5,7 @@ window.REPORT = {
     "from": "2024-01-03",
     "to": "2026-08-19"
   },
-  "source": "Реализации 1С по складу магазина №10 и выгрузки менеджеров Глухов, Никитина, Калбаев. Дубли документов сняты.",
+  "source": "Только склад «Магазин №10/Старый Тобольский тракт 3 км, 6 ст4». Отгрузки с Чайки, Мальково, РЦ и других точек исключены. Дубли документов сняты.",
   "rules": {
     "alive": "покупка за последние 60 дней",
     "silent": "61–89 дней без отгрузки",
@@ -14,53 +14,53 @@ window.REPORT = {
     "significant": "от 100 тыс. ₽ за период или от 3 отгрузок"
   },
   "kpis": {
-    "revenue": 98268349.19,
-    "docs": 9060,
-    "avg_check": 10846.4,
-    "clients": 586,
-    "alive": 98,
-    "silent": 18,
-    "leaving": 59,
-    "gone": 411,
-    "lost": 470,
-    "lost_significant": 202,
-    "lost_revenue": 41275312.7,
-    "lost_all_revenue": 45386821.85,
-    "avg_check_2024": 13063.85,
-    "avg_check_2026": 7844.32,
-    "avg_check_delta": -5219.52,
-    "avg_check_delta_pct": -40.0,
-    "like_clients": 87,
-    "like_avg_2024": 11886.81,
-    "like_avg_2026": 7231.91,
-    "like_delta_pct": -39.2,
-    "like_down": 57,
-    "falling_clients": 131,
-    "other_revenue": 14785542.71
+    "revenue": 91135613.58,
+    "docs": 8237,
+    "avg_check": 11064.18,
+    "clients": 490,
+    "alive": 93,
+    "silent": 15,
+    "leaving": 55,
+    "gone": 327,
+    "lost": 382,
+    "lost_significant": 168,
+    "lost_revenue": 37972061.22,
+    "lost_all_revenue": 41410183.44,
+    "avg_check_2024": 13078.62,
+    "avg_check_2026": 7719.69,
+    "avg_check_delta": -5358.94,
+    "avg_check_delta_pct": -41.0,
+    "like_clients": 83,
+    "like_avg_2024": 11457.76,
+    "like_avg_2026": 6730.76,
+    "like_delta_pct": -41.3,
+    "like_down": 56,
+    "falling_clients": 111,
+    "other_revenue": 14561605.08
   },
   "years": [
     {
       "year": "2024",
-      "revenue": 46441969.02,
-      "docs": 3555,
-      "clients": 313,
-      "avg_check": 13063.85,
+      "revenue": 46272168.97,
+      "docs": 3538,
+      "clients": 307,
+      "avg_check": 13078.62,
       "partial": false
     },
     {
       "year": "2025",
-      "revenue": 38392453.07,
-      "docs": 3776,
-      "clients": 350,
-      "avg_check": 10167.49,
+      "revenue": 32696965.75,
+      "docs": 3114,
+      "clients": 270,
+      "avg_check": 10499.99,
       "partial": false
     },
     {
       "year": "2026",
-      "revenue": 13433927.1,
-      "docs": 1729,
-      "clients": 208,
-      "avg_check": 7769.77,
+      "revenue": 12166478.86,
+      "docs": 1585,
+      "clients": 178,
+      "avg_check": 7676.01,
       "partial": true
     }
   ],
@@ -74,7 +74,7 @@ window.REPORT = {
       "clients": 82,
       "returns": 0.0,
       "vs_prev": null,
-      "vs_avg_pct": -28.9,
+      "vs_avg_pct": -23.3,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -90,7 +90,7 @@ window.REPORT = {
       "clients": 95,
       "returns": 0.0,
       "vs_prev": -137884.72,
-      "vs_avg_pct": -33.3,
+      "vs_avg_pct": -28.1,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -106,7 +106,7 @@ window.REPORT = {
       "clients": 88,
       "returns": 0.0,
       "vs_prev": 699269.05,
-      "vs_avg_pct": -10.6,
+      "vs_avg_pct": -3.6,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -122,7 +122,7 @@ window.REPORT = {
       "clients": 114,
       "returns": 0.0,
       "vs_prev": 489616.78,
-      "vs_avg_pct": 5.4,
+      "vs_avg_pct": 13.6,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -138,7 +138,7 @@ window.REPORT = {
       "clients": 121,
       "returns": 0.0,
       "vs_prev": 1068762.86,
-      "vs_avg_pct": 40.2,
+      "vs_avg_pct": 51.1,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -154,7 +154,7 @@ window.REPORT = {
       "clients": 110,
       "returns": 0.0,
       "vs_prev": 1256553.35,
-      "vs_avg_pct": 81.1,
+      "vs_avg_pct": 95.3,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -170,7 +170,7 @@ window.REPORT = {
       "clients": 119,
       "returns": 0.0,
       "vs_prev": 90313.32,
-      "vs_avg_pct": 84.0,
+      "vs_avg_pct": 98.4,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -186,7 +186,7 @@ window.REPORT = {
       "clients": 112,
       "returns": 0.0,
       "vs_prev": 74673.56,
-      "vs_avg_pct": 86.5,
+      "vs_avg_pct": 101.1,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -196,13 +196,13 @@ window.REPORT = {
     {
       "key": "2024-09",
       "label": "сен 2024",
-      "revenue": 4152343.8,
-      "docs": 235,
-      "avg_check": 17669.55,
-      "clients": 108,
+      "revenue": 4151968.8,
+      "docs": 234,
+      "avg_check": 17743.46,
+      "clients": 107,
       "returns": 0.0,
-      "vs_prev": -1573792.75,
-      "vs_avg_pct": 35.2,
+      "vs_prev": -1574167.75,
+      "vs_avg_pct": 45.8,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -212,13 +212,13 @@ window.REPORT = {
     {
       "key": "2024-10",
       "label": "окт 2024",
-      "revenue": 4281358.1,
-      "docs": 284,
-      "avg_check": 15075.2,
-      "clients": 103,
+      "revenue": 4223801.05,
+      "docs": 278,
+      "avg_check": 15193.53,
+      "clients": 102,
       "returns": 0.0,
-      "vs_prev": 129014.3,
-      "vs_avg_pct": 39.4,
+      "vs_prev": 71832.25,
+      "vs_avg_pct": 48.3,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -228,13 +228,13 @@ window.REPORT = {
     {
       "key": "2024-11",
       "label": "ноя 2024",
-      "revenue": 3352704.37,
-      "docs": 254,
-      "avg_check": 13199.62,
-      "clients": 103,
+      "revenue": 3250797.37,
+      "docs": 248,
+      "avg_check": 13108.05,
+      "clients": 98,
       "returns": 0.0,
-      "vs_prev": -928653.73,
-      "vs_avg_pct": 9.2,
+      "vs_prev": -973003.68,
+      "vs_avg_pct": 14.1,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -244,13 +244,13 @@ window.REPORT = {
     {
       "key": "2024-12",
       "label": "дек 2024",
-      "revenue": 3198387.1,
-      "docs": 310,
-      "avg_check": 10317.38,
-      "clients": 90,
+      "revenue": 3188426.1,
+      "docs": 306,
+      "avg_check": 10419.69,
+      "clients": 86,
       "returns": 0.0,
-      "vs_prev": -154317.27,
-      "vs_avg_pct": 4.2,
+      "vs_prev": -62371.27,
+      "vs_avg_pct": 12.0,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -265,13 +265,13 @@ window.REPORT = {
       "avg_check": 7993.71,
       "clients": 80,
       "returns": 0.0,
-      "vs_prev": -1623626.34,
-      "vs_avg_pct": -48.7,
+      "vs_prev": -1613665.34,
+      "vs_avg_pct": -44.7,
       "yoy": -610071.59,
       "yoy_pct": -27.9,
       "incomplete": false,
       "peak": false,
-      "slump": true
+      "slump": false
     },
     {
       "key": "2025-02",
@@ -282,7 +282,7 @@ window.REPORT = {
       "clients": 84,
       "returns": 0.0,
       "vs_prev": 896136.75,
-      "vs_avg_pct": -19.5,
+      "vs_avg_pct": -13.2,
       "yoy": 423949.88,
       "yoy_pct": 20.7,
       "incomplete": false,
@@ -292,15 +292,15 @@ window.REPORT = {
     {
       "key": "2025-03",
       "label": "мар 2025",
-      "revenue": 1586912.04,
-      "docs": 191,
-      "avg_check": 8308.44,
+      "revenue": 1573115.04,
+      "docs": 190,
+      "avg_check": 8279.55,
       "clients": 79,
       "returns": 0.0,
-      "vs_prev": -883985.47,
-      "vs_avg_pct": -48.3,
-      "yoy": -1159304.64,
-      "yoy_pct": -42.2,
+      "vs_prev": -897782.47,
+      "vs_avg_pct": -44.8,
+      "yoy": -1173101.64,
+      "yoy_pct": -42.7,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -308,15 +308,15 @@ window.REPORT = {
     {
       "key": "2025-04",
       "label": "апр 2025",
-      "revenue": 3074499.06,
-      "docs": 284,
-      "avg_check": 10825.7,
-      "clients": 85,
+      "revenue": 3014256.0,
+      "docs": 280,
+      "avg_check": 10765.2,
+      "clients": 84,
       "returns": 0.0,
-      "vs_prev": 1487587.02,
-      "vs_avg_pct": 0.1,
-      "yoy": -161334.4,
-      "yoy_pct": -5.0,
+      "vs_prev": 1441140.96,
+      "vs_avg_pct": 5.8,
+      "yoy": -221577.46,
+      "yoy_pct": -6.8,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -324,15 +324,15 @@ window.REPORT = {
     {
       "key": "2025-05",
       "label": "май 2025",
-      "revenue": 3645625.03,
-      "docs": 372,
-      "avg_check": 9800.07,
-      "clients": 113,
+      "revenue": 3139291.83,
+      "docs": 291,
+      "avg_check": 10787.94,
+      "clients": 90,
       "returns": 0.0,
-      "vs_prev": 571125.97,
-      "vs_avg_pct": 18.7,
-      "yoy": -658971.29,
-      "yoy_pct": -15.3,
+      "vs_prev": 125035.83,
+      "vs_avg_pct": 10.2,
+      "yoy": -1165304.49,
+      "yoy_pct": -27.1,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -340,15 +340,15 @@ window.REPORT = {
     {
       "key": "2025-06",
       "label": "июн 2025",
-      "revenue": 3527107.3,
-      "docs": 331,
-      "avg_check": 10655.91,
-      "clients": 99,
+      "revenue": 2873856.94,
+      "docs": 262,
+      "avg_check": 10968.92,
+      "clients": 78,
       "returns": 0.0,
-      "vs_prev": -118517.73,
-      "vs_avg_pct": 14.9,
-      "yoy": -2034042.37,
-      "yoy_pct": -36.6,
+      "vs_prev": -265434.89,
+      "vs_avg_pct": 0.9,
+      "yoy": -2687292.73,
+      "yoy_pct": -48.3,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -356,15 +356,15 @@ window.REPORT = {
     {
       "key": "2025-07",
       "label": "июл 2025",
-      "revenue": 4196862.02,
-      "docs": 383,
-      "avg_check": 10957.86,
-      "clients": 119,
+      "revenue": 3246972.96,
+      "docs": 290,
+      "avg_check": 11196.46,
+      "clients": 90,
       "returns": 0.0,
-      "vs_prev": 669754.72,
-      "vs_avg_pct": 36.7,
-      "yoy": -1454600.97,
-      "yoy_pct": -25.7,
+      "vs_prev": 373116.02,
+      "vs_avg_pct": 14.0,
+      "yoy": -2404490.03,
+      "yoy_pct": -42.5,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -372,15 +372,15 @@ window.REPORT = {
     {
       "key": "2025-08",
       "label": "авг 2025",
-      "revenue": 3844934.29,
-      "docs": 383,
-      "avg_check": 10038.99,
-      "clients": 124,
+      "revenue": 2880240.6,
+      "docs": 295,
+      "avg_check": 9763.53,
+      "clients": 98,
       "returns": 0.0,
-      "vs_prev": -351927.73,
-      "vs_avg_pct": 25.2,
-      "yoy": -1881202.26,
-      "yoy_pct": -32.9,
+      "vs_prev": -366732.36,
+      "vs_avg_pct": 1.1,
+      "yoy": -2845895.95,
+      "yoy_pct": -49.7,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -388,15 +388,15 @@ window.REPORT = {
     {
       "key": "2025-09",
       "label": "сен 2025",
-      "revenue": 4240371.77,
-      "docs": 392,
-      "avg_check": 10817.27,
-      "clients": 122,
+      "revenue": 3639942.67,
+      "docs": 307,
+      "avg_check": 11856.49,
+      "clients": 93,
       "returns": 0.0,
-      "vs_prev": 395437.48,
-      "vs_avg_pct": 38.1,
-      "yoy": 88027.97,
-      "yoy_pct": 2.1,
+      "vs_prev": 759702.07,
+      "vs_avg_pct": 27.8,
+      "yoy": -512026.13,
+      "yoy_pct": -12.3,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -404,15 +404,15 @@ window.REPORT = {
     {
       "key": "2025-10",
       "label": "окт 2025",
-      "revenue": 4147530.81,
-      "docs": 385,
-      "avg_check": 10772.81,
-      "clients": 139,
+      "revenue": 3371384.63,
+      "docs": 308,
+      "avg_check": 10946.05,
+      "clients": 107,
       "returns": 0.0,
-      "vs_prev": -92840.96,
-      "vs_avg_pct": 35.1,
-      "yoy": -133827.29,
-      "yoy_pct": -3.1,
+      "vs_prev": -268558.04,
+      "vs_avg_pct": 18.4,
+      "yoy": -852416.42,
+      "yoy_pct": -20.2,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -420,15 +420,15 @@ window.REPORT = {
     {
       "key": "2025-11",
       "label": "ноя 2025",
-      "revenue": 2937423.76,
-      "docs": 316,
-      "avg_check": 9295.64,
-      "clients": 116,
+      "revenue": 2343014.3,
+      "docs": 239,
+      "avg_check": 9803.41,
+      "clients": 88,
       "returns": 0.0,
-      "vs_prev": -1210107.05,
-      "vs_avg_pct": -4.3,
-      "yoy": -415280.61,
-      "yoy_pct": -12.4,
+      "vs_prev": -1028370.33,
+      "vs_avg_pct": -17.7,
+      "yoy": -907783.07,
+      "yoy_pct": -27.9,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -436,15 +436,15 @@ window.REPORT = {
     {
       "key": "2025-12",
       "label": "дек 2025",
-      "revenue": 3145528.72,
-      "docs": 335,
-      "avg_check": 9389.64,
-      "clients": 115,
+      "revenue": 2569232.51,
+      "docs": 248,
+      "avg_check": 10359.81,
+      "clients": 89,
       "returns": 0.0,
-      "vs_prev": 208104.96,
-      "vs_avg_pct": 2.4,
-      "yoy": -52858.38,
-      "yoy_pct": -1.7,
+      "vs_prev": 226218.21,
+      "vs_avg_pct": -9.8,
+      "yoy": -619193.59,
+      "yoy_pct": -19.4,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -452,15 +452,15 @@ window.REPORT = {
     {
       "key": "2026-01",
       "label": "янв 2026",
-      "revenue": 1553373.9,
-      "docs": 194,
-      "avg_check": 8007.08,
-      "clients": 84,
+      "revenue": 1268887.68,
+      "docs": 146,
+      "avg_check": 8691.01,
+      "clients": 66,
       "returns": 0.0,
-      "vs_prev": -1592154.82,
-      "vs_avg_pct": -49.4,
-      "yoy": -21386.86,
-      "yoy_pct": -1.4,
+      "vs_prev": -1300344.83,
+      "vs_avg_pct": -55.4,
+      "yoy": -305873.08,
+      "yoy_pct": -19.4,
       "incomplete": false,
       "peak": false,
       "slump": true
@@ -468,15 +468,15 @@ window.REPORT = {
     {
       "key": "2026-02",
       "label": "фев 2026",
-      "revenue": 1545353.42,
-      "docs": 209,
-      "avg_check": 7394.04,
-      "clients": 88,
+      "revenue": 1389398.92,
+      "docs": 200,
+      "avg_check": 6946.99,
+      "clients": 82,
       "returns": 0.0,
-      "vs_prev": -8020.48,
-      "vs_avg_pct": -49.7,
-      "yoy": -925544.09,
-      "yoy_pct": -37.5,
+      "vs_prev": 120511.24,
+      "vs_avg_pct": -51.2,
+      "yoy": -1081498.59,
+      "yoy_pct": -43.8,
       "incomplete": false,
       "peak": false,
       "slump": true
@@ -484,31 +484,31 @@ window.REPORT = {
     {
       "key": "2026-03",
       "label": "мар 2026",
-      "revenue": 1604273.19,
-      "docs": 182,
-      "avg_check": 8814.69,
-      "clients": 73,
+      "revenue": 1533523.19,
+      "docs": 180,
+      "avg_check": 8519.57,
+      "clients": 71,
       "returns": 0.0,
-      "vs_prev": 58919.77,
-      "vs_avg_pct": -47.8,
-      "yoy": 17361.15,
-      "yoy_pct": 1.1,
+      "vs_prev": 144124.27,
+      "vs_avg_pct": -46.2,
+      "yoy": -39591.85,
+      "yoy_pct": -2.5,
       "incomplete": false,
       "peak": false,
-      "slump": false
+      "slump": true
     },
     {
       "key": "2026-04",
       "label": "апр 2026",
-      "revenue": 1628966.13,
-      "docs": 216,
-      "avg_check": 7541.51,
-      "clients": 82,
+      "revenue": 1544208.62,
+      "docs": 201,
+      "avg_check": 7682.63,
+      "clients": 74,
       "returns": 0.0,
-      "vs_prev": 24692.94,
-      "vs_avg_pct": -47.0,
-      "yoy": -1445532.93,
-      "yoy_pct": -47.0,
+      "vs_prev": 10685.43,
+      "vs_avg_pct": -45.8,
+      "yoy": -1470047.38,
+      "yoy_pct": -48.8,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -516,15 +516,15 @@ window.REPORT = {
     {
       "key": "2026-05",
       "label": "май 2026",
-      "revenue": 2050883.28,
-      "docs": 244,
-      "avg_check": 8405.26,
-      "clients": 80,
+      "revenue": 1815067.35,
+      "docs": 224,
+      "avg_check": 8102.98,
+      "clients": 69,
       "returns": 0.0,
-      "vs_prev": 421917.15,
-      "vs_avg_pct": -33.2,
-      "yoy": -1594741.75,
-      "yoy_pct": -43.7,
+      "vs_prev": 270858.73,
+      "vs_avg_pct": -36.3,
+      "yoy": -1324224.48,
+      "yoy_pct": -42.2,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -532,15 +532,15 @@ window.REPORT = {
     {
       "key": "2026-06",
       "label": "июн 2026",
-      "revenue": 1811335.06,
-      "docs": 256,
-      "avg_check": 7075.53,
-      "clients": 79,
+      "revenue": 1636219.79,
+      "docs": 240,
+      "avg_check": 6817.58,
+      "clients": 73,
       "returns": 0.0,
-      "vs_prev": -239548.22,
-      "vs_avg_pct": -41.0,
-      "yoy": -1715772.24,
-      "yoy_pct": -48.6,
+      "vs_prev": -178847.56,
+      "vs_avg_pct": -42.5,
+      "yoy": -1237637.15,
+      "yoy_pct": -43.1,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -548,15 +548,15 @@ window.REPORT = {
     {
       "key": "2026-07",
       "label": "июл 2026",
-      "revenue": 2168465.49,
-      "docs": 275,
-      "avg_check": 7885.33,
-      "clients": 82,
+      "revenue": 1967642.29,
+      "docs": 254,
+      "avg_check": 7746.62,
+      "clients": 76,
       "returns": 0.0,
-      "vs_prev": 357130.43,
-      "vs_avg_pct": -29.4,
-      "yoy": -2028396.53,
-      "yoy_pct": -48.3,
+      "vs_prev": 331422.5,
+      "vs_avg_pct": -30.9,
+      "yoy": -1279330.67,
+      "yoy_pct": -39.4,
       "incomplete": false,
       "peak": false,
       "slump": false
@@ -564,15 +564,15 @@ window.REPORT = {
     {
       "key": "2026-08",
       "label": "авг 2026",
-      "revenue": 1071276.63,
-      "docs": 153,
-      "avg_check": 7001.81,
-      "clients": 63,
+      "revenue": 1011531.02,
+      "docs": 140,
+      "avg_check": 7225.22,
+      "clients": 59,
       "returns": 0.0,
-      "vs_prev": -1097188.86,
-      "vs_avg_pct": -65.1,
-      "yoy": -2773657.66,
-      "yoy_pct": -72.1,
+      "vs_prev": -956111.27,
+      "vs_avg_pct": -64.5,
+      "yoy": -1868709.58,
+      "yoy_pct": -64.9,
       "incomplete": true,
       "peak": false,
       "slump": false
@@ -588,7 +588,7 @@ window.REPORT = {
       "clients": 112,
       "returns": 0.0,
       "vs_prev": 74673.56,
-      "vs_avg_pct": 86.5,
+      "vs_avg_pct": 101.1,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -604,7 +604,7 @@ window.REPORT = {
       "clients": 119,
       "returns": 0.0,
       "vs_prev": 90313.32,
-      "vs_avg_pct": 84.0,
+      "vs_avg_pct": 98.4,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -620,7 +620,7 @@ window.REPORT = {
       "clients": 110,
       "returns": 0.0,
       "vs_prev": 1256553.35,
-      "vs_avg_pct": 81.1,
+      "vs_avg_pct": 95.3,
       "yoy": null,
       "yoy_pct": null,
       "incomplete": false,
@@ -630,55 +630,55 @@ window.REPORT = {
   ],
   "low_months": [
     {
-      "key": "2026-02",
-      "label": "фев 2026",
-      "revenue": 1545353.42,
-      "docs": 209,
-      "avg_check": 7394.04,
-      "clients": 88,
-      "returns": 0.0,
-      "vs_prev": -8020.48,
-      "vs_avg_pct": -49.7,
-      "yoy": -925544.09,
-      "yoy_pct": -37.5,
-      "incomplete": false,
-      "peak": false,
-      "slump": true
-    },
-    {
       "key": "2026-01",
       "label": "янв 2026",
-      "revenue": 1553373.9,
-      "docs": 194,
-      "avg_check": 8007.08,
-      "clients": 84,
+      "revenue": 1268887.68,
+      "docs": 146,
+      "avg_check": 8691.01,
+      "clients": 66,
       "returns": 0.0,
-      "vs_prev": -1592154.82,
-      "vs_avg_pct": -49.4,
-      "yoy": -21386.86,
-      "yoy_pct": -1.4,
+      "vs_prev": -1300344.83,
+      "vs_avg_pct": -55.4,
+      "yoy": -305873.08,
+      "yoy_pct": -19.4,
       "incomplete": false,
       "peak": false,
       "slump": true
     },
     {
-      "key": "2025-01",
-      "label": "янв 2025",
-      "revenue": 1574760.76,
-      "docs": 197,
-      "avg_check": 7993.71,
-      "clients": 80,
+      "key": "2026-02",
+      "label": "фев 2026",
+      "revenue": 1389398.92,
+      "docs": 200,
+      "avg_check": 6946.99,
+      "clients": 82,
       "returns": 0.0,
-      "vs_prev": -1623626.34,
-      "vs_avg_pct": -48.7,
-      "yoy": -610071.59,
-      "yoy_pct": -27.9,
+      "vs_prev": 120511.24,
+      "vs_avg_pct": -51.2,
+      "yoy": -1081498.59,
+      "yoy_pct": -43.8,
+      "incomplete": false,
+      "peak": false,
+      "slump": true
+    },
+    {
+      "key": "2026-03",
+      "label": "мар 2026",
+      "revenue": 1533523.19,
+      "docs": 180,
+      "avg_check": 8519.57,
+      "clients": 71,
+      "returns": 0.0,
+      "vs_prev": 144124.27,
+      "vs_avg_pct": -46.2,
+      "yoy": -39591.85,
+      "yoy_pct": -2.5,
       "incomplete": false,
       "peak": false,
       "slump": true
     }
   ],
-  "avg_month_rev": 3070885.91,
+  "avg_month_rev": 2847987.92,
   "clients": [
     {
       "client": "ИП Казаров В.В ",
@@ -698,66 +698,66 @@ window.REPORT = {
     },
     {
       "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
-      "revenue": 4962339.93,
-      "docs": 104,
-      "avg_check": 47714.81,
+      "revenue": 4940739.93,
+      "docs": 103,
+      "avg_check": 47968.35,
       "last": "2026-08-14",
       "silent_days": 6,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -18635.55,
+      "avg_delta": -18259.61,
       "y2024": 1333164.62,
-      "y2025": 2540866.42,
+      "y2025": 2519266.42,
       "y2026": 1088308.89
     },
     {
       "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
-      "revenue": 4076716.97,
-      "docs": 106,
-      "avg_check": 38459.59,
+      "revenue": 4073316.97,
+      "docs": 105,
+      "avg_check": 38793.49,
       "last": "2026-08-18",
       "silent_days": 2,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -15804.02,
+      "avg_delta": -16641.29,
       "y2024": 1605830.41,
-      "y2025": 1709902.72,
+      "y2025": 1706502.72,
       "y2026": 760983.84
     },
     {
       "client": "СК ИНЖКОМ ООО",
-      "revenue": 3653529.48,
-      "docs": 124,
-      "avg_check": 29463.95,
+      "revenue": 3603299.48,
+      "docs": 123,
+      "avg_check": 29295.12,
       "last": "2025-09-22",
       "silent_days": 332,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
       "significant": true,
-      "avg_delta": 23337.82,
-      "y2024": 2979993.48,
+      "avg_delta": 23128.29,
+      "y2024": 2929763.48,
       "y2025": 673536.0,
       "y2026": 0.0
     },
     {
       "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
-      "revenue": 3016444.31,
-      "docs": 166,
-      "avg_check": 18171.35,
+      "revenue": 2970244.31,
+      "docs": 165,
+      "avg_check": 18001.48,
       "last": "2026-08-19",
       "silent_days": 1,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 7069.11,
+      "avg_delta": 6851.58,
       "y2024": 31095.7,
-      "y2025": 2237292.89,
+      "y2025": 2191092.89,
       "y2026": 748055.72
     },
     {
@@ -778,17 +778,17 @@ window.REPORT = {
     },
     {
       "client": "ТК СТ ООО",
-      "revenue": 1862335.33,
-      "docs": 73,
-      "avg_check": 25511.44,
+      "revenue": 1824372.33,
+      "docs": 71,
+      "avg_check": 25695.38,
       "last": "2026-06-18",
       "silent_days": 63,
       "status": "тишина",
       "manager_short": "Гудилов",
       "role": "former",
       "significant": true,
-      "avg_delta": -27394.19,
-      "y2024": 1175822.39,
+      "avg_delta": -27776.98,
+      "y2024": 1137859.39,
       "y2025": 521125.22,
       "y2026": 165387.72
     },
@@ -810,18 +810,18 @@ window.REPORT = {
     },
     {
       "client": "АСТАР-ГРУПП ООО // ЭДО",
-      "revenue": 1718937.77,
-      "docs": 190,
-      "avg_check": 9047.04,
+      "revenue": 1714385.77,
+      "docs": 189,
+      "avg_check": 9070.82,
       "last": "2026-08-14",
       "silent_days": 6,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 1190.78,
+      "avg_delta": 1783.26,
       "y2024": 462660.65,
-      "y2025": 715507.4,
+      "y2025": 710955.4,
       "y2026": 540769.72
     },
     {
@@ -841,22 +841,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Калбаев Ислам ФЛ",
-      "revenue": 1595484.29,
-      "docs": 163,
-      "avg_check": 9788.25,
-      "last": "2026-08-08",
-      "silent_days": 12,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 3900.33,
-      "y2024": 264306.93,
-      "y2025": 1173953.65,
-      "y2026": 157223.71
-    },
-    {
       "client": "ТМ-РЕСУРС.УРАЛ ООО // ЭДО",
       "revenue": 1595343.62,
       "docs": 145,
@@ -873,20 +857,20 @@ window.REPORT = {
       "y2026": 69871.0
     },
     {
-      "client": "МПК СТРОЙМОНТАЖ ООО // ЭДО",
-      "revenue": 1363417.17,
-      "docs": 116,
-      "avg_check": 11753.6,
-      "last": "2026-04-20",
-      "silent_days": 122,
+      "client": "Калбаев Ислам ФЛ",
+      "revenue": 1480081.33,
+      "docs": 145,
+      "avg_check": 10207.46,
+      "last": "2026-03-03",
+      "silent_days": 170,
       "status": "уходит",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 322.75,
-      "y2024": 677587.9,
-      "y2025": 628479.87,
-      "y2026": 57349.4
+      "avg_delta": 3089.06,
+      "y2024": 264306.93,
+      "y2025": 1173953.65,
+      "y2026": 41820.75
     },
     {
       "client": "МАРТЕНСИТ ООО // ЭДО",
@@ -905,67 +889,51 @@ window.REPORT = {
       "y2026": 150394.21
     },
     {
-      "client": "Интернет Магазин ФЛ",
-      "revenue": 1242456.63,
-      "docs": 172,
-      "avg_check": 7223.59,
-      "last": "2026-08-19",
-      "silent_days": 1,
-      "status": "живой",
-      "manager_short": "Ларчикова",
-      "role": "other",
-      "significant": true,
-      "avg_delta": 1337.47,
-      "y2024": 490251.8,
-      "y2025": 518240.29,
-      "y2026": 233964.54
-    },
-    {
-      "client": "БУРСТРОЙВОД ООО // ЭДО",
-      "revenue": 1189716.02,
-      "docs": 118,
-      "avg_check": 10082.34,
-      "last": "2026-08-16",
-      "silent_days": 4,
-      "status": "живой",
+      "client": "МПК СТРОЙМОНТАЖ ООО // ЭДО",
+      "revenue": 1315167.42,
+      "docs": 110,
+      "avg_check": 11956.07,
+      "last": "2026-04-20",
+      "silent_days": 122,
+      "status": "уходит",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -9686.57,
-      "y2024": 0.0,
-      "y2025": 919529.72,
-      "y2026": 270186.3
+      "avg_delta": -42.73,
+      "y2024": 677587.9,
+      "y2025": 586538.12,
+      "y2026": 51041.4
     },
     {
       "client": "ЦЕНТР ФАСАДОВ ООО // ЭДО",
-      "revenue": 1179894.12,
-      "docs": 88,
-      "avg_check": 13407.89,
+      "revenue": 1175744.12,
+      "docs": 87,
+      "avg_check": 13514.3,
       "last": "2026-08-13",
       "silent_days": 7,
       "status": "живой",
       "manager_short": "Гудилов",
       "role": "former",
       "significant": true,
-      "avg_delta": -5035.56,
+      "avg_delta": -5431.63,
       "y2024": 667681.3,
-      "y2025": 386724.02,
+      "y2025": 382574.02,
       "y2026": 125488.8
     },
     {
       "client": "ТПК ГАЗ ООО 7207022846 // ЭДО",
-      "revenue": 1175219.19,
-      "docs": 171,
-      "avg_check": 6872.63,
+      "revenue": 1157839.19,
+      "docs": 169,
+      "avg_check": 6851.12,
       "last": "2026-08-19",
       "silent_days": 1,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -860.51,
+      "avg_delta": -1046.9,
       "y2024": 524932.02,
-      "y2025": 465291.16,
+      "y2025": 447911.16,
       "y2026": 184996.01
     },
     {
@@ -1001,6 +969,38 @@ window.REPORT = {
       "y2026": 176082.72
     },
     {
+      "client": "БУРСТРОЙВОД ООО // ЭДО",
+      "revenue": 1051901.02,
+      "docs": 112,
+      "avg_check": 9391.97,
+      "last": "2026-08-16",
+      "silent_days": 4,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -8879.63,
+      "y2024": 0.0,
+      "y2025": 781714.72,
+      "y2026": 270186.3
+    },
+    {
+      "client": "Интернет Магазин ФЛ",
+      "revenue": 1045381.63,
+      "docs": 169,
+      "avg_check": 6185.69,
+      "last": "2026-08-19",
+      "silent_days": 1,
+      "status": "живой",
+      "manager_short": "Ларчикова",
+      "role": "other",
+      "significant": true,
+      "avg_delta": -114.26,
+      "y2024": 490251.8,
+      "y2025": 373385.29,
+      "y2026": 181744.54
+    },
+    {
       "client": "СТРОИТЕЛЬНЫЕ ТЕХНОЛОГИИ ООО",
       "revenue": 1021174.04,
       "docs": 90,
@@ -1018,51 +1018,35 @@ window.REPORT = {
     },
     {
       "client": "ТЮМЕНПОЛИМЕРГАЗ // ЭДО",
-      "revenue": 967453.26,
-      "docs": 124,
-      "avg_check": 7802.04,
+      "revenue": 914519.3,
+      "docs": 118,
+      "avg_check": 7750.16,
       "last": "2026-08-14",
       "silent_days": 6,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -1285.69,
+      "avg_delta": -1356.3,
       "y2024": 389845.46,
-      "y2025": 264775.26,
-      "y2026": 312832.54
+      "y2025": 264113.85,
+      "y2026": 260559.99
     },
     {
       "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
-      "revenue": 948398.54,
-      "docs": 92,
-      "avg_check": 10308.68,
+      "revenue": 886946.28,
+      "docs": 89,
+      "avg_check": 9965.69,
       "last": "2026-08-15",
       "silent_days": 5,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -5558.23,
+      "avg_delta": -6991.72,
       "y2024": 0.0,
       "y2025": 533922.3,
-      "y2026": 414476.24
-    },
-    {
-      "client": "ТАТРУС ООО // ЭДО",
-      "revenue": 891154.51,
-      "docs": 72,
-      "avg_check": 12377.15,
-      "last": "2026-08-12",
-      "silent_days": 8,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -4352.56,
-      "y2024": 317233.95,
-      "y2025": 517088.18,
-      "y2026": 56832.38
+      "y2026": 353023.98
     },
     {
       "client": "Латыпов Ильнур ФЛ",
@@ -1097,6 +1081,22 @@ window.REPORT = {
       "y2026": 19697.22
     },
     {
+      "client": "ТАТРУС ООО // ЭДО",
+      "revenue": 853954.51,
+      "docs": 69,
+      "avg_check": 12376.15,
+      "last": "2026-08-12",
+      "silent_days": 8,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -5167.85,
+      "y2024": 317233.95,
+      "y2025": 492538.18,
+      "y2026": 44182.38
+    },
+    {
       "client": "Усачев Николай Викторович ИП // ЭДО",
       "revenue": 851058.79,
       "docs": 75,
@@ -1126,22 +1126,6 @@ window.REPORT = {
       "avg_delta": -12445.28,
       "y2024": 674663.4,
       "y2025": 130302.96,
-      "y2026": 0.0
-    },
-    {
-      "client": "РА-СТРОЙ ООО // ЭДО",
-      "revenue": 800570.0,
-      "docs": 12,
-      "avg_check": 66714.17,
-      "last": "2025-08-11",
-      "silent_days": 374,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": -46077.67,
-      "y2024": 534018.0,
-      "y2025": 266552.0,
       "y2026": 0.0
     },
     {
@@ -1225,83 +1209,51 @@ window.REPORT = {
       "y2026": 74180.0
     },
     {
-      "client": "СТРОЙСИБ ООО // ЭДО",
-      "revenue": 637453.7,
-      "docs": 171,
-      "avg_check": 3727.8,
-      "last": "2026-08-14",
-      "silent_days": 6,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -1150.11,
-      "y2024": 132948.9,
-      "y2025": 368849.22,
-      "y2026": 135655.58
-    },
-    {
-      "client": "Сорокин Захар Рамазович ИП // ЭДО",
-      "revenue": 636855.61,
-      "docs": 41,
-      "avg_check": 15533.06,
-      "last": "2026-08-19",
-      "silent_days": 1,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -20408.25,
-      "y2024": 0.0,
-      "y2025": 519721.36,
-      "y2026": 117134.25
-    },
-    {
-      "client": "ПЕРЕСТРОЙ-КА! ООО // ЭДО",
-      "revenue": 629523.5,
-      "docs": 73,
-      "avg_check": 8623.61,
-      "last": "2026-01-30",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -3995.39,
-      "y2024": 0.0,
-      "y2025": 618238.5,
-      "y2026": 11285.0
-    },
-    {
       "client": "Дмитриев Евгений ФЛ",
-      "revenue": 621460.57,
-      "docs": 133,
-      "avg_check": 4672.64,
+      "revenue": 621003.79,
+      "docs": 132,
+      "avg_check": 4704.57,
       "last": "2026-06-16",
       "silent_days": 65,
       "status": "тишина",
       "manager_short": "Зубарева",
       "role": "other",
       "significant": true,
-      "avg_delta": 100.01,
+      "avg_delta": 164.64,
       "y2024": 466615.71,
       "y2025": 151161.0,
-      "y2026": 3683.86
+      "y2026": 3227.08
+    },
+    {
+      "client": "СТРОЙСИБ ООО // ЭДО",
+      "revenue": 609471.7,
+      "docs": 169,
+      "avg_check": 3606.34,
+      "last": "2026-08-14",
+      "silent_days": 6,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -1035.01,
+      "y2024": 132948.9,
+      "y2025": 340867.22,
+      "y2026": 135655.58
     },
     {
       "client": "РУСЭКО ООО // ЭДО",
-      "revenue": 607210.34,
-      "docs": 69,
-      "avg_check": 8800.15,
+      "revenue": 593413.34,
+      "docs": 68,
+      "avg_check": 8726.67,
       "last": "2026-03-05",
       "silent_days": 168,
       "status": "уходит",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 9157.06,
+      "avg_delta": 9142.8,
       "y2024": 426101.91,
-      "y2025": 170962.43,
+      "y2025": 157165.43,
       "y2026": 10146.0
     },
     {
@@ -1321,36 +1273,36 @@ window.REPORT = {
       "y2026": 92843.18
     },
     {
+      "client": "РА-СТРОЙ ООО // ЭДО",
+      "revenue": 575918.0,
+      "docs": 7,
+      "avg_check": 82274.0,
+      "last": "2025-07-31",
+      "silent_days": 385,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": true,
+      "avg_delta": -34158.83,
+      "y2024": 534018.0,
+      "y2025": 41900.0,
+      "y2026": 0.0
+    },
+    {
       "client": "ТРАНСМАШ ООО 7203306501 // ЭДО",
-      "revenue": 570869.12,
-      "docs": 136,
-      "avg_check": 4197.57,
+      "revenue": 568321.06,
+      "docs": 135,
+      "avg_check": 4209.79,
       "last": "2026-08-05",
       "silent_days": 15,
       "status": "живой",
       "manager_short": "Гудилов",
       "role": "former",
       "significant": true,
-      "avg_delta": -2456.02,
+      "avg_delta": -2438.61,
       "y2024": 334588.36,
-      "y2025": 188475.28,
+      "y2025": 185927.22,
       "y2026": 47805.48
-    },
-    {
-      "client": "ЭВЕНТУМ СК ООО // ЭДО",
-      "revenue": 566469.44,
-      "docs": 108,
-      "avg_check": 5245.09,
-      "last": "2026-08-19",
-      "silent_days": 1,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -4193.61,
-      "y2024": 265958.95,
-      "y2025": 187380.76,
-      "y2026": 113129.73
     },
     {
       "client": "ЭВЕРЕСТДОР ООО // ЭДО",
@@ -1369,6 +1321,22 @@ window.REPORT = {
       "y2026": 209978.32
     },
     {
+      "client": "ЭВЕНТУМ СК ООО // ЭДО",
+      "revenue": 557523.42,
+      "docs": 105,
+      "avg_check": 5309.75,
+      "last": "2026-08-19",
+      "silent_days": 1,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -4372.12,
+      "y2024": 265958.95,
+      "y2025": 187380.76,
+      "y2026": 104183.71
+    },
+    {
       "client": "ЯМАЛКОМПЛЕКТСЕРВИС ООО",
       "revenue": 553363.38,
       "docs": 24,
@@ -1385,20 +1353,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ФЕРРУМ ООО // ЭДО",
-      "revenue": 547296.86,
-      "docs": 42,
-      "avg_check": 13030.88,
-      "last": "2026-07-09",
-      "silent_days": 42,
+      "client": "Сорокин Захар Рамазович ИП // ЭДО",
+      "revenue": 544957.61,
+      "docs": 38,
+      "avg_check": 14340.99,
+      "last": "2026-08-19",
+      "silent_days": 1,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 94.08,
+      "avg_delta": -17295.74,
       "y2024": 0.0,
-      "y2025": 503277.51,
-      "y2026": 44019.35
+      "y2025": 427823.36,
+      "y2026": 117134.25
     },
     {
       "client": "Саевский Андрей Вячеславович ИП",
@@ -1415,6 +1383,22 @@ window.REPORT = {
       "y2024": 535700.26,
       "y2025": 1930.0,
       "y2026": 0.0
+    },
+    {
+      "client": "ФЕРРУМ ООО // ЭДО",
+      "revenue": 531474.23,
+      "docs": 40,
+      "avg_check": 13286.86,
+      "last": "2026-07-09",
+      "silent_days": 42,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -181.95,
+      "y2024": 0.0,
+      "y2025": 503277.51,
+      "y2026": 28196.72
     },
     {
       "client": "Залесский Максим Сергеевич ФЛ",
@@ -1465,54 +1449,6 @@ window.REPORT = {
       "y2026": 231185.55
     },
     {
-      "client": "РАССВЕТ КФХ // ЭДО",
-      "revenue": 515804.98,
-      "docs": 53,
-      "avg_check": 9732.17,
-      "last": "2026-08-13",
-      "silent_days": 7,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 4143.57,
-      "y2024": 112600.1,
-      "y2025": 206541.3,
-      "y2026": 196663.58
-    },
-    {
-      "client": "ДОРСТРОЙИНЖИНИРИНГ ООО // ЭДО",
-      "revenue": 515289.98,
-      "docs": 41,
-      "avg_check": 12568.05,
-      "last": "2026-01-30",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -2612.01,
-      "y2024": 0.0,
-      "y2025": 504100.98,
-      "y2026": 11189.0
-    },
-    {
-      "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
-      "revenue": 500673.7,
-      "docs": 36,
-      "avg_check": 13907.6,
-      "last": "2026-08-07",
-      "silent_days": 13,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 1630.44,
-      "y2024": 317.0,
-      "y2025": 165588.08,
-      "y2026": 334768.62
-    },
-    {
       "client": "АСТ СЕРВИС-ТЮМЕНЬ ООО // ЭДО",
       "revenue": 492961.42,
       "docs": 109,
@@ -1545,22 +1481,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "СТРОЙ СТАР ООО // ЭДО",
-      "revenue": 482301.78,
-      "docs": 42,
-      "avg_check": 11483.38,
-      "last": "2026-02-04",
-      "silent_days": 197,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -4777.06,
-      "y2024": 0.0,
-      "y2025": 401774.35,
-      "y2026": 80527.43
-    },
-    {
       "client": "Бондаренко Дмитрий Михайлович ФЛ",
       "revenue": 480475.15,
       "docs": 15,
@@ -1577,19 +1497,35 @@ window.REPORT = {
       "y2026": 3390.0
     },
     {
+      "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
+      "revenue": 468243.7,
+      "docs": 35,
+      "avg_check": 13378.39,
+      "last": "2026-08-07",
+      "silent_days": 13,
+      "status": "живой",
+      "manager_short": "Никитина",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 2767.95,
+      "y2024": 317.0,
+      "y2025": 165588.08,
+      "y2026": 302338.62
+    },
+    {
       "client": "СИТИСЕРВИС ООО // ЭДО",
-      "revenue": 464085.37,
-      "docs": 59,
-      "avg_check": 7865.85,
+      "revenue": 461477.64,
+      "docs": 58,
+      "avg_check": 7956.51,
       "last": "2026-08-14",
       "silent_days": 6,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -2519.12,
+      "avg_delta": -2380.5,
       "y2024": 184083.49,
-      "y2025": 189408.88,
+      "y2025": 186801.15,
       "y2026": 90593.0
     },
     {
@@ -1641,6 +1577,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "РАССВЕТ КФХ // ЭДО",
+      "revenue": 390624.84,
+      "docs": 43,
+      "avg_check": 9084.3,
+      "last": "2026-06-22",
+      "silent_days": 59,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 4273.02,
+      "y2024": 112600.1,
+      "y2025": 206541.3,
+      "y2026": 71483.44
+    },
+    {
       "client": "АЙРУЗ ООО",
       "revenue": 380395.0,
       "docs": 5,
@@ -1655,22 +1607,6 @@ window.REPORT = {
       "y2024": 276182.0,
       "y2025": 104213.0,
       "y2026": 0.0
-    },
-    {
-      "client": "ВОСХОД АО 7203006385",
-      "revenue": 374049.46,
-      "docs": 44,
-      "avg_check": 8501.12,
-      "last": "2026-08-14",
-      "silent_days": 6,
-      "status": "живой",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": -1393.64,
-      "y2024": 158120.0,
-      "y2025": 133144.76,
-      "y2026": 82784.7
     },
     {
       "client": "НЕМЕЦКИЕ ОКНА ООО // ЭДО",
@@ -1753,22 +1689,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "СТРОЙ ООО 7203523471 // ЭДО",
-      "revenue": 351190.64,
-      "docs": 53,
-      "avg_check": 6626.24,
-      "last": "2026-01-25",
-      "silent_days": 207,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -3571.42,
-      "y2024": 35100.0,
-      "y2025": 301662.64,
-      "y2026": 14428.0
-    },
-    {
       "client": "НЕОКОМ-ТМН ООО // ЭДО",
       "revenue": 350117.13,
       "docs": 31,
@@ -1817,20 +1737,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ТЗ СИБГАЗАППАРАТ ООО // ЭДО",
-      "revenue": 333077.56,
-      "docs": 66,
-      "avg_check": 5046.63,
-      "last": "2026-01-29",
-      "silent_days": 203,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
+      "client": "ВОСХОД АО 7203006385",
+      "revenue": 334960.46,
+      "docs": 42,
+      "avg_check": 7975.25,
+      "last": "2026-08-14",
+      "silent_days": 6,
+      "status": "живой",
+      "manager_short": "Гудилов",
+      "role": "former",
       "significant": true,
-      "avg_delta": -342.27,
-      "y2024": 0.0,
-      "y2025": 285845.56,
-      "y2026": 47232.0
+      "avg_delta": -3031.0,
+      "y2024": 158120.0,
+      "y2025": 94055.76,
+      "y2026": 82784.7
     },
     {
       "client": "Ушакова Елена Юрьевна",
@@ -1897,38 +1817,6 @@ window.REPORT = {
       "y2026": 90700.87
     },
     {
-      "client": "СТРОЙ КАПИТАЛ ООО // ЭДО",
-      "revenue": 312006.53,
-      "docs": 32,
-      "avg_check": 9750.2,
-      "last": "2026-02-04",
-      "silent_days": 197,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -3975.88,
-      "y2024": 0.0,
-      "y2025": 283077.53,
-      "y2026": 28929.0
-    },
-    {
-      "client": "МП ПРОМЕТЕЙ ООО ИНН 7203449370",
-      "revenue": 309260.6,
-      "docs": 47,
-      "avg_check": 6580.01,
-      "last": "2026-01-29",
-      "silent_days": 203,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": 1648.18,
-      "y2024": 221204.6,
-      "y2025": 83396.0,
-      "y2026": 4660.0
-    },
-    {
       "client": "ДОРСНАБ ООО // ЭДО",
       "revenue": 307937.43,
       "docs": 85,
@@ -1943,6 +1831,22 @@ window.REPORT = {
       "y2024": 84906.5,
       "y2025": 48348.12,
       "y2026": 174682.81
+    },
+    {
+      "client": "МП ПРОМЕТЕЙ ООО ИНН 7203449370",
+      "revenue": 301400.6,
+      "docs": 46,
+      "avg_check": 6552.19,
+      "last": "2026-01-29",
+      "silent_days": 203,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": true,
+      "avg_delta": 1627.59,
+      "y2024": 213344.6,
+      "y2025": 83396.0,
+      "y2026": 4660.0
     },
     {
       "client": "ПРОФСТРОЙ ООО СК",
@@ -2073,22 +1977,6 @@ window.REPORT = {
       "y2026": 81054.96
     },
     {
-      "client": "УНИВЕРСТРОЙ72 ООО // ЭДО",
-      "revenue": 247355.38,
-      "docs": 13,
-      "avg_check": 19027.34,
-      "last": "2025-10-06",
-      "silent_days": 318,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -4049.9,
-      "y2024": 0.0,
-      "y2025": 247355.38,
-      "y2026": 0.0
-    },
-    {
       "client": "ТПЗ ООО",
       "revenue": 247333.51,
       "docs": 43,
@@ -2102,22 +1990,6 @@ window.REPORT = {
       "avg_delta": -3214.73,
       "y2024": 169055.4,
       "y2025": 78278.11,
-      "y2026": 0.0
-    },
-    {
-      "client": "ПРОМСТРОЙ ООО 7204097787 // ЭДО",
-      "revenue": 241588.65,
-      "docs": 39,
-      "avg_check": 6194.58,
-      "last": "2025-12-30",
-      "silent_days": 233,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 4661.3,
-      "y2024": 0.0,
-      "y2025": 241588.65,
       "y2026": 0.0
     },
     {
@@ -2135,22 +2007,6 @@ window.REPORT = {
       "y2024": 75360.0,
       "y2025": 120875.93,
       "y2026": 41815.0
-    },
-    {
-      "client": "Зорина Надежда Александровна ИП",
-      "revenue": 235825.51,
-      "docs": 10,
-      "avg_check": 23582.55,
-      "last": "2026-03-27",
-      "silent_days": 146,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -15338.58,
-      "y2024": 92000.0,
-      "y2025": 100625.51,
-      "y2026": 43200.0
     },
     {
       "client": "ВАГОННОЕ ДЕПО ТЮМЕНЬ ООО // ЭДО",
@@ -2217,52 +2073,52 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ЭЛКОМ ООО // ЭДО",
-      "revenue": 222574.11,
-      "docs": 74,
-      "avg_check": 3007.76,
-      "last": "2026-08-14",
-      "silent_days": 6,
-      "status": "живой",
-      "manager_short": "Глухов",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 1210.57,
-      "y2024": 34378.0,
-      "y2025": 31482.0,
-      "y2026": 156714.11
-    },
-    {
       "client": "Снохин Вячеслав Николаевич ИП",
-      "revenue": 222488.08,
-      "docs": 48,
-      "avg_check": 4635.17,
+      "revenue": 220528.08,
+      "docs": 47,
+      "avg_check": 4692.09,
       "last": "2024-11-15",
       "silent_days": 643,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
       "significant": true,
-      "avg_delta": -1720.42,
-      "y2024": 222488.08,
+      "avg_delta": -1668.25,
+      "y2024": 220528.08,
       "y2025": 0.0,
       "y2026": 0.0
     },
     {
       "client": "АГАТ ООО 7224088580",
-      "revenue": 221866.64,
-      "docs": 33,
-      "avg_check": 6723.23,
-      "last": "2026-08-05",
-      "silent_days": 15,
+      "revenue": 219776.64,
+      "docs": 32,
+      "avg_check": 6868.02,
+      "last": "2026-07-31",
+      "silent_days": 20,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 419.99,
+      "avg_delta": 722.29,
       "y2024": 5450.0,
       "y2025": 117231.47,
-      "y2026": 99185.17
+      "y2026": 97095.17
+    },
+    {
+      "client": "ЭЛКОМ ООО // ЭДО",
+      "revenue": 218950.11,
+      "docs": 73,
+      "avg_check": 2999.32,
+      "last": "2026-08-14",
+      "silent_days": 6,
+      "status": "живой",
+      "manager_short": "Глухов",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 1244.51,
+      "y2024": 34378.0,
+      "y2025": 27858.0,
+      "y2026": 156714.11
     },
     {
       "client": "ПТК ПРОГРЕСС ООО // ЭДО",
@@ -2281,38 +2137,6 @@ window.REPORT = {
       "y2026": 17822.0
     },
     {
-      "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
-      "revenue": 205686.63,
-      "docs": 18,
-      "avg_check": 11427.03,
-      "last": "2026-03-13",
-      "silent_days": 160,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -7618.95,
-      "y2024": 0.0,
-      "y2025": 171368.07,
-      "y2026": 34318.56
-    },
-    {
-      "client": "Баязитов Ридан ФЛ",
-      "revenue": 202045.99,
-      "docs": 16,
-      "avg_check": 12627.87,
-      "last": "2026-06-25",
-      "silent_days": 56,
-      "status": "живой",
-      "manager_short": "Зубарева",
-      "role": "other",
-      "significant": true,
-      "avg_delta": -4705.0,
-      "y2024": 113909.0,
-      "y2025": 24313.56,
-      "y2026": 63823.43
-    },
-    {
       "client": "ВОСХОД ООО (УЛЫБКА) // ЭДО",
       "revenue": 201262.15,
       "docs": 23,
@@ -2327,22 +2151,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 172235.37,
       "y2026": 29026.78
-    },
-    {
-      "client": "ЗЖБИ АРСЕНАЛ ООО // ЭДО",
-      "revenue": 197837.94,
-      "docs": 29,
-      "avg_check": 6822.0,
-      "last": "2025-12-26",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -1953.94,
-      "y2024": 0.0,
-      "y2025": 197837.94,
-      "y2026": 0.0
     },
     {
       "client": "ФИНПРОМ-ИНЖИНИРИНГ ООО",
@@ -2377,20 +2185,20 @@ window.REPORT = {
       "y2026": 49538.69
     },
     {
-      "client": "МОЙ ДОМ ООО // ЭДО",
-      "revenue": 190599.67,
-      "docs": 13,
-      "avg_check": 14661.51,
-      "last": "2026-05-19",
-      "silent_days": 93,
-      "status": "уходит",
+      "client": "Зорина Надежда Александровна ИП",
+      "revenue": 192625.51,
+      "docs": 9,
+      "avg_check": 21402.83,
+      "last": "2025-12-22",
+      "silent_days": 241,
+      "status": "пропал",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 10915.66,
-      "y2024": 0.0,
-      "y2025": 52703.09,
-      "y2026": 137896.58
+      "avg_delta": -17715.9,
+      "y2024": 92000.0,
+      "y2025": 100625.51,
+      "y2026": 0.0
     },
     {
       "client": "ТРАКСЕРВИС ЛОГИСТИК ООО // ЭДО",
@@ -2457,22 +2265,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "СК ВЕКТОР ООО // ЭДО",
-      "revenue": 173080.39,
-      "docs": 11,
-      "avg_check": 15734.58,
-      "last": "2026-07-03",
-      "silent_days": 48,
-      "status": "живой",
-      "manager_short": "Глухов",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 14856.57,
-      "y2024": 0.0,
-      "y2025": 4565.0,
-      "y2026": 168515.39
-    },
-    {
       "client": "НТС ООО // ЭДО",
       "revenue": 172321.69,
       "docs": 60,
@@ -2487,6 +2279,22 @@ window.REPORT = {
       "y2024": 115421.04,
       "y2025": 31488.26,
       "y2026": 25412.39
+    },
+    {
+      "client": "СК ВЕКТОР ООО // ЭДО",
+      "revenue": 171730.39,
+      "docs": 10,
+      "avg_check": 17173.04,
+      "last": "2026-07-03",
+      "silent_days": 48,
+      "status": "живой",
+      "manager_short": "Глухов",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 9528.08,
+      "y2024": 0.0,
+      "y2025": 3215.0,
+      "y2026": 168515.39
     },
     {
       "client": "СУМОТОРИ-ТЮМЕНЬ ООО",
@@ -2585,22 +2393,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Корякин Артем Михайлович ФЛ",
-      "revenue": 155474.0,
-      "docs": 7,
-      "avg_check": 22210.57,
-      "last": "2025-12-25",
-      "silent_days": 238,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 3627.58,
-      "y2024": 0.0,
-      "y2025": 155474.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ЦВМР СНЕЖИНКА ООО",
       "revenue": 155155.0,
       "docs": 8,
@@ -2634,35 +2426,35 @@ window.REPORT = {
     },
     {
       "client": "ТПК ТЕСЛА ООО // ЭДО",
-      "revenue": 152946.58,
-      "docs": 27,
-      "avg_check": 5664.69,
-      "last": "2026-07-26",
-      "silent_days": 25,
-      "status": "живой",
+      "revenue": 149838.58,
+      "docs": 25,
+      "avg_check": 5993.54,
+      "last": "2026-06-19",
+      "silent_days": 62,
+      "status": "тишина",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -614.11,
+      "avg_delta": -891.02,
       "y2024": 72722.5,
-      "y2025": 70534.08,
-      "y2026": 9690.0
+      "y2025": 68026.08,
+      "y2026": 9090.0
     },
     {
       "client": "ПРОМЕТАЛЛ ООО",
-      "revenue": 151248.23,
-      "docs": 24,
-      "avg_check": 6302.01,
+      "revenue": 149185.73,
+      "docs": 23,
+      "avg_check": 6486.34,
       "last": "2026-08-17",
       "silent_days": 3,
       "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -1404.44,
+      "avg_delta": -2145.8,
       "y2024": 0.0,
       "y2025": 76832.73,
-      "y2026": 74415.5
+      "y2026": 72353.0
     },
     {
       "client": "УСС ООО 7203490917",
@@ -2695,6 +2487,38 @@ window.REPORT = {
       "y2024": 112076.94,
       "y2025": 30906.68,
       "y2026": 4333.33
+    },
+    {
+      "client": "СТРОЙ ООО 7203523471 // ЭДО",
+      "revenue": 143444.0,
+      "docs": 5,
+      "avg_check": 28688.8,
+      "last": "2025-06-06",
+      "silent_days": 440,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -35152.0,
+      "y2024": 35100.0,
+      "y2025": 108344.0,
+      "y2026": 0.0
+    },
+    {
+      "client": "Баязитов Ридан ФЛ",
+      "revenue": 138222.56,
+      "docs": 12,
+      "avg_check": 11518.55,
+      "last": "2025-12-11",
+      "silent_days": 252,
+      "status": "пропал",
+      "manager_short": "Зубарева",
+      "role": "other",
+      "significant": true,
+      "avg_delta": -10865.91,
+      "y2024": 113909.0,
+      "y2025": 24313.56,
+      "y2026": 0.0
     },
     {
       "client": "ГАРАНТ ООО (только предоплата)",
@@ -2777,22 +2601,6 @@ window.REPORT = {
       "y2026": 4046.0
     },
     {
-      "client": "ЗСТД ООО // ЭДО",
-      "revenue": 125789.6,
-      "docs": 4,
-      "avg_check": 31447.4,
-      "last": "2025-11-07",
-      "silent_days": 286,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -28844.8,
-      "y2024": 0.0,
-      "y2025": 125789.6,
-      "y2026": 0.0
-    },
-    {
       "client": "Уразов Альберт Ильнурович ИП",
       "revenue": 124523.0,
       "docs": 10,
@@ -2810,19 +2618,19 @@ window.REPORT = {
     },
     {
       "client": "НЕОСТРОЙ ООО // ЭДО",
-      "revenue": 123758.02,
-      "docs": 32,
-      "avg_check": 3867.44,
+      "revenue": 118235.72,
+      "docs": 29,
+      "avg_check": 4077.09,
       "last": "2026-07-17",
       "silent_days": 34,
       "status": "живой",
       "manager_short": "Гудилов",
       "role": "former",
       "significant": true,
-      "avg_delta": 2116.58,
+      "avg_delta": 2069.07,
       "y2024": 79955.72,
-      "y2025": 16373.3,
-      "y2026": 27429.0
+      "y2025": 12025.0,
+      "y2026": 26255.0
     },
     {
       "client": "Бронников Тимофей Владимирович ИП",
@@ -2857,22 +2665,6 @@ window.REPORT = {
       "y2026": 34795.38
     },
     {
-      "client": "Кропачев Алексей Андреевич ИП",
-      "revenue": 115239.7,
-      "docs": 12,
-      "avg_check": 9603.31,
-      "last": "2025-12-26",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -1014.95,
-      "y2024": 0.0,
-      "y2025": 115239.7,
-      "y2026": 0.0
-    },
-    {
       "client": "Север Надежда Александровна",
       "revenue": 115005.0,
       "docs": 1,
@@ -2905,36 +2697,36 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ЗАРЯДНЫЕ СИСТЕМЫ ООО 7203538975 // ЭДО",
-      "revenue": 108604.75,
-      "docs": 33,
-      "avg_check": 3291.05,
-      "last": "2025-12-26",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -2410.26,
-      "y2024": 0.0,
-      "y2025": 108604.75,
-      "y2026": 0.0
-    },
-    {
-      "client": "МАЛЬКОВСКОЕ АО",
-      "revenue": 108332.0,
-      "docs": 8,
-      "avg_check": 13541.5,
-      "last": "2026-05-12",
-      "silent_days": 100,
+      "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
+      "revenue": 110491.61,
+      "docs": 17,
+      "avg_check": 6499.51,
+      "last": "2026-03-13",
+      "silent_days": 160,
       "status": "уходит",
       "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -10080.0,
-      "y2024": 83776.0,
-      "y2025": 6438.0,
-      "y2026": 18118.0
+      "avg_delta": 2375.86,
+      "y2024": 0.0,
+      "y2025": 76173.05,
+      "y2026": 34318.56
+    },
+    {
+      "client": "МОЙ ДОМ ООО // ЭДО",
+      "revenue": 109839.61,
+      "docs": 11,
+      "avg_check": 9985.42,
+      "last": "2026-05-19",
+      "silent_days": 93,
+      "status": "уходит",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 6652.22,
+      "y2024": 0.0,
+      "y2025": 52703.09,
+      "y2026": 57136.52
     },
     {
       "client": "ИСТОК ООО",
@@ -3001,20 +2793,20 @@ window.REPORT = {
       "y2026": 99990.0
     },
     {
-      "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
-      "revenue": 99658.6,
-      "docs": 22,
-      "avg_check": 4529.94,
-      "last": "2026-05-11",
-      "silent_days": 101,
+      "client": "МАЛЬКОВСКОЕ АО",
+      "revenue": 97942.0,
+      "docs": 7,
+      "avg_check": 13991.71,
+      "last": "2026-03-24",
+      "silent_days": 149,
       "status": "уходит",
-      "manager_short": "Гудилов",
-      "role": "former",
+      "manager_short": "Калбаев",
+      "role": "b2b",
       "significant": true,
-      "avg_delta": 1911.02,
-      "y2024": 79900.7,
-      "y2025": 14678.9,
-      "y2026": 5079.0
+      "avg_delta": -1435.5,
+      "y2024": 83776.0,
+      "y2025": 6438.0,
+      "y2026": 7728.0
     },
     {
       "client": "ДИКТИС",
@@ -3065,6 +2857,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
+      "revenue": 92920.6,
+      "docs": 20,
+      "avg_check": 4646.03,
+      "last": "2026-05-11",
+      "silent_days": 101,
+      "status": "уходит",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": true,
+      "avg_delta": 1684.32,
+      "y2024": 79900.7,
+      "y2025": 7940.9,
+      "y2026": 5079.0
+    },
+    {
       "client": "ТСМ ООО",
       "revenue": 92667.2,
       "docs": 12,
@@ -3081,22 +2889,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Осинцева Оксана Сергеевна ФЛ",
-      "revenue": 92603.03,
-      "docs": 20,
-      "avg_check": 4630.15,
-      "last": "2026-08-13",
-      "silent_days": 7,
-      "status": "живой",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 547.38,
-      "y2024": 0.0,
-      "y2025": 350.0,
-      "y2026": 92253.03
-    },
-    {
       "client": "СРСМ ООО",
       "revenue": 91970.0,
       "docs": 2,
@@ -3111,22 +2903,6 @@ window.REPORT = {
       "y2024": 91970.0,
       "y2025": 0.0,
       "y2026": 0.0
-    },
-    {
-      "client": "СИБГАЗКРАНСЕРВИС ООО // ЭДО",
-      "revenue": 91152.02,
-      "docs": 24,
-      "avg_check": 3798.0,
-      "last": "2026-01-22",
-      "silent_days": 210,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -2745.04,
-      "y2024": 0.0,
-      "y2025": 87325.02,
-      "y2026": 3827.0
     },
     {
       "client": "ТОК ООО 7203542097 // ЭДО",
@@ -3193,22 +2969,6 @@ window.REPORT = {
       "y2026": 89980.0
     },
     {
-      "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
-      "revenue": 89179.5,
-      "docs": 11,
-      "avg_check": 8107.23,
-      "last": "2026-04-18",
-      "silent_days": 124,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 12793.6,
-      "y2024": 8741.5,
-      "y2025": 80230.0,
-      "y2026": 208.0
-    },
-    {
       "client": "СИБХОЛОД ООО // ЭДО // ПП",
       "revenue": 89044.5,
       "docs": 6,
@@ -3239,22 +2999,6 @@ window.REPORT = {
       "y2024": 87520.0,
       "y2025": 0.0,
       "y2026": 0.0
-    },
-    {
-      "client": "АМАКОН ООО // ЭДО",
-      "revenue": 87260.66,
-      "docs": 17,
-      "avg_check": 5132.98,
-      "last": "2026-08-04",
-      "silent_days": 16,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 744.81,
-      "y2024": 0.0,
-      "y2025": 37339.37,
-      "y2026": 49921.29
     },
     {
       "client": "МЕРИДИАН ООО 7204156270",
@@ -3321,6 +3065,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
+      "revenue": 81704.5,
+      "docs": 9,
+      "avg_check": 9078.28,
+      "last": "2026-04-18",
+      "silent_days": 124,
+      "status": "уходит",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 13969.62,
+      "y2024": 8366.5,
+      "y2025": 73130.0,
+      "y2026": 208.0
+    },
+    {
       "client": "Глазырин Иван Викторович ИП // ЭДО",
       "revenue": 79933.8,
       "docs": 2,
@@ -3337,20 +3097,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "НОВОКСТРОЙ ООО // ЭДО",
-      "revenue": 78102.31,
-      "docs": 12,
-      "avg_check": 6508.53,
-      "last": "2026-06-08",
-      "silent_days": 73,
-      "status": "тишина",
-      "manager_short": "Калбаев",
+      "client": "Осинцева Оксана Сергеевна ФЛ",
+      "revenue": 79008.03,
+      "docs": 15,
+      "avg_check": 5267.2,
+      "last": "2026-08-13",
+      "silent_days": 7,
+      "status": "живой",
+      "manager_short": "Никитина",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -4976.38,
+      "avg_delta": -49.34,
       "y2024": 0.0,
-      "y2025": 17865.31,
-      "y2026": 60237.0
+      "y2025": 0.0,
+      "y2026": 79008.03
     },
     {
       "client": "АДМИНИСТРАЦИЯ ЧИКЧИНСКОГО СЕЛЬСКОГО ПОСЕЛЕНИЯ",
@@ -3417,20 +3177,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ТСК-УВАТ ООО // ЭДО",
-      "revenue": 74277.3,
-      "docs": 11,
-      "avg_check": 6752.48,
-      "last": "2026-01-30",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
+      "client": "НОВОКСТРОЙ ООО // ЭДО",
+      "revenue": 74552.31,
+      "docs": 9,
+      "avg_check": 8283.59,
+      "last": "2026-03-20",
+      "silent_days": 153,
+      "status": "уходит",
+      "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 2047.25,
+      "avg_delta": 7429.07,
       "y2024": 0.0,
-      "y2025": 32518.65,
-      "y2026": 41758.65
+      "y2025": 17865.31,
+      "y2026": 56687.0
     },
     {
       "client": "ТЕХНОЦЕНТР ООО",
@@ -3481,20 +3241,20 @@ window.REPORT = {
       "y2026": 1411.0
     },
     {
-      "client": "ЛЕОН ООО // ЭДО",
-      "revenue": 70801.52,
-      "docs": 7,
-      "avg_check": 10114.5,
-      "last": "2026-01-26",
-      "silent_days": 206,
-      "status": "пропал",
-      "manager_short": "Никитина",
+      "client": "АМАКОН ООО // ЭДО",
+      "revenue": 71057.37,
+      "docs": 14,
+      "avg_check": 5075.53,
+      "last": "2026-08-04",
+      "silent_days": 16,
+      "status": "живой",
+      "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": 1063.1,
+      "avg_delta": -517.34,
       "y2024": 0.0,
-      "y2025": 60901.52,
-      "y2026": 9900.0
+      "y2025": 37339.37,
+      "y2026": 33718.0
     },
     {
       "client": "ПСК ООО 7203280892 // ЭДО",
@@ -3593,22 +3353,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Карасёв Евгений Вячеславович ИП // ЭДО",
-      "revenue": 66124.5,
-      "docs": 9,
-      "avg_check": 7347.17,
-      "last": "2026-06-03",
-      "silent_days": 78,
-      "status": "тишина",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": 2219.48,
-      "y2024": 46624.5,
-      "y2025": 0.0,
-      "y2026": 19500.0
-    },
-    {
       "client": "ВОСТОК ООО ГК // ЭДО",
       "revenue": 65432.64,
       "docs": 9,
@@ -3639,38 +3383,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 65189.0,
       "y2026": 0.0
-    },
-    {
-      "client": "Роженцева Екатерина Александровна ИП 720302540710 // ЭДО",
-      "revenue": 65060.0,
-      "docs": 3,
-      "avg_check": 21686.67,
-      "last": "2025-04-14",
-      "silent_days": 493,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 5422.0,
-      "y2024": 0.0,
-      "y2025": 65060.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ТМС ООО 7202159237 // ЭДО",
-      "revenue": 63654.8,
-      "docs": 11,
-      "avg_check": 5786.8,
-      "last": "2026-01-16",
-      "silent_days": 216,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -300.67,
-      "y2024": 0.0,
-      "y2025": 50910.7,
-      "y2026": 12744.1
     },
     {
       "client": "АБЗ 21 ООО",
@@ -3737,38 +3449,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "СК РИКО ООО // ЭДО",
-      "revenue": 59000.0,
-      "docs": 1,
-      "avg_check": 59000.0,
-      "last": "2025-12-30",
-      "silent_days": 233,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 59000.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "РАССВЕТ ООО // ЭДО",
-      "revenue": 58990.0,
-      "docs": 1,
-      "avg_check": 58990.0,
-      "last": "2025-09-15",
-      "silent_days": 339,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 58990.0,
-      "y2026": 0.0
-    },
-    {
       "client": "Фурцев Сергей Петрович ИП",
       "revenue": 58965.59,
       "docs": 9,
@@ -3782,22 +3462,6 @@ window.REPORT = {
       "avg_delta": -5625.05,
       "y2024": 58965.59,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "АРМАДА ООО // ЭДО",
-      "revenue": 58815.0,
-      "docs": 6,
-      "avg_check": 9802.5,
-      "last": "2025-12-02",
-      "silent_days": 261,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -1456.33,
-      "y2024": 19077.0,
-      "y2025": 39738.0,
       "y2026": 0.0
     },
     {
@@ -3815,22 +3479,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 0.0,
       "y2026": 58375.0
-    },
-    {
-      "client": "ПРАЙМ ТЕХНОЛОДЖИ ООО",
-      "revenue": 58300.0,
-      "docs": 1,
-      "avg_check": 58300.0,
-      "last": "2025-07-25",
-      "silent_days": 391,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 58300.0,
-      "y2026": 0.0
     },
     {
       "client": "СК СИБСТРОЙГРАД ООО // ЭДО",
@@ -3945,6 +3593,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "Карасёв Евгений Вячеславович ИП // ЭДО",
+      "revenue": 56134.5,
+      "docs": 8,
+      "avg_check": 7016.81,
+      "last": "2026-06-03",
+      "silent_days": 78,
+      "status": "тишина",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": true,
+      "avg_delta": 1805.38,
+      "y2024": 36634.5,
+      "y2025": 0.0,
+      "y2026": 19500.0
+    },
+    {
       "client": "Горчаков Дмитрий ФЛ",
       "revenue": 55746.0,
       "docs": 5,
@@ -3959,38 +3623,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 55746.0,
       "y2026": 0.0
-    },
-    {
-      "client": "Аминова Нурания Каримовна ИП",
-      "revenue": 55469.48,
-      "docs": 6,
-      "avg_check": 9244.91,
-      "last": "2026-05-31",
-      "silent_days": 81,
-      "status": "тишина",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -5279.72,
-      "y2024": 0.0,
-      "y2025": 43149.32,
-      "y2026": 12320.16
-    },
-    {
-      "client": "ТНТ ООО // ЭДО",
-      "revenue": 53203.0,
-      "docs": 10,
-      "avg_check": 5320.3,
-      "last": "2026-08-19",
-      "silent_days": 1,
-      "status": "живой",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 633.8,
-      "y2024": 0.0,
-      "y2025": 50292.0,
-      "y2026": 2911.0
     },
     {
       "client": "''ПСК''ТЮМЕНЬСТРОЙМОНТАЖ'' // ЭДО // АРД",
@@ -4169,22 +3801,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ДСС ООО",
-      "revenue": 48890.8,
-      "docs": 4,
-      "avg_check": 12222.7,
-      "last": "2026-08-13",
-      "silent_days": 7,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -17228.6,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 48890.8
-    },
-    {
       "client": "ССТ ООО // ЭДО   ",
       "revenue": 48675.09,
       "docs": 14,
@@ -4198,22 +3814,6 @@ window.REPORT = {
       "avg_delta": -3772.1,
       "y2024": 20691.88,
       "y2025": 27983.21,
-      "y2026": 0.0
-    },
-    {
-      "client": "Емельянцева Анастасия Владимировна ИП",
-      "revenue": 47399.0,
-      "docs": 3,
-      "avg_check": 15799.67,
-      "last": "2025-08-20",
-      "silent_days": 365,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -13649.0,
-      "y2024": 0.0,
-      "y2025": 47399.0,
       "y2026": 0.0
     },
     {
@@ -4246,6 +3846,22 @@ window.REPORT = {
       "avg_delta": -3086.0,
       "y2024": 45942.0,
       "y2025": 0.0,
+      "y2026": 0.0
+    },
+    {
+      "client": "АРМАДА ООО // ЭДО",
+      "revenue": 45930.0,
+      "docs": 4,
+      "avg_check": 11482.5,
+      "last": "2025-12-02",
+      "silent_days": 261,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 3888.0,
+      "y2024": 19077.0,
+      "y2025": 26853.0,
       "y2026": 0.0
     },
     {
@@ -4313,6 +3929,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "Аминова Нурания Каримовна ИП",
+      "revenue": 44439.32,
+      "docs": 5,
+      "avg_check": 8887.86,
+      "last": "2026-02-16",
+      "silent_days": 185,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": 6673.23,
+      "y2024": 0.0,
+      "y2025": 43149.32,
+      "y2026": 1290.0
+    },
+    {
       "client": "КОМФОРТ ООО (7455044043)",
       "revenue": 43990.0,
       "docs": 1,
@@ -4343,22 +3975,6 @@ window.REPORT = {
       "y2024": 43438.0,
       "y2025": 0.0,
       "y2026": 0.0
-    },
-    {
-      "client": "ТЭС ООО // ЭДО",
-      "revenue": 42021.36,
-      "docs": 17,
-      "avg_check": 2471.84,
-      "last": "2026-06-11",
-      "silent_days": 70,
-      "status": "тишина",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -1586.34,
-      "y2024": 0.0,
-      "y2025": 29606.56,
-      "y2026": 12414.8
     },
     {
       "client": "МЕТАЛЛ ООО",
@@ -4409,22 +4025,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Назмутдинов Фаим Загитович ФЛ",
-      "revenue": 40908.85,
-      "docs": 2,
-      "avg_check": 20454.42,
-      "last": "2026-05-11",
-      "silent_days": 101,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 28037.85,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 40908.85
-    },
-    {
       "client": "ТЭМП ООО",
       "revenue": 39960.0,
       "docs": 1,
@@ -4439,6 +4039,22 @@ window.REPORT = {
       "y2024": 39960.0,
       "y2025": 0.0,
       "y2026": 0.0
+    },
+    {
+      "client": "ТЭС ООО // ЭДО",
+      "revenue": 39451.36,
+      "docs": 16,
+      "avg_check": 2465.71,
+      "last": "2026-06-11",
+      "silent_days": 70,
+      "status": "тишина",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": true,
+      "avg_delta": -1691.93,
+      "y2024": 0.0,
+      "y2025": 29606.56,
+      "y2026": 9844.8
     },
     {
       "client": "Попов Андрей Васильевич ФЛ",
@@ -4521,22 +4137,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ТСТ ООО 7203274578",
-      "revenue": 37244.87,
-      "docs": 6,
-      "avg_check": 6207.48,
-      "last": "2025-10-23",
-      "silent_days": 301,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -10226.79,
-      "y2024": 0.0,
-      "y2025": 37244.87,
-      "y2026": 0.0
-    },
-    {
       "client": "ВАРИАНТ ООО",
       "revenue": 36990.0,
       "docs": 1,
@@ -4550,38 +4150,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 36990.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "РММ ООО",
-      "revenue": 36899.3,
-      "docs": 10,
-      "avg_check": 3689.93,
-      "last": "2026-03-16",
-      "silent_days": 157,
-      "status": "уходит",
-      "manager_short": "Карапетян",
-      "role": "other",
-      "significant": true,
-      "avg_delta": 1248.14,
-      "y2024": 4948.0,
-      "y2025": 24597.3,
-      "y2026": 7354.0
-    },
-    {
-      "client": "МОЛОЧНЫЙ ЗАВОД АБСОЛЮТ ООО",
-      "revenue": 36709.0,
-      "docs": 1,
-      "avg_check": 36709.0,
-      "last": "2025-12-08",
-      "silent_days": 255,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 36709.0,
       "y2026": 0.0
     },
     {
@@ -4665,22 +4233,6 @@ window.REPORT = {
       "y2026": 35056.0
     },
     {
-      "client": "СТИЛЬ ЖИЗНИ ООО",
-      "revenue": 34876.0,
-      "docs": 3,
-      "avg_check": 11625.33,
-      "last": "2026-03-04",
-      "silent_days": 169,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 2603.0,
-      "y2024": 0.0,
-      "y2025": 19380.0,
-      "y2026": 15496.0
-    },
-    {
       "client": "СК ПРИОРИТЕТ ООО",
       "revenue": 34500.0,
       "docs": 1,
@@ -4694,22 +4246,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 34500.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Ускоглазов Илья ФЛ",
-      "revenue": 34061.0,
-      "docs": 8,
-      "avg_check": 4257.62,
-      "last": "2025-12-30",
-      "silent_days": 233,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -4560.75,
-      "y2024": 0.0,
-      "y2025": 34061.0,
       "y2026": 0.0
     },
     {
@@ -4729,20 +4265,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ЗАПСИБЭНЕРГО ООО",
-      "revenue": 33430.0,
-      "docs": 7,
-      "avg_check": 4775.71,
-      "last": "2025-12-26",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
+      "client": "РММ ООО",
+      "revenue": 33579.3,
+      "docs": 9,
+      "avg_check": 3731.03,
+      "last": "2026-03-16",
+      "silent_days": 157,
+      "status": "уходит",
+      "manager_short": "Карапетян",
+      "role": "other",
       "significant": true,
-      "avg_delta": 267.83,
-      "y2024": 0.0,
-      "y2025": 33430.0,
-      "y2026": 0.0
+      "avg_delta": 1010.62,
+      "y2024": 4948.0,
+      "y2025": 21277.3,
+      "y2026": 7354.0
     },
     {
       "client": "ПИРС ООО",
@@ -4806,22 +4342,6 @@ window.REPORT = {
       "avg_delta": 8000.0,
       "y2024": 33180.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ГРАНДБАЗИС ООО",
-      "revenue": 33027.5,
-      "docs": 3,
-      "avg_check": 11009.17,
-      "last": "2025-10-22",
-      "silent_days": 302,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 15255.25,
-      "y2024": 0.0,
-      "y2025": 33027.5,
       "y2026": 0.0
     },
     {
@@ -4953,38 +4473,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ПРАЙД ООО",
-      "revenue": 31490.0,
-      "docs": 1,
-      "avg_check": 31490.0,
-      "last": "2025-10-28",
-      "silent_days": 296,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 31490.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ГУД ХАУС ООО // ЭДО",
-      "revenue": 31339.0,
-      "docs": 4,
-      "avg_check": 7834.75,
-      "last": "2026-08-11",
-      "silent_days": 9,
-      "status": "живой",
-      "manager_short": "Яковлева",
-      "role": "other",
-      "significant": true,
-      "avg_delta": 3379.5,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 31339.0
-    },
-    {
       "client": "АСП ООО",
       "revenue": 29887.0,
       "docs": 3,
@@ -5015,22 +4503,6 @@ window.REPORT = {
       "y2024": 29780.0,
       "y2025": 0.0,
       "y2026": 0.0
-    },
-    {
-      "client": "Кожевникова Ольга ФЛ",
-      "revenue": 29600.1,
-      "docs": 4,
-      "avg_check": 7400.02,
-      "last": "2026-04-17",
-      "silent_days": 125,
-      "status": "уходит",
-      "manager_short": "Кожевникова",
-      "role": "other",
-      "significant": true,
-      "avg_delta": 8398.95,
-      "y2024": 0.0,
-      "y2025": 6401.1,
-      "y2026": 23199.0
     },
     {
       "client": "ИНТЕГРАЛ-ИНВЕСТ ООО // ЭДО",
@@ -5097,38 +4569,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Истомина Екатерина Сергеевна ИП",
-      "revenue": 28952.3,
-      "docs": 6,
-      "avg_check": 4825.38,
-      "last": "2026-05-25",
-      "silent_days": 87,
-      "status": "тишина",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -6118.37,
-      "y2024": 0.0,
-      "y2025": 25502.7,
-      "y2026": 3449.6
-    },
-    {
-      "client": "НОВ-ЭКОЛОГИЯ ООО // ЭДО",
-      "revenue": 28688.5,
-      "docs": 9,
-      "avg_check": 3187.61,
-      "last": "2026-06-08",
-      "silent_days": 73,
-      "status": "тишина",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -41.65,
-      "y2024": 4120.0,
-      "y2025": 14938.5,
-      "y2026": 9630.0
-    },
-    {
       "client": "ЭЛИТАГРУПП ООО",
       "revenue": 28564.0,
       "docs": 2,
@@ -5159,22 +4599,6 @@ window.REPORT = {
       "y2024": 23151.8,
       "y2025": 5226.0,
       "y2026": 0.0
-    },
-    {
-      "client": "ГРАДОЛИК ООО // ЭДО",
-      "revenue": 28019.97,
-      "docs": 6,
-      "avg_check": 4669.99,
-      "last": "2026-07-08",
-      "silent_days": 43,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 253.34,
-      "y2024": 0.0,
-      "y2025": 13629.97,
-      "y2026": 14390.0
     },
     {
       "client": "Кузнецов Алексей Валерьевич ИП",
@@ -5209,36 +4633,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "КОМПЛЕКС-СТРОЙ-ТЮМЕНЬ ООО",
-      "revenue": 27550.0,
-      "docs": 1,
-      "avg_check": 27550.0,
-      "last": "2026-03-17",
-      "silent_days": 156,
-      "status": "уходит",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 27550.0
-    },
-    {
-      "client": "СИМ ООО",
-      "revenue": 27000.0,
-      "docs": 1,
-      "avg_check": 27000.0,
-      "last": "2025-07-22",
-      "silent_days": 394,
-      "status": "пропал",
+      "client": "ТНТ ООО // ЭДО",
+      "revenue": 26701.0,
+      "docs": 4,
+      "avg_check": 6675.25,
+      "last": "2026-08-19",
+      "silent_days": 1,
+      "status": "живой",
       "manager_short": "Калбаев",
       "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
+      "significant": true,
+      "avg_delta": -10907.5,
       "y2024": 0.0,
-      "y2025": 27000.0,
-      "y2026": 0.0
+      "y2025": 23790.0,
+      "y2026": 2911.0
     },
     {
       "client": "СТАРТАВТО ООО // ЭДО",
@@ -5303,6 +4711,22 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 25909.0,
       "y2026": 0.0
+    },
+    {
+      "client": "ГУД ХАУС ООО // ЭДО",
+      "revenue": 25889.0,
+      "docs": 3,
+      "avg_check": 8629.67,
+      "last": "2026-08-11",
+      "silent_days": 9,
+      "status": "живой",
+      "manager_short": "Яковлева",
+      "role": "other",
+      "significant": true,
+      "avg_delta": 2684.5,
+      "y2024": 0.0,
+      "y2025": 0.0,
+      "y2026": 25889.0
     },
     {
       "client": "ПРОФСТРОЙ ООО",
@@ -5385,6 +4809,22 @@ window.REPORT = {
       "y2026": 17535.06
     },
     {
+      "client": "Роженцева Екатерина Александровна ИП 720302540710 // ЭДО",
+      "revenue": 24665.0,
+      "docs": 1,
+      "avg_check": 24665.0,
+      "last": "2025-04-14",
+      "silent_days": 493,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 0.0,
+      "y2024": 0.0,
+      "y2025": 24665.0,
+      "y2026": 0.0
+    },
+    {
       "client": "ПРОКАТСЕРВИС ООО",
       "revenue": 24614.4,
       "docs": 11,
@@ -5399,6 +4839,22 @@ window.REPORT = {
       "y2024": 24614.4,
       "y2025": 0.0,
       "y2026": 0.0
+    },
+    {
+      "client": "Кожевникова Ольга ФЛ",
+      "revenue": 24391.1,
+      "docs": 3,
+      "avg_check": 8130.37,
+      "last": "2026-04-12",
+      "silent_days": 130,
+      "status": "уходит",
+      "manager_short": "Кожевникова",
+      "role": "other",
+      "significant": true,
+      "avg_delta": 8426.42,
+      "y2024": 0.0,
+      "y2025": 6401.1,
+      "y2026": 17990.0
     },
     {
       "client": "НАЙССТРОЙ ООО",
@@ -5545,20 +5001,20 @@ window.REPORT = {
       "y2026": 22380.0
     },
     {
-      "client": "СДЭК-ЦЕНТР ЛОГИСТИК ООО // ЭДО",
-      "revenue": 22208.35,
-      "docs": 7,
-      "avg_check": 3172.62,
-      "last": "2026-01-14",
-      "silent_days": 218,
-      "status": "пропал",
-      "manager_short": "Никитина",
+      "client": "ГРАДОЛИК ООО // ЭДО",
+      "revenue": 22299.97,
+      "docs": 5,
+      "avg_check": 4459.99,
+      "last": "2026-07-08",
+      "silent_days": 43,
+      "status": "живой",
+      "manager_short": "Калбаев",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -380.03,
+      "avg_delta": -3329.15,
       "y2024": 0.0,
-      "y2025": 14648.35,
-      "y2026": 7560.0
+      "y2025": 13629.97,
+      "y2026": 8670.0
     },
     {
       "client": "ДМА ООО",
@@ -5593,54 +5049,6 @@ window.REPORT = {
       "y2026": 21960.0
     },
     {
-      "client": "Фахрутдинова Ильзида Ильзуровна ИП // ЭДО",
-      "revenue": 21910.34,
-      "docs": 5,
-      "avg_check": 4382.07,
-      "last": "2026-01-20",
-      "silent_days": 212,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 2796.36,
-      "y2024": 0.0,
-      "y2025": 11882.8,
-      "y2026": 10027.54
-    },
-    {
-      "client": "ГЕАН ООО // ЭДО",
-      "revenue": 21900.0,
-      "docs": 1,
-      "avg_check": 21900.0,
-      "last": "2025-10-31",
-      "silent_days": 293,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 21900.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Исоматов Иноят",
-      "revenue": 21847.0,
-      "docs": 1,
-      "avg_check": 21847.0,
-      "last": "2026-05-23",
-      "silent_days": 89,
-      "status": "тишина",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 21847.0
-    },
-    {
       "client": "ВАШ ВЫБОР ООО ПСК",
       "revenue": 21819.25,
       "docs": 6,
@@ -5654,22 +5062,6 @@ window.REPORT = {
       "avg_delta": -56.25,
       "y2024": 21819.25,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Зинченко Денис Андреевич ИП 723004094800//ЭДО",
-      "revenue": 21694.0,
-      "docs": 2,
-      "avg_check": 10847.0,
-      "last": "2025-07-03",
-      "silent_days": 413,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": -3278.0,
-      "y2024": 0.0,
-      "y2025": 21694.0,
       "y2026": 0.0
     },
     {
@@ -5703,22 +5095,6 @@ window.REPORT = {
       "y2024": 21440.0,
       "y2025": 0.0,
       "y2026": 0.0
-    },
-    {
-      "client": "Севоян Сюзанна Саркисовна ИП ЭДО ",
-      "revenue": 21363.54,
-      "docs": 4,
-      "avg_check": 5340.89,
-      "last": "2026-06-13",
-      "silent_days": 68,
-      "status": "тишина",
-      "manager_short": "Ширяева",
-      "role": "other",
-      "significant": true,
-      "avg_delta": -1573.23,
-      "y2024": 0.0,
-      "y2025": 6625.0,
-      "y2026": 14738.54
     },
     {
       "client": "Романчук Татьяна Ивановна",
@@ -5801,22 +5177,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "АВТО-25 ООО",
-      "revenue": 20214.75,
-      "docs": 1,
-      "avg_check": 20214.75,
-      "last": "2026-07-31",
-      "silent_days": 20,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 20214.75
-    },
-    {
       "client": "ФГП ВО ЖДТ РОССИИ",
       "revenue": 20170.0,
       "docs": 1,
@@ -5830,22 +5190,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 20170.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Постников Сергей Петрович ИП // ЭДО",
-      "revenue": 20161.0,
-      "docs": 1,
-      "avg_check": 20161.0,
-      "last": "2025-10-20",
-      "silent_days": 304,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 20161.0,
       "y2026": 0.0
     },
     {
@@ -5929,22 +5273,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Хованов Олег Алексеевич ИП",
-      "revenue": 19732.0,
-      "docs": 2,
-      "avg_check": 9866.0,
-      "last": "2025-07-04",
-      "silent_days": 412,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 18772.0,
-      "y2024": 0.0,
-      "y2025": 19732.0,
-      "y2026": 0.0
-    },
-    {
       "client": "Сварочные термопласты",
       "revenue": 19690.0,
       "docs": 1,
@@ -6009,38 +5337,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ИМПУЛЬС ООО // ЭДО",
-      "revenue": 18870.0,
-      "docs": 8,
-      "avg_check": 2358.75,
-      "last": "2025-12-22",
-      "silent_days": 241,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -592.5,
-      "y2024": 0.0,
-      "y2025": 18870.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "МСК ООО (Гаврилов)",
-      "revenue": 18813.0,
-      "docs": 3,
-      "avg_check": 6271.0,
-      "last": "2024-11-22",
-      "silent_days": 636,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 6172.5,
-      "y2024": 18813.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ТЮМЕНЬСПЕЦСТАЛЬ ООО ПК",
       "revenue": 18812.52,
       "docs": 9,
@@ -6089,6 +5385,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "ГРАНДБАЗИС ООО",
+      "revenue": 18088.5,
+      "docs": 1,
+      "avg_check": 18088.5,
+      "last": "2025-10-22",
+      "silent_days": 302,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 0.0,
+      "y2024": 0.0,
+      "y2025": 18088.5,
+      "y2026": 0.0
+    },
+    {
       "client": "СПК АО ИНН 6671197148",
       "revenue": 17990.0,
       "docs": 1,
@@ -6105,22 +5417,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Люблинская Виолетта Павловна ФЛ",
-      "revenue": 17785.9,
-      "docs": 1,
-      "avg_check": 17785.9,
-      "last": "2025-10-06",
-      "silent_days": 318,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 17785.9,
-      "y2026": 0.0
-    },
-    {
       "client": "СВЕТОФОР ООО",
       "revenue": 17514.0,
       "docs": 2,
@@ -6134,22 +5430,6 @@ window.REPORT = {
       "avg_delta": -11526.0,
       "y2024": 17514.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ПРЕМЬЕРСТРОЙ АО // ЭДО",
-      "revenue": 17300.0,
-      "docs": 1,
-      "avg_check": 17300.0,
-      "last": "2025-04-23",
-      "silent_days": 484,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 17300.0,
       "y2026": 0.0
     },
     {
@@ -6183,54 +5463,6 @@ window.REPORT = {
       "y2024": 17240.0,
       "y2025": 0.0,
       "y2026": 0.0
-    },
-    {
-      "client": "ПЕТРОЭНЕРГОКОМПЛЕКТ ООО // ЭДО",
-      "revenue": 17160.0,
-      "docs": 3,
-      "avg_check": 5720.0,
-      "last": "2025-07-22",
-      "silent_days": 394,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 4380.0,
-      "y2024": 0.0,
-      "y2025": 17160.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ГРИН-РЭД ООО ТСК",
-      "revenue": 16980.0,
-      "docs": 1,
-      "avg_check": 16980.0,
-      "last": "2024-11-22",
-      "silent_days": 636,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 16980.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ВЕВАНТА ООО // ЭДО",
-      "revenue": 16739.0,
-      "docs": 7,
-      "avg_check": 2391.29,
-      "last": "2026-06-19",
-      "silent_days": 62,
-      "status": "тишина",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -1330.08,
-      "y2024": 0.0,
-      "y2025": 16299.0,
-      "y2026": 440.0
     },
     {
       "client": "СТРОЙТЕХ ООО",
@@ -6345,22 +5577,6 @@ window.REPORT = {
       "y2026": 15890.4
     },
     {
-      "client": "РСМП ООО // ЭДО",
-      "revenue": 15656.0,
-      "docs": 5,
-      "avg_check": 3131.2,
-      "last": "2025-12-19",
-      "silent_days": 244,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": 1818.67,
-      "y2024": 9720.0,
-      "y2025": 5936.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ТДТРЕЙДТРАНСГРУПП ООО",
       "revenue": 15653.41,
       "docs": 1,
@@ -6377,20 +5593,20 @@ window.REPORT = {
       "y2026": 15653.41
     },
     {
-      "client": "КОМПАНИЯ ТОИР ООО",
-      "revenue": 15311.38,
-      "docs": 13,
-      "avg_check": 1177.8,
-      "last": "2025-11-06",
-      "silent_days": 287,
-      "status": "пропал",
+      "client": "СТИЛЬ ЖИЗНИ ООО",
+      "revenue": 15496.0,
+      "docs": 1,
+      "avg_check": 15496.0,
+      "last": "2026-03-04",
+      "silent_days": 169,
+      "status": "уходит",
       "manager_short": "Никитина",
       "role": "b2b",
-      "significant": true,
-      "avg_delta": -208.31,
+      "significant": false,
+      "avg_delta": 0.0,
       "y2024": 0.0,
-      "y2025": 15311.38,
-      "y2026": 0.0
+      "y2025": 0.0,
+      "y2026": 15496.0
     },
     {
       "client": "ГАРНИ ГРУПП ООО",
@@ -6473,36 +5689,36 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ТОИР ООО ТМЗ // ЭДО",
-      "revenue": 14553.0,
-      "docs": 2,
-      "avg_check": 7276.5,
-      "last": "2025-11-25",
-      "silent_days": 268,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": -6447.0,
-      "y2024": 0.0,
-      "y2025": 14553.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ТЮМЕНГАЗСТРОЙ ООО СЗ",
-      "revenue": 14500.0,
-      "docs": 2,
-      "avg_check": 7250.0,
-      "last": "2025-07-14",
-      "silent_days": 402,
-      "status": "пропал",
+      "client": "ВЕВАНТА ООО // ЭДО",
+      "revenue": 14790.0,
+      "docs": 6,
+      "avg_check": 2465.0,
+      "last": "2026-06-19",
+      "silent_days": 62,
+      "status": "тишина",
       "manager_short": "Калбаев",
       "role": "b2b",
-      "significant": false,
-      "avg_delta": 900.0,
+      "significant": true,
+      "avg_delta": -973.33,
       "y2024": 0.0,
-      "y2025": 14500.0,
-      "y2026": 0.0
+      "y2025": 14350.0,
+      "y2026": 440.0
+    },
+    {
+      "client": "Севоян Сюзанна Саркисовна ИП ЭДО ",
+      "revenue": 14738.54,
+      "docs": 3,
+      "avg_check": 4912.85,
+      "last": "2026-06-13",
+      "silent_days": 68,
+      "status": "тишина",
+      "manager_short": "Ширяева",
+      "role": "other",
+      "significant": true,
+      "avg_delta": -1075.73,
+      "y2024": 0.0,
+      "y2025": 0.0,
+      "y2026": 14738.54
     },
     {
       "client": "Фараносов Владимир Александрович ИП",
@@ -6553,6 +5769,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "НОВ-ЭКОЛОГИЯ ООО // ЭДО",
+      "revenue": 13750.0,
+      "docs": 2,
+      "avg_check": 6875.0,
+      "last": "2026-06-08",
+      "silent_days": 73,
+      "status": "тишина",
+      "manager_short": "Глухов",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 5510.0,
+      "y2024": 4120.0,
+      "y2025": 0.0,
+      "y2026": 9630.0
+    },
+    {
       "client": "ОРМАТЕК АО",
       "revenue": 13747.25,
       "docs": 6,
@@ -6582,22 +5814,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 13600.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "СМУ 17 ООО // ЭДО",
-      "revenue": 13410.0,
-      "docs": 1,
-      "avg_check": 13410.0,
-      "last": "2025-06-23",
-      "silent_days": 423,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 13410.0,
       "y2026": 0.0
     },
     {
@@ -6695,102 +5911,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 11480.0,
       "y2026": 880.0
-    },
-    {
-      "client": "ТЮМЕНЬКАПСТРОЙ ООО // ЭДО",
-      "revenue": 12355.0,
-      "docs": 1,
-      "avg_check": 12355.0,
-      "last": "2025-12-04",
-      "silent_days": 259,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 12355.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "АЗИМУТ А ООО // ЭДО",
-      "revenue": 12180.0,
-      "docs": 1,
-      "avg_check": 12180.0,
-      "last": "2026-02-10",
-      "silent_days": 191,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 12180.0
-    },
-    {
-      "client": "Гольнев Сергей",
-      "revenue": 12125.56,
-      "docs": 5,
-      "avg_check": 2425.11,
-      "last": "2026-06-29",
-      "silent_days": 52,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 3617.49,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 12125.56
-    },
-    {
-      "client": "НПЦ ЭВРИКА ООО",
-      "revenue": 12044.0,
-      "docs": 1,
-      "avg_check": 12044.0,
-      "last": "2026-02-04",
-      "silent_days": 197,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 12044.0
-    },
-    {
-      "client": "Соловьёв Андрей Валерьевич ИП",
-      "revenue": 11925.0,
-      "docs": 2,
-      "avg_check": 5962.5,
-      "last": "2025-10-22",
-      "silent_days": 302,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": -2945.0,
-      "y2024": 0.0,
-      "y2025": 11925.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "КЛЯКСА ООО // ЭДО",
-      "revenue": 11911.3,
-      "docs": 4,
-      "avg_check": 2977.82,
-      "last": "2025-08-12",
-      "silent_days": 373,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -942.35,
-      "y2024": 0.0,
-      "y2025": 11911.3,
-      "y2026": 0.0
     },
     {
       "client": "ТП ЛАВЕРНА 7203355643 ООО // ЭДО",
@@ -6937,22 +6057,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "АЛЬТЕРНАТИВА ООО //7203411538",
-      "revenue": 10899.0,
-      "docs": 1,
-      "avg_check": 10899.0,
-      "last": "2025-05-05",
-      "silent_days": 472,
-      "status": "пропал",
-      "manager_short": "Подчувалов",
-      "role": "other",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 10899.0,
-      "y2026": 0.0
-    },
-    {
       "client": "АКВА-СЕРВИС ООО // Диадок",
       "revenue": 10808.1,
       "docs": 2,
@@ -6982,22 +6086,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 10790.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Шершнева Алена Алексеевна ИП",
-      "revenue": 10780.0,
-      "docs": 1,
-      "avg_check": 10780.0,
-      "last": "2025-11-21",
-      "silent_days": 272,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 10780.0,
       "y2026": 0.0
     },
     {
@@ -7065,34 +6153,18 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ТЮМЕНЬАВТОТРАНС ООО",
-      "revenue": 9990.0,
-      "docs": 1,
-      "avg_check": 9990.0,
-      "last": "2025-05-27",
-      "silent_days": 450,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 9990.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ЕСБ ООО // ЭДО !!!НЕ ОТГРУЖАТЬ БЕЗ СОГЛАСОВАНИЯ 89220466777 АНТОН!!!",
-      "revenue": 9774.05,
-      "docs": 2,
-      "avg_check": 4887.02,
-      "last": "2024-10-11",
-      "silent_days": 678,
+      "client": "РСМП ООО // ЭДО",
+      "revenue": 9720.0,
+      "docs": 3,
+      "avg_check": 3240.0,
+      "last": "2024-04-26",
+      "silent_days": 846,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
-      "significant": false,
-      "avg_delta": 4742.05,
-      "y2024": 9774.05,
+      "significant": true,
+      "avg_delta": 1305.0,
+      "y2024": 9720.0,
       "y2025": 0.0,
       "y2026": 0.0
     },
@@ -7209,38 +6281,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "АРКАДА ООО 7204189036 // ЭДО",
-      "revenue": 9215.0,
-      "docs": 3,
-      "avg_check": 3071.67,
-      "last": "2025-09-03",
-      "silent_days": 351,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": -3455.0,
-      "y2024": 5795.0,
-      "y2025": 3420.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Бусыгин Александр Евгеньевич ИП // ЭДО",
-      "revenue": 9045.0,
-      "docs": 1,
-      "avg_check": 9045.0,
-      "last": "2025-10-16",
-      "silent_days": 308,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 9045.0,
-      "y2026": 0.0
-    },
-    {
       "client": "Михайлова Оксана Владимировна ИП",
       "revenue": 9000.0,
       "docs": 1,
@@ -7257,22 +6297,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Шоломов Александр Сергеевич",
-      "revenue": 9000.0,
-      "docs": 1,
-      "avg_check": 9000.0,
-      "last": "2026-01-30",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 9000.0
-    },
-    {
       "client": "АВТОГРАД МАСТЕР ООО // ЭДО",
       "revenue": 8821.0,
       "docs": 9,
@@ -7287,6 +6311,22 @@ window.REPORT = {
       "y2024": 4568.0,
       "y2025": 1151.0,
       "y2026": 3102.0
+    },
+    {
+      "client": "АРКАДА ООО 7204189036 // ЭДО",
+      "revenue": 8795.0,
+      "docs": 2,
+      "avg_check": 4397.5,
+      "last": "2025-09-03",
+      "silent_days": 351,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": false,
+      "avg_delta": -1955.0,
+      "y2024": 5375.0,
+      "y2025": 3420.0,
+      "y2026": 0.0
     },
     {
       "client": "КАПСТРОЙ ООО",
@@ -7318,38 +6358,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 8540.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "АРГОПЛАСТ ООО // ЭДО",
-      "revenue": 8493.0,
-      "docs": 2,
-      "avg_check": 4246.5,
-      "last": "2025-10-17",
-      "silent_days": 307,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 7113.0,
-      "y2024": 0.0,
-      "y2025": 8493.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "СЭТ ООО",
-      "revenue": 8450.0,
-      "docs": 1,
-      "avg_check": 8450.0,
-      "last": "2025-05-15",
-      "silent_days": 462,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 8450.0,
       "y2026": 0.0
     },
     {
@@ -7401,54 +6409,6 @@ window.REPORT = {
       "y2026": 8200.0
     },
     {
-      "client": "ЕВРАКОР АО (отгрузка только по согласованным счетам! Гаврилов)",
-      "revenue": 8101.0,
-      "docs": 5,
-      "avg_check": 1620.2,
-      "last": "2024-12-13",
-      "silent_days": 615,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "significant": true,
-      "avg_delta": 262.83,
-      "y2024": 8101.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Симонян Акоб Эдуардович ИП",
-      "revenue": 7990.0,
-      "docs": 1,
-      "avg_check": 7990.0,
-      "last": "2025-11-28",
-      "silent_days": 265,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 7990.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "СТРОЙЭНЕРДЖИ ООО 8603222512 // ЭДО",
-      "revenue": 7990.0,
-      "docs": 1,
-      "avg_check": 7990.0,
-      "last": "2026-01-23",
-      "silent_days": 209,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 7990.0
-    },
-    {
       "client": "Малыгин Александр Владимирович",
       "revenue": 7910.0,
       "docs": 1,
@@ -7465,6 +6425,22 @@ window.REPORT = {
       "y2026": 7910.0
     },
     {
+      "client": "ЕВРАКОР АО (отгрузка только по согласованным счетам! Гаврилов)",
+      "revenue": 7816.0,
+      "docs": 4,
+      "avg_check": 1954.0,
+      "last": "2024-05-31",
+      "silent_days": 811,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": true,
+      "avg_delta": 983.0,
+      "y2024": 7816.0,
+      "y2025": 0.0,
+      "y2026": 0.0
+    },
+    {
       "client": "ТРАНСЭНЕРГОСТРОЙГРУПП ООО",
       "revenue": 7790.0,
       "docs": 1,
@@ -7479,22 +6455,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 7790.0,
       "y2026": 0.0
-    },
-    {
-      "client": "Хачукаев Хасан Магомедович ИП",
-      "revenue": 7745.0,
-      "docs": 1,
-      "avg_check": 7745.0,
-      "last": "2026-01-28",
-      "silent_days": 204,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 7745.0
     },
     {
       "client": "МИР КОТТЕДЖЕЙ ООО // ЭДО",
@@ -7545,6 +6505,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "МСК ООО (Гаврилов)",
+      "revenue": 7406.0,
+      "docs": 2,
+      "avg_check": 3703.0,
+      "last": "2024-08-30",
+      "silent_days": 720,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "significant": false,
+      "avg_delta": 3094.0,
+      "y2024": 7406.0,
+      "y2025": 0.0,
+      "y2026": 0.0
+    },
+    {
       "client": "АККОРД ООО // ЭДО",
       "revenue": 7401.0,
       "docs": 1,
@@ -7574,22 +6550,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 7332.5,
-      "y2026": 0.0
-    },
-    {
-      "client": "ОТЕЧЕСТВО ООО АТП",
-      "revenue": 7178.0,
-      "docs": 1,
-      "avg_check": 7178.0,
-      "last": "2025-09-25",
-      "silent_days": 329,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 7178.0,
       "y2026": 0.0
     },
     {
@@ -7625,22 +6585,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ЖЕМЧУЖИНА ЗАО",
-      "revenue": 6800.0,
-      "docs": 1,
-      "avg_check": 6800.0,
-      "last": "2024-11-25",
-      "silent_days": 633,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 6800.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
       "client": "Ишанов Сираж Урунгалиевич ИП",
       "revenue": 6760.0,
       "docs": 2,
@@ -7654,22 +6598,6 @@ window.REPORT = {
       "avg_delta": 3440.0,
       "y2024": 0.0,
       "y2025": 6760.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ЗАВОД ОКОН ООО // ЭДО",
-      "revenue": 6748.32,
-      "docs": 1,
-      "avg_check": 6748.32,
-      "last": "2025-08-14",
-      "silent_days": 371,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 6748.32,
       "y2026": 0.0
     },
     {
@@ -7721,22 +6649,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "БРОННИЦА ООО",
-      "revenue": 6500.0,
-      "docs": 1,
-      "avg_check": 6500.0,
-      "last": "2024-11-14",
-      "silent_days": 644,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 6500.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ЭТАЛОН ПРОМ ИЗОЛЯЦИЯ ООО",
       "revenue": 6477.0,
       "docs": 1,
@@ -7751,38 +6663,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 0.0,
       "y2026": 6477.0
-    },
-    {
-      "client": "ТОПЕНАР ООО ЭДО",
-      "revenue": 6476.0,
-      "docs": 1,
-      "avg_check": 6476.0,
-      "last": "2024-12-25",
-      "silent_days": 603,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 6476.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "АМ - ГРУПП ООО 7202230715 // ЭДО",
-      "revenue": 6407.25,
-      "docs": 3,
-      "avg_check": 2135.75,
-      "last": "2026-07-22",
-      "silent_days": 29,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 2183.62,
-      "y2024": 0.0,
-      "y2025": 680.0,
-      "y2026": 5727.25
     },
     {
       "client": "СИБПРОФСНАБ ООО",
@@ -7897,22 +6777,6 @@ window.REPORT = {
       "y2026": 5940.0
     },
     {
-      "client": "Орехов Роман Андреевич ИП",
-      "revenue": 5892.0,
-      "docs": 3,
-      "avg_check": 1964.0,
-      "last": "2025-10-01",
-      "silent_days": 323,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 985.5,
-      "y2024": 0.0,
-      "y2025": 5892.0,
-      "y2026": 0.0
-    },
-    {
       "client": "СИБИРЬСТАЛЬКОНСТРУКЦИЯ ООО",
       "revenue": 5789.0,
       "docs": 1,
@@ -7942,38 +6806,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 5744.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "СЗ СИБМАШ-СЕВЕРСТРОЙ ООО",
-      "revenue": 5705.0,
-      "docs": 2,
-      "avg_check": 2852.5,
-      "last": "2025-11-20",
-      "silent_days": 273,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 1805.0,
-      "y2024": 0.0,
-      "y2025": 5705.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ТРИУМФ ООО 7224044007",
-      "revenue": 5616.0,
-      "docs": 1,
-      "avg_check": 5616.0,
-      "last": "2025-09-16",
-      "silent_days": 338,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 5616.0,
       "y2026": 0.0
     },
     {
@@ -8089,6 +6921,22 @@ window.REPORT = {
       "y2026": 5280.0
     },
     {
+      "client": "ДСС ООО",
+      "revenue": 5209.2,
+      "docs": 1,
+      "avg_check": 5209.2,
+      "last": "2026-07-08",
+      "silent_days": 43,
+      "status": "живой",
+      "manager_short": "Глухов",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 0.0,
+      "y2024": 0.0,
+      "y2025": 0.0,
+      "y2026": 5209.2
+    },
+    {
       "client": "Рябцев Дмитрий Григорьевич ИП",
       "revenue": 5074.0,
       "docs": 4,
@@ -8135,38 +6983,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 2766.0,
       "y2026": 2200.0
-    },
-    {
-      "client": "Алешкова Юлия ФЛ",
-      "revenue": 4877.63,
-      "docs": 3,
-      "avg_check": 1625.88,
-      "last": "2026-05-16",
-      "silent_days": 96,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 455.07,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 4877.63
-    },
-    {
-      "client": "МАШТЕХСЕРВИС ООО // ЭДО",
-      "revenue": 4847.0,
-      "docs": 3,
-      "avg_check": 1615.67,
-      "last": "2025-12-21",
-      "silent_days": 242,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 664.0,
-      "y2024": 0.0,
-      "y2025": 4847.0,
-      "y2026": 0.0
     },
     {
       "client": "СМУ № 7 ООО ",
@@ -8262,22 +7078,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 4508.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ПСГ ООО // ЭДО",
-      "revenue": 4490.0,
-      "docs": 1,
-      "avg_check": 4490.0,
-      "last": "2025-06-23",
-      "silent_days": 423,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 4490.0,
       "y2026": 0.0
     },
     {
@@ -8377,22 +7177,6 @@ window.REPORT = {
       "y2026": 4206.76
     },
     {
-      "client": "ГЕОСТРОЙ ООО РСК // ЭДО",
-      "revenue": 4191.0,
-      "docs": 3,
-      "avg_check": 1397.0,
-      "last": "2025-06-02",
-      "silent_days": 444,
-      "status": "пропал",
-      "manager_short": "Смунёв",
-      "role": "other",
-      "significant": true,
-      "avg_delta": -2241.0,
-      "y2024": 0.0,
-      "y2025": 4191.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ГАЛАТЕЯ ООО  7203348565 // ЭДО",
       "revenue": 4130.0,
       "docs": 1,
@@ -8406,22 +7190,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 4130.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "БРАСТ ООО // ЭДО",
-      "revenue": 4129.15,
-      "docs": 4,
-      "avg_check": 1032.29,
-      "last": "2025-07-25",
-      "silent_days": 391,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": -705.42,
-      "y2024": 0.0,
-      "y2025": 4129.15,
       "y2026": 0.0
     },
     {
@@ -8457,22 +7225,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Охотников Сергей Александрович ИП",
-      "revenue": 4025.0,
-      "docs": 4,
-      "avg_check": 1006.25,
-      "last": "2026-07-29",
-      "silent_days": 22,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 847.5,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 4025.0
-    },
-    {
       "client": "КОМПЛЕКТСТРОЙ ООО // ЭДО",
       "revenue": 3965.0,
       "docs": 1,
@@ -8505,22 +7257,6 @@ window.REPORT = {
       "y2026": 3902.0
     },
     {
-      "client": "МИР ООО СК // ЭДО",
-      "revenue": 3884.0,
-      "docs": 4,
-      "avg_check": 971.0,
-      "last": "2025-10-17",
-      "silent_days": 307,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": true,
-      "avg_delta": 308.0,
-      "y2024": 0.0,
-      "y2025": 3884.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ТЕХСТРОЙ ООО ",
       "revenue": 3875.0,
       "docs": 2,
@@ -8537,19 +7273,19 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ЛИДЕР ООО ПСК",
-      "revenue": 3780.0,
+      "client": "ГЕОСТРОЙ ООО РСК // ЭДО",
+      "revenue": 3801.0,
       "docs": 2,
-      "avg_check": 1890.0,
-      "last": "2025-12-30",
-      "silent_days": 233,
+      "avg_check": 1900.5,
+      "last": "2025-04-14",
+      "silent_days": 493,
       "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
+      "manager_short": "Смунёв",
+      "role": "other",
       "significant": false,
-      "avg_delta": 1380.0,
+      "avg_delta": -1981.0,
       "y2024": 0.0,
-      "y2025": 3780.0,
+      "y2025": 3801.0,
       "y2026": 0.0
     },
     {
@@ -8601,22 +7337,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Дмитриев Сергей Дмитриевич ИП",
-      "revenue": 3700.0,
-      "docs": 1,
-      "avg_check": 3700.0,
-      "last": "2025-06-10",
-      "silent_days": 436,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 3700.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ПТС ООО 7203552306",
       "revenue": 3664.0,
       "docs": 2,
@@ -8631,38 +7351,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 3664.0,
       "y2026": 0.0
-    },
-    {
-      "client": "АКГ ООО",
-      "revenue": 3614.0,
-      "docs": 1,
-      "avg_check": 3614.0,
-      "last": "2025-09-11",
-      "silent_days": 343,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 3614.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "МАФЕСТ ООО // ЭДО",
-      "revenue": 3382.3,
-      "docs": 2,
-      "avg_check": 1691.15,
-      "last": "2026-06-10",
-      "silent_days": 71,
-      "status": "тишина",
-      "manager_short": "Глухов",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 341.3,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 3382.3
     },
     {
       "client": "МЕТАЛЛ-Т ООО",
@@ -8745,22 +7433,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Филиповский Максим Витальевич ФЛ",
-      "revenue": 3230.0,
-      "docs": 1,
-      "avg_check": 3230.0,
-      "last": "2025-08-18",
-      "silent_days": 367,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 3230.0,
-      "y2026": 0.0
-    },
-    {
       "client": "СПЦ ООО",
       "revenue": 3170.76,
       "docs": 1,
@@ -8775,22 +7447,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 0.0,
       "y2026": 3170.76
-    },
-    {
-      "client": "Синиченков Дмитрий Николаевич ИП ",
-      "revenue": 3125.0,
-      "docs": 1,
-      "avg_check": 3125.0,
-      "last": "2026-04-08",
-      "silent_days": 134,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 3125.0
     },
     {
       "client": "ТЕХНОМИР ООО ДРУЖБЫ // ЭДО",
@@ -8905,22 +7561,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ИНТЕРСТРОЙ ООО",
-      "revenue": 2780.0,
-      "docs": 1,
-      "avg_check": 2780.0,
-      "last": "2024-12-12",
-      "silent_days": 616,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 2780.0,
-      "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ЮГ72 ООО",
       "revenue": 2779.0,
       "docs": 1,
@@ -8998,22 +7638,6 @@ window.REPORT = {
       "avg_delta": -1569.0,
       "y2024": 2543.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Такунцев Павел Александрович ИП",
-      "revenue": 2459.0,
-      "docs": 1,
-      "avg_check": 2459.0,
-      "last": "2025-07-10",
-      "silent_days": 406,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 2459.0,
       "y2026": 0.0
     },
     {
@@ -9113,20 +7737,20 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "УРАЛ-ГРУПП ООО ПСК",
+      "client": "Охотников Сергей Александрович ИП",
       "revenue": 2365.0,
       "docs": 3,
       "avg_check": 788.33,
-      "last": "2025-11-12",
-      "silent_days": 281,
-      "status": "пропал",
-      "manager_short": "Никитина",
+      "last": "2026-07-07",
+      "silent_days": 44,
+      "status": "живой",
+      "manager_short": "Глухов",
       "role": "b2b",
       "significant": true,
-      "avg_delta": -1547.5,
+      "avg_delta": 230.0,
       "y2024": 0.0,
-      "y2025": 2365.0,
-      "y2026": 0.0
+      "y2025": 0.0,
+      "y2026": 2365.0
     },
     {
       "client": "ПАРУС ООО",
@@ -9142,22 +7766,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 2298.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "Вологжанин Кирилл Сергеевич ИП",
-      "revenue": 2275.0,
-      "docs": 1,
-      "avg_check": 2275.0,
-      "last": "2025-09-01",
-      "silent_days": 353,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 2275.0,
       "y2026": 0.0
     },
     {
@@ -9225,22 +7833,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "Белоусов Константин ФЛ",
-      "revenue": 1960.0,
-      "docs": 1,
-      "avg_check": 1960.0,
-      "last": "2025-09-26",
-      "silent_days": 328,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 1960.0,
-      "y2026": 0.0
-    },
-    {
       "client": "РИЛАН ООО",
       "revenue": 1959.0,
       "docs": 1,
@@ -9305,6 +7897,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "МАФЕСТ ООО // ЭДО",
+      "revenue": 1861.8,
+      "docs": 1,
+      "avg_check": 1861.8,
+      "last": "2026-06-10",
+      "silent_days": 71,
+      "status": "тишина",
+      "manager_short": "Глухов",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 0.0,
+      "y2024": 0.0,
+      "y2025": 0.0,
+      "y2026": 1861.8
+    },
+    {
       "client": "ЛАЙФ+ ООО 7202193132",
       "revenue": 1800.0,
       "docs": 1,
@@ -9321,22 +7929,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "МАОУ СОШ №45 ГОРОДА ТЮМЕНИ // ЭДО",
-      "revenue": 1794.0,
-      "docs": 1,
-      "avg_check": 1794.0,
-      "last": "2026-02-25",
-      "silent_days": 176,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 1794.0
-    },
-    {
       "client": "КАПИТАЛСТРОЙИНВЕСТ ООО",
       "revenue": 1769.0,
       "docs": 1,
@@ -9350,22 +7942,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 1769.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ТЗБ-МАКС ООО",
-      "revenue": 1763.74,
-      "docs": 1,
-      "avg_check": 1763.74,
-      "last": "2025-05-28",
-      "silent_days": 449,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 1763.74,
       "y2026": 0.0
     },
     {
@@ -9497,6 +8073,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "АМ - ГРУПП ООО 7202230715 // ЭДО",
+      "revenue": 1395.0,
+      "docs": 2,
+      "avg_check": 697.5,
+      "last": "2026-06-24",
+      "silent_days": 57,
+      "status": "живой",
+      "manager_short": "Глухов",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 35.0,
+      "y2024": 0.0,
+      "y2025": 680.0,
+      "y2026": 715.0
+    },
+    {
       "client": "ТМК ООО",
       "revenue": 1369.0,
       "docs": 1,
@@ -9559,22 +8151,6 @@ window.REPORT = {
       "y2024": 0.0,
       "y2025": 0.0,
       "y2026": 1216.0
-    },
-    {
-      "client": "Гаврилов Владислав Андреевич ФЛ",
-      "revenue": 1192.0,
-      "docs": 1,
-      "avg_check": 1192.0,
-      "last": "2025-10-24",
-      "silent_days": 300,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 1192.0,
-      "y2026": 0.0
     },
     {
       "client": "КРАМБ СИБИРЬ ООО",
@@ -9737,38 +8313,6 @@ window.REPORT = {
       "y2026": 805.0
     },
     {
-      "client": "ПРИНЦИП-Т ООО // ЭДО",
-      "revenue": 804.0,
-      "docs": 1,
-      "avg_check": 804.0,
-      "last": "2025-06-05",
-      "silent_days": 441,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 804.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "ТОИР-ИНВЕСТ ООО УК",
-      "revenue": 790.0,
-      "docs": 1,
-      "avg_check": 790.0,
-      "last": "2025-07-29",
-      "silent_days": 387,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 790.0,
-      "y2026": 0.0
-    },
-    {
       "client": "НТЦ ТЕХНОЛОГИИ КЛИМАТА ООО // ЭДО",
       "revenue": 782.0,
       "docs": 1,
@@ -9865,6 +8409,22 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
+      "client": "АРГОПЛАСТ ООО // ЭДО",
+      "revenue": 690.0,
+      "docs": 1,
+      "avg_check": 690.0,
+      "last": "2025-08-22",
+      "silent_days": 363,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "significant": false,
+      "avg_delta": 0.0,
+      "y2024": 0.0,
+      "y2025": 690.0,
+      "y2026": 0.0
+    },
+    {
       "client": "БИНГ ООО",
       "revenue": 677.0,
       "docs": 1,
@@ -9881,22 +8441,6 @@ window.REPORT = {
       "y2026": 0.0
     },
     {
-      "client": "ЭНЕРГОДРАЙВ ООО // ЭДО",
-      "revenue": 620.0,
-      "docs": 1,
-      "avg_check": 620.0,
-      "last": "2025-09-17",
-      "silent_days": 337,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 620.0,
-      "y2026": 0.0
-    },
-    {
       "client": "ПРОТУЛС ООО",
       "revenue": 575.0,
       "docs": 1,
@@ -9910,54 +8454,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 0.0,
       "y2025": 575.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "СТРОЙСЕРВИС ООО (Лебедева) // ЭДО 7203375061",
-      "revenue": 562.0,
-      "docs": 1,
-      "avg_check": 562.0,
-      "last": "2026-01-19",
-      "silent_days": 213,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 562.0
-    },
-    {
-      "client": "ПМК ООО",
-      "revenue": 534.0,
-      "docs": 1,
-      "avg_check": 534.0,
-      "last": "2026-01-23",
-      "silent_days": 209,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 534.0
-    },
-    {
-      "client": "АВТО-ДИНА ООО",
-      "revenue": 475.49,
-      "docs": 1,
-      "avg_check": 475.49,
-      "last": "2025-11-12",
-      "silent_days": 281,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 475.49,
       "y2026": 0.0
     },
     {
@@ -9990,38 +8486,6 @@ window.REPORT = {
       "avg_delta": 0.0,
       "y2024": 390.0,
       "y2025": 0.0,
-      "y2026": 0.0
-    },
-    {
-      "client": "СТИМУЛ ООО",
-      "revenue": 373.08,
-      "docs": 1,
-      "avg_check": 373.08,
-      "last": "2025-09-24",
-      "silent_days": 330,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 373.08,
-      "y2026": 0.0
-    },
-    {
-      "client": "КРИСТЕЛЬ ООО // ЭДО",
-      "revenue": 360.0,
-      "docs": 1,
-      "avg_check": 360.0,
-      "last": "2025-09-17",
-      "silent_days": 337,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "significant": false,
-      "avg_delta": 0.0,
-      "y2024": 0.0,
-      "y2025": 360.0,
       "y2026": 0.0
     },
     {
@@ -10081,22 +8545,21 @@ window.REPORT = {
     },
     {
       "client": "СК ИНЖКОМ ООО",
-      "revenue": 3653529.48,
-      "docs": 124,
-      "avg_check": 29463.95,
+      "revenue": 3603299.48,
+      "docs": 123,
+      "avg_check": 29295.12,
       "last": "2025-09-22",
       "first": "2024-01-17",
       "silent_days": 332,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
-      "y2024": 2979993.48,
+      "y2024": 2929763.48,
       "y2025": 673536.0,
       "y2026": 0.0,
       "managers": {
         "Гудилов": 2212666.58,
-        "Калбаев": 1390632.9,
-        "Строкина": 50230.0
+        "Калбаев": 1390632.9
       }
     },
     {
@@ -10119,10 +8582,32 @@ window.REPORT = {
       }
     },
     {
+      "client": "Калбаев Ислам ФЛ",
+      "revenue": 1480081.33,
+      "docs": 145,
+      "avg_check": 10207.46,
+      "last": "2026-03-03",
+      "first": "2024-01-06",
+      "silent_days": 170,
+      "status": "уходит",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 264306.93,
+      "y2025": 1173953.65,
+      "y2026": 41820.75,
+      "managers": {
+        "Зубарева": 167022.22,
+        "Иванова": 262587.54,
+        "Гудилов": 10238.83,
+        "Калбаев": 1031113.24,
+        "Мария": 9119.5
+      }
+    },
+    {
       "client": "МПК СТРОЙМОНТАЖ ООО // ЭДО",
-      "revenue": 1363417.17,
-      "docs": 116,
-      "avg_check": 11753.6,
+      "revenue": 1315167.42,
+      "docs": 110,
+      "avg_check": 11956.07,
       "last": "2026-04-20",
       "first": "2024-01-26",
       "silent_days": 122,
@@ -10130,15 +8615,14 @@ window.REPORT = {
       "manager_short": "Калбаев",
       "role": "b2b",
       "y2024": 677587.9,
-      "y2025": 628479.87,
-      "y2026": 57349.4,
+      "y2025": 586538.12,
+      "y2026": 51041.4,
       "managers": {
         "Глухов": 23641.4,
         "Гудилов": 617908.9,
         "Калбаев": 646861.12,
         "Карапетян": 23876.0,
-        "Ширяева": 2880.0,
-        "Никитина": 48249.75
+        "Ширяева": 2880.0
       }
     },
     {
@@ -10201,26 +8685,6 @@ window.REPORT = {
         "Гудилов": 478649.0,
         "Калбаев": 295719.4,
         "Карапетян": 30597.96
-      }
-    },
-    {
-      "client": "РА-СТРОЙ ООО // ЭДО",
-      "revenue": 800570.0,
-      "docs": 12,
-      "avg_check": 66714.17,
-      "last": "2025-08-11",
-      "first": "2024-01-26",
-      "silent_days": 374,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "y2024": 534018.0,
-      "y2025": 266552.0,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 264536.0,
-        "Гаврилов": 2016.0,
-        "Гудилов": 534018.0
       }
     },
     {
@@ -10303,28 +8767,10 @@ window.REPORT = {
       }
     },
     {
-      "client": "ПЕРЕСТРОЙ-КА! ООО // ЭДО",
-      "revenue": 629523.5,
-      "docs": 73,
-      "avg_check": 8623.61,
-      "last": "2026-01-30",
-      "first": "2025-05-05",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 618238.5,
-      "y2026": 11285.0,
-      "managers": {
-        "Никитина": 629523.5
-      }
-    },
-    {
       "client": "РУСЭКО ООО // ЭДО",
-      "revenue": 607210.34,
-      "docs": 69,
-      "avg_check": 8800.15,
+      "revenue": 593413.34,
+      "docs": 68,
+      "avg_check": 8726.67,
       "last": "2026-03-05",
       "first": "2024-01-10",
       "silent_days": 168,
@@ -10332,13 +8778,32 @@ window.REPORT = {
       "manager_short": "Калбаев",
       "role": "b2b",
       "y2024": 426101.91,
-      "y2025": 170962.43,
+      "y2025": 157165.43,
       "y2026": 10146.0,
       "managers": {
         "Гудилов": 176858.91,
-        "Калбаев": 379862.1,
+        "Калбаев": 366065.1,
         "Карапетян": 47575.33,
         "Никитина": 2914.0
+      }
+    },
+    {
+      "client": "РА-СТРОЙ ООО // ЭДО",
+      "revenue": 575918.0,
+      "docs": 7,
+      "avg_check": 82274.0,
+      "last": "2025-07-31",
+      "first": "2024-01-26",
+      "silent_days": 385,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "y2024": 534018.0,
+      "y2025": 41900.0,
+      "y2026": 0.0,
+      "managers": {
+        "Калбаев": 41900.0,
+        "Гудилов": 534018.0
       }
     },
     {
@@ -10402,24 +8867,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ДОРСТРОЙИНЖИНИРИНГ ООО // ЭДО",
-      "revenue": 515289.98,
-      "docs": 41,
-      "avg_check": 12568.05,
-      "last": "2026-01-30",
-      "first": "2025-06-30",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 504100.98,
-      "y2026": 11189.0,
-      "managers": {
-        "Никитина": 515289.98
-      }
-    },
-    {
       "client": "Булатов Саит Сабитович ИП",
       "revenue": 492705.55,
       "docs": 75,
@@ -10436,24 +8883,6 @@ window.REPORT = {
       "managers": {
         "Калбаев": 3082.6,
         "Гудилов": 489622.95
-      }
-    },
-    {
-      "client": "СТРОЙ СТАР ООО // ЭДО",
-      "revenue": 482301.78,
-      "docs": 42,
-      "avg_check": 11483.38,
-      "last": "2026-02-04",
-      "first": "2025-05-06",
-      "silent_days": 197,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 401774.35,
-      "y2026": 80527.43,
-      "managers": {
-        "Никитина": 482301.78
       }
     },
     {
@@ -10599,27 +9028,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "СТРОЙ ООО 7203523471 // ЭДО",
-      "revenue": 351190.64,
-      "docs": 53,
-      "avg_check": 6626.24,
-      "last": "2026-01-25",
-      "first": "2024-06-11",
-      "silent_days": 207,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 35100.0,
-      "y2025": 301662.64,
-      "y2026": 14428.0,
-      "managers": {
-        "Калбаев": 108344.0,
-        "Суковатая": 8990.0,
-        "Гудилов": 35100.0,
-        "Никитина": 198756.64
-      }
-    },
-    {
       "client": "Гудилов Евгений Николаевич ФЛ",
       "revenue": 343216.59,
       "docs": 52,
@@ -10660,24 +9068,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ТЗ СИБГАЗАППАРАТ ООО // ЭДО",
-      "revenue": 333077.56,
-      "docs": 66,
-      "avg_check": 5046.63,
-      "last": "2026-01-29",
-      "first": "2025-05-13",
-      "silent_days": 203,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 285845.56,
-      "y2026": 47232.0,
-      "managers": {
-        "Никитина": 333077.56
-      }
-    },
-    {
       "client": "Ушакова Елена Юрьевна",
       "revenue": 331009.8,
       "docs": 19,
@@ -10698,39 +9088,21 @@ window.REPORT = {
       }
     },
     {
-      "client": "СТРОЙ КАПИТАЛ ООО // ЭДО",
-      "revenue": 312006.53,
-      "docs": 32,
-      "avg_check": 9750.2,
-      "last": "2026-02-04",
-      "first": "2025-07-21",
-      "silent_days": 197,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 283077.53,
-      "y2026": 28929.0,
-      "managers": {
-        "Никитина": 312006.53
-      }
-    },
-    {
       "client": "МП ПРОМЕТЕЙ ООО ИНН 7203449370",
-      "revenue": 309260.6,
-      "docs": 47,
-      "avg_check": 6580.01,
+      "revenue": 301400.6,
+      "docs": 46,
+      "avg_check": 6552.19,
       "last": "2026-01-29",
       "first": "2024-05-06",
       "silent_days": 203,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
-      "y2024": 221204.6,
+      "y2024": 213344.6,
       "y2025": 83396.0,
       "y2026": 4660.0,
       "managers": {
-        "Гудилов": 184080.6,
+        "Гудилов": 176220.6,
         "Калбаев": 101916.0,
         "Карапетян": 23264.0
       }
@@ -10832,24 +9204,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "УНИВЕРСТРОЙ72 ООО // ЭДО",
-      "revenue": 247355.38,
-      "docs": 13,
-      "avg_check": 19027.34,
-      "last": "2025-10-06",
-      "first": "2025-06-09",
-      "silent_days": 318,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 247355.38,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 247355.38
-      }
-    },
-    {
       "client": "ТПЗ ООО",
       "revenue": 247333.51,
       "docs": 43,
@@ -10867,42 +9221,6 @@ window.REPORT = {
         "Гудилов": 142976.4,
         "Калбаев": 82618.11,
         "Карапетян": 21739.0
-      }
-    },
-    {
-      "client": "ПРОМСТРОЙ ООО 7204097787 // ЭДО",
-      "revenue": 241588.65,
-      "docs": 39,
-      "avg_check": 6194.58,
-      "last": "2025-12-30",
-      "first": "2025-05-12",
-      "silent_days": 233,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 241588.65,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 241588.65
-      }
-    },
-    {
-      "client": "Зорина Надежда Александровна ИП",
-      "revenue": 235825.51,
-      "docs": 10,
-      "avg_check": 23582.55,
-      "last": "2026-03-27",
-      "first": "2024-11-19",
-      "silent_days": 146,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 92000.0,
-      "y2025": 100625.51,
-      "y2026": 43200.0,
-      "managers": {
-        "Калбаев": 235825.51
       }
     },
     {
@@ -10981,20 +9299,20 @@ window.REPORT = {
     },
     {
       "client": "Снохин Вячеслав Николаевич ИП",
-      "revenue": 222488.08,
-      "docs": 48,
-      "avg_check": 4635.17,
+      "revenue": 220528.08,
+      "docs": 47,
+      "avg_check": 4692.09,
       "last": "2024-11-15",
       "first": "2024-01-11",
       "silent_days": 643,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
-      "y2024": 222488.08,
+      "y2024": 220528.08,
       "y2025": 0.0,
       "y2026": 0.0,
       "managers": {
-        "Калбаев": 13663.0,
+        "Калбаев": 11703.0,
         "Гудилов": 208825.08
       }
     },
@@ -11019,25 +9337,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
-      "revenue": 205686.63,
-      "docs": 18,
-      "avg_check": 11427.03,
-      "last": "2026-03-13",
-      "first": "2025-10-23",
-      "silent_days": 160,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 171368.07,
-      "y2026": 34318.56,
-      "managers": {
-        "Калбаев": 180744.63,
-        "Никитина": 24942.0
-      }
-    },
-    {
       "client": "ВОСХОД ООО (УЛЫБКА) // ЭДО",
       "revenue": 201262.15,
       "docs": 23,
@@ -11054,24 +9353,6 @@ window.REPORT = {
       "managers": {
         "Калбаев": 191335.15,
         "Никитина": 9927.0
-      }
-    },
-    {
-      "client": "ЗЖБИ АРСЕНАЛ ООО // ЭДО",
-      "revenue": 197837.94,
-      "docs": 29,
-      "avg_check": 6822.0,
-      "last": "2025-12-26",
-      "first": "2025-05-06",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 197837.94,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 197837.94
       }
     },
     {
@@ -11093,23 +9374,21 @@ window.REPORT = {
       }
     },
     {
-      "client": "МОЙ ДОМ ООО // ЭДО",
-      "revenue": 190599.67,
-      "docs": 13,
-      "avg_check": 14661.51,
-      "last": "2026-05-19",
-      "first": "2025-09-04",
-      "silent_days": 93,
-      "status": "уходит",
+      "client": "Зорина Надежда Александровна ИП",
+      "revenue": 192625.51,
+      "docs": 9,
+      "avg_check": 21402.83,
+      "last": "2025-12-22",
+      "first": "2024-11-19",
+      "silent_days": 241,
+      "status": "пропал",
       "manager_short": "Калбаев",
       "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 52703.09,
-      "y2026": 137896.58,
+      "y2024": 92000.0,
+      "y2025": 100625.51,
+      "y2026": 0.0,
       "managers": {
-        "Глухов": 26715.0,
-        "Калбаев": 138743.05,
-        "Никитина": 25141.62
+        "Калбаев": 192625.51
       }
     },
     {
@@ -11270,24 +9549,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "Корякин Артем Михайлович ФЛ",
-      "revenue": 155474.0,
-      "docs": 7,
-      "avg_check": 22210.57,
-      "last": "2025-12-25",
-      "first": "2025-09-22",
-      "silent_days": 238,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 155474.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 155474.0
-      }
-    },
-    {
       "client": "ЦВМР СНЕЖИНКА ООО",
       "revenue": 155155.0,
       "docs": 8,
@@ -11305,6 +9566,45 @@ window.REPORT = {
         "Калбаев": 42676.0,
         "Гудилов": 99361.0,
         "Карапетян": 13118.0
+      }
+    },
+    {
+      "client": "СТРОЙ ООО 7203523471 // ЭДО",
+      "revenue": 143444.0,
+      "docs": 5,
+      "avg_check": 28688.8,
+      "last": "2025-06-06",
+      "first": "2024-06-11",
+      "silent_days": 440,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 35100.0,
+      "y2025": 108344.0,
+      "y2026": 0.0,
+      "managers": {
+        "Калбаев": 108344.0,
+        "Гудилов": 35100.0
+      }
+    },
+    {
+      "client": "Баязитов Ридан ФЛ",
+      "revenue": 138222.56,
+      "docs": 12,
+      "avg_check": 11518.55,
+      "last": "2025-12-11",
+      "first": "2024-05-29",
+      "silent_days": 252,
+      "status": "пропал",
+      "manager_short": "Зубарева",
+      "role": "other",
+      "y2024": 113909.0,
+      "y2025": 24313.56,
+      "y2026": 0.0,
+      "managers": {
+        "Зубарева": 89343.0,
+        "Иванова": 24566.0,
+        "Калбаев": 24313.56
       }
     },
     {
@@ -11384,25 +9684,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ЗСТД ООО // ЭДО",
-      "revenue": 125789.6,
-      "docs": 4,
-      "avg_check": 31447.4,
-      "last": "2025-11-07",
-      "first": "2025-08-06",
-      "silent_days": 286,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 125789.6,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 18150.0,
-        "Никитина": 107639.6
-      }
-    },
-    {
       "client": "Уразов Альберт Ильнурович ИП",
       "revenue": 124523.0,
       "docs": 10,
@@ -11459,24 +9740,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "Кропачев Алексей Андреевич ИП",
-      "revenue": 115239.7,
-      "docs": 12,
-      "avg_check": 9603.31,
-      "last": "2025-12-26",
-      "first": "2025-05-22",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 115239.7,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 115239.7
-      }
-    },
-    {
       "client": "ЯТЛ ООО",
       "revenue": 112678.3,
       "docs": 8,
@@ -11495,42 +9758,42 @@ window.REPORT = {
       }
     },
     {
-      "client": "ЗАРЯДНЫЕ СИСТЕМЫ ООО 7203538975 // ЭДО",
-      "revenue": 108604.75,
-      "docs": 33,
-      "avg_check": 3291.05,
-      "last": "2025-12-26",
-      "first": "2025-05-07",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 108604.75,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 98164.75,
-        "Гаврилов": 10440.0
-      }
-    },
-    {
-      "client": "МАЛЬКОВСКОЕ АО",
-      "revenue": 108332.0,
-      "docs": 8,
-      "avg_check": 13541.5,
-      "last": "2026-05-12",
-      "first": "2024-06-14",
-      "silent_days": 100,
+      "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
+      "revenue": 110491.61,
+      "docs": 17,
+      "avg_check": 6499.51,
+      "last": "2026-03-13",
+      "first": "2025-10-23",
+      "silent_days": 160,
       "status": "уходит",
       "manager_short": "Калбаев",
       "role": "b2b",
-      "y2024": 83776.0,
-      "y2025": 6438.0,
-      "y2026": 18118.0,
+      "y2024": 0.0,
+      "y2025": 76173.05,
+      "y2026": 34318.56,
       "managers": {
-        "Глухов": 7728.0,
-        "Калбаев": 56168.0,
-        "Гудилов": 44436.0
+        "Калбаев": 85549.61,
+        "Никитина": 24942.0
+      }
+    },
+    {
+      "client": "МОЙ ДОМ ООО // ЭДО",
+      "revenue": 109839.61,
+      "docs": 11,
+      "avg_check": 9985.42,
+      "last": "2026-05-19",
+      "first": "2025-09-04",
+      "silent_days": 93,
+      "status": "уходит",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 0.0,
+      "y2025": 52703.09,
+      "y2026": 57136.52,
+      "managers": {
+        "Глухов": 26715.0,
+        "Калбаев": 57982.99,
+        "Никитина": 25141.62
       }
     },
     {
@@ -11573,23 +9836,23 @@ window.REPORT = {
       }
     },
     {
-      "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
-      "revenue": 99658.6,
-      "docs": 22,
-      "avg_check": 4529.94,
-      "last": "2026-05-11",
-      "first": "2024-01-09",
-      "silent_days": 101,
+      "client": "МАЛЬКОВСКОЕ АО",
+      "revenue": 97942.0,
+      "docs": 7,
+      "avg_check": 13991.71,
+      "last": "2026-03-24",
+      "first": "2024-06-14",
+      "silent_days": 149,
       "status": "уходит",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "y2024": 79900.7,
-      "y2025": 14678.9,
-      "y2026": 5079.0,
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 83776.0,
+      "y2025": 6438.0,
+      "y2026": 7728.0,
       "managers": {
-        "Калбаев": 26598.9,
-        "Гудилов": 64840.7,
-        "Никитина": 8219.0
+        "Глухов": 7728.0,
+        "Калбаев": 45778.0,
+        "Гудилов": 44436.0
       }
     },
     {
@@ -11629,6 +9892,26 @@ window.REPORT = {
       }
     },
     {
+      "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
+      "revenue": 92920.6,
+      "docs": 20,
+      "avg_check": 4646.03,
+      "last": "2026-05-11",
+      "first": "2024-01-09",
+      "silent_days": 101,
+      "status": "уходит",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "y2024": 79900.7,
+      "y2025": 7940.9,
+      "y2026": 5079.0,
+      "managers": {
+        "Калбаев": 23000.9,
+        "Гудилов": 64840.7,
+        "Никитина": 5079.0
+      }
+    },
+    {
       "client": "ТСМ ООО",
       "revenue": 92667.2,
       "docs": 12,
@@ -11644,24 +9927,6 @@ window.REPORT = {
       "y2026": 0.0,
       "managers": {
         "Гудилов": 92667.2
-      }
-    },
-    {
-      "client": "СИБГАЗКРАНСЕРВИС ООО // ЭДО",
-      "revenue": 91152.02,
-      "docs": 24,
-      "avg_check": 3798.0,
-      "last": "2026-01-22",
-      "first": "2025-05-13",
-      "silent_days": 210,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 87325.02,
-      "y2026": 3827.0,
-      "managers": {
-        "Никитина": 91152.02
       }
     },
     {
@@ -11682,27 +9947,6 @@ window.REPORT = {
         "Калбаев": 32863.31,
         "Гудилов": 54114.0,
         "Карапетян": 4040.0
-      }
-    },
-    {
-      "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
-      "revenue": 89179.5,
-      "docs": 11,
-      "avg_check": 8107.23,
-      "last": "2026-04-18",
-      "first": "2024-01-15",
-      "silent_days": 124,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 8741.5,
-      "y2025": 80230.0,
-      "y2026": 208.0,
-      "managers": {
-        "Гудилов": 7964.5,
-        "Калбаев": 73907.0,
-        "Ширяева": 208.0,
-        "Никитина": 7100.0
       }
     },
     {
@@ -11743,6 +9987,26 @@ window.REPORT = {
         "Гудилов": 10831.74,
         "Калбаев": 69482.85,
         "Карапетян": 3046.0
+      }
+    },
+    {
+      "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
+      "revenue": 81704.5,
+      "docs": 9,
+      "avg_check": 9078.28,
+      "last": "2026-04-18",
+      "first": "2024-01-15",
+      "silent_days": 124,
+      "status": "уходит",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 8366.5,
+      "y2025": 73130.0,
+      "y2026": 208.0,
+      "managers": {
+        "Гудилов": 7589.5,
+        "Калбаев": 73907.0,
+        "Ширяева": 208.0
       }
     },
     {
@@ -11804,21 +10068,22 @@ window.REPORT = {
       }
     },
     {
-      "client": "ТСК-УВАТ ООО // ЭДО",
-      "revenue": 74277.3,
-      "docs": 11,
-      "avg_check": 6752.48,
-      "last": "2026-01-30",
-      "first": "2025-12-18",
-      "silent_days": 202,
-      "status": "пропал",
-      "manager_short": "Никитина",
+      "client": "НОВОКСТРОЙ ООО // ЭДО",
+      "revenue": 74552.31,
+      "docs": 9,
+      "avg_check": 8283.59,
+      "last": "2026-03-20",
+      "first": "2025-04-23",
+      "silent_days": 153,
+      "status": "уходит",
+      "manager_short": "Калбаев",
       "role": "b2b",
       "y2024": 0.0,
-      "y2025": 32518.65,
-      "y2026": 41758.65,
+      "y2025": 17865.31,
+      "y2026": 56687.0,
       "managers": {
-        "Никитина": 74277.3
+        "Калбаев": 53980.31,
+        "Никитина": 20572.0
       }
     },
     {
@@ -11881,24 +10146,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ЛЕОН ООО // ЭДО",
-      "revenue": 70801.52,
-      "docs": 7,
-      "avg_check": 10114.5,
-      "last": "2026-01-26",
-      "first": "2025-05-12",
-      "silent_days": 206,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 60901.52,
-      "y2026": 9900.0,
-      "managers": {
-        "Никитина": 70801.52
-      }
-    },
-    {
       "client": "ЗКББ ООО",
       "revenue": 69517.0,
       "docs": 12,
@@ -11952,42 +10199,6 @@ window.REPORT = {
       "y2026": 0.0,
       "managers": {
         "Калбаев": 65189.0
-      }
-    },
-    {
-      "client": "Роженцева Екатерина Александровна ИП 720302540710 // ЭДО",
-      "revenue": 65060.0,
-      "docs": 3,
-      "avg_check": 21686.67,
-      "last": "2025-04-14",
-      "first": "2025-04-10",
-      "silent_days": 493,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 65060.0,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 65060.0
-      }
-    },
-    {
-      "client": "ТМС ООО 7202159237 // ЭДО",
-      "revenue": 63654.8,
-      "docs": 11,
-      "avg_check": 5786.8,
-      "last": "2026-01-16",
-      "first": "2025-10-02",
-      "silent_days": 216,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 50910.7,
-      "y2026": 12744.1,
-      "managers": {
-        "Никитина": 63654.8
       }
     },
     {
@@ -12063,26 +10274,6 @@ window.REPORT = {
       "managers": {
         "Гудилов": 38707.03,
         "Калбаев": 20258.56
-      }
-    },
-    {
-      "client": "АРМАДА ООО // ЭДО",
-      "revenue": 58815.0,
-      "docs": 6,
-      "avg_check": 9802.5,
-      "last": "2025-12-02",
-      "first": "2024-09-02",
-      "silent_days": 261,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 19077.0,
-      "y2025": 39738.0,
-      "y2026": 0.0,
-      "managers": {
-        "Гудилов": 10922.0,
-        "Калбаев": 35008.0,
-        "Никитина": 12885.0
       }
     },
     {
@@ -12334,24 +10525,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "Емельянцева Анастасия Владимировна ИП",
-      "revenue": 47399.0,
-      "docs": 3,
-      "avg_check": 15799.67,
-      "last": "2025-08-20",
-      "first": "2025-05-23",
-      "silent_days": 365,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 47399.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 47399.0
-      }
-    },
-    {
       "client": "УСИ ООО",
       "revenue": 47296.0,
       "docs": 8,
@@ -12387,6 +10560,25 @@ window.REPORT = {
       "managers": {
         "Калбаев": 23490.0,
         "Гудилов": 22452.0
+      }
+    },
+    {
+      "client": "АРМАДА ООО // ЭДО",
+      "revenue": 45930.0,
+      "docs": 4,
+      "avg_check": 11482.5,
+      "last": "2025-12-02",
+      "first": "2024-09-02",
+      "silent_days": 261,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 19077.0,
+      "y2025": 26853.0,
+      "y2026": 0.0,
+      "managers": {
+        "Гудилов": 10922.0,
+        "Калбаев": 35008.0
       }
     },
     {
@@ -12426,6 +10618,25 @@ window.REPORT = {
       "managers": {
         "Калбаев": 18701.8,
         "Гудилов": 26078.0
+      }
+    },
+    {
+      "client": "Аминова Нурания Каримовна ИП",
+      "revenue": 44439.32,
+      "docs": 5,
+      "avg_check": 8887.86,
+      "last": "2026-02-16",
+      "first": "2025-07-18",
+      "silent_days": 185,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "role": "b2b",
+      "y2024": 0.0,
+      "y2025": 43149.32,
+      "y2026": 1290.0,
+      "managers": {
+        "Калбаев": 43149.32,
+        "Никитина": 1290.0
       }
     },
     {
@@ -12503,45 +10714,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ТСТ ООО 7203274578",
-      "revenue": 37244.87,
-      "docs": 6,
-      "avg_check": 6207.48,
-      "last": "2025-10-23",
-      "first": "2025-07-10",
-      "silent_days": 301,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 37244.87,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 37244.87
-      }
-    },
-    {
-      "client": "РММ ООО",
-      "revenue": 36899.3,
-      "docs": 10,
-      "avg_check": 3689.93,
-      "last": "2026-03-16",
-      "first": "2024-12-05",
-      "silent_days": 157,
-      "status": "уходит",
-      "manager_short": "Карапетян",
-      "role": "other",
-      "y2024": 4948.0,
-      "y2025": 24597.3,
-      "y2026": 7354.0,
-      "managers": {
-        "Калбаев": 12828.0,
-        "Карапетян": 14066.3,
-        "Смунёв": 2651.0,
-        "Никитина": 7354.0
-      }
-    },
-    {
       "client": "Морозова Ирина Павловна ИП",
       "revenue": 35987.0,
       "docs": 3,
@@ -12602,43 +10774,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "СТИЛЬ ЖИЗНИ ООО",
-      "revenue": 34876.0,
-      "docs": 3,
-      "avg_check": 11625.33,
-      "last": "2026-03-04",
-      "first": "2025-08-12",
-      "silent_days": 169,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 19380.0,
-      "y2026": 15496.0,
-      "managers": {
-        "Калбаев": 19380.0,
-        "Никитина": 15496.0
-      }
-    },
-    {
-      "client": "Ускоглазов Илья ФЛ",
-      "revenue": 34061.0,
-      "docs": 8,
-      "avg_check": 4257.62,
-      "last": "2025-12-30",
-      "first": "2025-11-03",
-      "silent_days": 233,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 34061.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 34061.0
-      }
-    },
-    {
       "client": "СИБАЛЬЯНС ООО // ЭДО",
       "revenue": 33842.87,
       "docs": 18,
@@ -12659,21 +10794,24 @@ window.REPORT = {
       }
     },
     {
-      "client": "ЗАПСИБЭНЕРГО ООО",
-      "revenue": 33430.0,
-      "docs": 7,
-      "avg_check": 4775.71,
-      "last": "2025-12-26",
-      "first": "2025-07-18",
-      "silent_days": 237,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 33430.0,
-      "y2026": 0.0,
+      "client": "РММ ООО",
+      "revenue": 33579.3,
+      "docs": 9,
+      "avg_check": 3731.03,
+      "last": "2026-03-16",
+      "first": "2024-12-05",
+      "silent_days": 157,
+      "status": "уходит",
+      "manager_short": "Карапетян",
+      "role": "other",
+      "y2024": 4948.0,
+      "y2025": 21277.3,
+      "y2026": 7354.0,
       "managers": {
-        "Никитина": 33430.0
+        "Калбаев": 9508.0,
+        "Карапетян": 14066.3,
+        "Смунёв": 2651.0,
+        "Никитина": 7354.0
       }
     },
     {
@@ -12731,24 +10869,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ГРАНДБАЗИС ООО",
-      "revenue": 33027.5,
-      "docs": 3,
-      "avg_check": 11009.17,
-      "last": "2025-10-22",
-      "first": "2025-06-02",
-      "silent_days": 302,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 33027.5,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 33027.5
-      }
-    },
-    {
       "client": "ЕВРОТЕХГРУПП ООО",
       "revenue": 32705.0,
       "docs": 3,
@@ -12802,26 +10922,6 @@ window.REPORT = {
       "y2026": 0.0,
       "managers": {
         "Гудилов": 29887.0
-      }
-    },
-    {
-      "client": "Кожевникова Ольга ФЛ",
-      "revenue": 29600.1,
-      "docs": 4,
-      "avg_check": 7400.02,
-      "last": "2026-04-17",
-      "first": "2025-10-13",
-      "silent_days": 125,
-      "status": "уходит",
-      "manager_short": "Кожевникова",
-      "role": "other",
-      "y2024": 0.0,
-      "y2025": 6401.1,
-      "y2026": 23199.0,
-      "managers": {
-        "Калбаев": 5209.0,
-        "Ширяева": 6401.1,
-        "Кожевникова": 17990.0
       }
     },
     {
@@ -12956,6 +11056,25 @@ window.REPORT = {
       }
     },
     {
+      "client": "Кожевникова Ольга ФЛ",
+      "revenue": 24391.1,
+      "docs": 3,
+      "avg_check": 8130.37,
+      "last": "2026-04-12",
+      "first": "2025-10-13",
+      "silent_days": 130,
+      "status": "уходит",
+      "manager_short": "Кожевникова",
+      "role": "other",
+      "y2024": 0.0,
+      "y2025": 6401.1,
+      "y2026": 17990.0,
+      "managers": {
+        "Ширяева": 6401.1,
+        "Кожевникова": 17990.0
+      }
+    },
+    {
       "client": "НАЙССТРОЙ ООО",
       "revenue": 24364.0,
       "docs": 5,
@@ -13030,42 +11149,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "СДЭК-ЦЕНТР ЛОГИСТИК ООО // ЭДО",
-      "revenue": 22208.35,
-      "docs": 7,
-      "avg_check": 3172.62,
-      "last": "2026-01-14",
-      "first": "2025-05-27",
-      "silent_days": 218,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 14648.35,
-      "y2026": 7560.0,
-      "managers": {
-        "Никитина": 22208.35
-      }
-    },
-    {
-      "client": "Фахрутдинова Ильзида Ильзуровна ИП // ЭДО",
-      "revenue": 21910.34,
-      "docs": 5,
-      "avg_check": 4382.07,
-      "last": "2026-01-20",
-      "first": "2025-10-31",
-      "silent_days": 212,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 11882.8,
-      "y2026": 10027.54,
-      "managers": {
-        "Никитина": 21910.34
-      }
-    },
-    {
       "client": "ВАШ ВЫБОР ООО ПСК",
       "revenue": 21819.25,
       "docs": 6,
@@ -13121,43 +11204,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "ИМПУЛЬС ООО // ЭДО",
-      "revenue": 18870.0,
-      "docs": 8,
-      "avg_check": 2358.75,
-      "last": "2025-12-22",
-      "first": "2025-05-13",
-      "silent_days": 241,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 18870.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 18870.0
-      }
-    },
-    {
-      "client": "МСК ООО (Гаврилов)",
-      "revenue": 18813.0,
-      "docs": 3,
-      "avg_check": 6271.0,
-      "last": "2024-11-22",
-      "first": "2024-08-08",
-      "silent_days": 636,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 18813.0,
-      "y2025": 0.0,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 11407.0,
-        "Гудилов": 7406.0
-      }
-    },
-    {
       "client": "ТЮМЕНЬСПЕЦСТАЛЬ ООО ПК",
       "revenue": 18812.52,
       "docs": 9,
@@ -13174,24 +11220,6 @@ window.REPORT = {
       "managers": {
         "Калбаев": 17062.52,
         "Никитина": 1750.0
-      }
-    },
-    {
-      "client": "ПЕТРОЭНЕРГОКОМПЛЕКТ ООО // ЭДО",
-      "revenue": 17160.0,
-      "docs": 3,
-      "avg_check": 5720.0,
-      "last": "2025-07-22",
-      "first": "2025-07-02",
-      "silent_days": 394,
-      "status": "пропал",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 17160.0,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 17160.0
       }
     },
     {
@@ -13230,43 +11258,6 @@ window.REPORT = {
         "Гудилов": 8357.0,
         "Калбаев": 3555.0,
         "Карапетян": 4035.0
-      }
-    },
-    {
-      "client": "РСМП ООО // ЭДО",
-      "revenue": 15656.0,
-      "docs": 5,
-      "avg_check": 3131.2,
-      "last": "2025-12-19",
-      "first": "2024-04-10",
-      "silent_days": 244,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "y2024": 9720.0,
-      "y2025": 5936.0,
-      "y2026": 0.0,
-      "managers": {
-        "Гудилов": 9720.0,
-        "Никитина": 5936.0
-      }
-    },
-    {
-      "client": "КОМПАНИЯ ТОИР ООО",
-      "revenue": 15311.38,
-      "docs": 13,
-      "avg_check": 1177.8,
-      "last": "2025-11-06",
-      "first": "2025-05-23",
-      "silent_days": 287,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 15311.38,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 15311.38
       }
     },
     {
@@ -13418,24 +11409,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "КЛЯКСА ООО // ЭДО",
-      "revenue": 11911.3,
-      "docs": 4,
-      "avg_check": 2977.82,
-      "last": "2025-08-12",
-      "first": "2025-06-06",
-      "silent_days": 373,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 11911.3,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 11911.3
-      }
-    },
-    {
       "client": "ТП ЛАВЕРНА 7203355643 ООО // ЭДО",
       "revenue": 11880.0,
       "docs": 3,
@@ -13548,6 +11521,24 @@ window.REPORT = {
       }
     },
     {
+      "client": "РСМП ООО // ЭДО",
+      "revenue": 9720.0,
+      "docs": 3,
+      "avg_check": 3240.0,
+      "last": "2024-04-26",
+      "first": "2024-04-10",
+      "silent_days": 846,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "role": "former",
+      "y2024": 9720.0,
+      "y2025": 0.0,
+      "y2026": 0.0,
+      "managers": {
+        "Гудилов": 9720.0
+      }
+    },
+    {
       "client": "ЗАПСИБМОДУЛЬ ООО // ЭДО",
       "revenue": 9697.3,
       "docs": 3,
@@ -13604,25 +11595,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "АРКАДА ООО 7204189036 // ЭДО",
-      "revenue": 9215.0,
-      "docs": 3,
-      "avg_check": 3071.67,
-      "last": "2025-09-03",
-      "first": "2024-07-09",
-      "silent_days": 351,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "role": "former",
-      "y2024": 5795.0,
-      "y2025": 3420.0,
-      "y2026": 0.0,
-      "managers": {
-        "Калбаев": 3840.0,
-        "Гудилов": 5375.0
-      }
-    },
-    {
       "client": "АВТОГРАД МАСТЕР ООО // ЭДО",
       "revenue": 8821.0,
       "docs": 9,
@@ -13661,20 +11633,19 @@ window.REPORT = {
     },
     {
       "client": "ЕВРАКОР АО (отгрузка только по согласованным счетам! Гаврилов)",
-      "revenue": 8101.0,
-      "docs": 5,
-      "avg_check": 1620.2,
-      "last": "2024-12-13",
+      "revenue": 7816.0,
+      "docs": 4,
+      "avg_check": 1954.0,
+      "last": "2024-05-31",
       "first": "2024-03-04",
-      "silent_days": 615,
+      "silent_days": 811,
       "status": "пропал",
       "manager_short": "Гудилов",
       "role": "former",
-      "y2024": 8101.0,
+      "y2024": 7816.0,
       "y2025": 0.0,
       "y2026": 0.0,
       "managers": {
-        "Калбаев": 285.0,
         "Гудилов": 7816.0
       }
     },
@@ -13694,24 +11665,6 @@ window.REPORT = {
       "y2026": 0.0,
       "managers": {
         "Калбаев": 6614.0
-      }
-    },
-    {
-      "client": "Орехов Роман Андреевич ИП",
-      "revenue": 5892.0,
-      "docs": 3,
-      "avg_check": 1964.0,
-      "last": "2025-10-01",
-      "first": "2025-09-15",
-      "silent_days": 323,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 5892.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 5892.0
       }
     },
     {
@@ -13752,42 +11705,6 @@ window.REPORT = {
       }
     },
     {
-      "client": "Алешкова Юлия ФЛ",
-      "revenue": 4877.63,
-      "docs": 3,
-      "avg_check": 1625.88,
-      "last": "2026-05-16",
-      "first": "2026-04-20",
-      "silent_days": 96,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 0.0,
-      "y2026": 4877.63,
-      "managers": {
-        "Калбаев": 4877.63
-      }
-    },
-    {
-      "client": "МАШТЕХСЕРВИС ООО // ЭДО",
-      "revenue": 4847.0,
-      "docs": 3,
-      "avg_check": 1615.67,
-      "last": "2025-12-21",
-      "first": "2025-12-10",
-      "silent_days": 242,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 4847.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 4847.0
-      }
-    },
-    {
       "client": "ЗАПАД ООО (ш) 7203390599 // ЭДО // ПП",
       "revenue": 4206.76,
       "docs": 4,
@@ -13803,61 +11720,6 @@ window.REPORT = {
       "y2026": 4206.76,
       "managers": {
         "Никитина": 4206.76
-      }
-    },
-    {
-      "client": "ГЕОСТРОЙ ООО РСК // ЭДО",
-      "revenue": 4191.0,
-      "docs": 3,
-      "avg_check": 1397.0,
-      "last": "2025-06-02",
-      "first": "2025-03-31",
-      "silent_days": 444,
-      "status": "пропал",
-      "manager_short": "Смунёв",
-      "role": "other",
-      "y2024": 0.0,
-      "y2025": 4191.0,
-      "y2026": 0.0,
-      "managers": {
-        "Смунёв": 3801.0,
-        "Никитина": 390.0
-      }
-    },
-    {
-      "client": "БРАСТ ООО // ЭДО",
-      "revenue": 4129.15,
-      "docs": 4,
-      "avg_check": 1032.29,
-      "last": "2025-07-25",
-      "first": "2025-07-22",
-      "silent_days": 391,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 4129.15,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 4129.15
-      }
-    },
-    {
-      "client": "МИР ООО СК // ЭДО",
-      "revenue": 3884.0,
-      "docs": 4,
-      "avg_check": 971.0,
-      "last": "2025-10-17",
-      "first": "2025-07-17",
-      "silent_days": 307,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 3884.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 3884.0
       }
     },
     {
@@ -13877,24 +11739,6 @@ window.REPORT = {
       "managers": {
         "Калбаев": 3717.3
       }
-    },
-    {
-      "client": "УРАЛ-ГРУПП ООО ПСК",
-      "revenue": 2365.0,
-      "docs": 3,
-      "avg_check": 788.33,
-      "last": "2025-11-12",
-      "first": "2025-10-08",
-      "silent_days": 281,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "role": "b2b",
-      "y2024": 0.0,
-      "y2025": 2365.0,
-      "y2026": 0.0,
-      "managers": {
-        "Никитина": 2365.0
-      }
     }
   ],
   "falling_check": [
@@ -13910,19 +11754,6 @@ window.REPORT = {
       "status": "пропал",
       "manager_short": "Калбаев",
       "last": "2025-12-25"
-    },
-    {
-      "client": "РА-СТРОЙ ООО // ЭДО",
-      "revenue": 800570.0,
-      "docs": 12,
-      "avg_first": 89753.0,
-      "avg_last": 43675.33,
-      "avg_delta": -46077.67,
-      "avg_2024": 106803.6,
-      "avg_2026": null,
-      "status": "пропал",
-      "manager_short": "Гудилов",
-      "last": "2025-08-11"
     },
     {
       "client": "ГЕОХИМ ООО",
@@ -13951,6 +11782,32 @@ window.REPORT = {
       "last": "2026-05-08"
     },
     {
+      "client": "СТРОЙ ООО 7203523471 // ЭДО",
+      "revenue": 143444.0,
+      "docs": 5,
+      "avg_first": 49780.0,
+      "avg_last": 14628.0,
+      "avg_delta": -35152.0,
+      "avg_2024": 35100.0,
+      "avg_2026": null,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "last": "2025-06-06"
+    },
+    {
+      "client": "РА-СТРОЙ ООО // ЭДО",
+      "revenue": 575918.0,
+      "docs": 7,
+      "avg_first": 101793.33,
+      "avg_last": 67634.5,
+      "avg_delta": -34158.83,
+      "avg_2024": 106803.6,
+      "avg_2026": null,
+      "status": "пропал",
+      "manager_short": "Гудилов",
+      "last": "2025-07-31"
+    },
+    {
       "client": "МИРЛАЙН ООО",
       "revenue": 161081.92,
       "docs": 8,
@@ -13977,26 +11834,13 @@ window.REPORT = {
       "last": "2026-06-24"
     },
     {
-      "client": "ЗСТД ООО // ЭДО",
-      "revenue": 125789.6,
-      "docs": 4,
-      "avg_first": 45869.8,
-      "avg_last": 17025.0,
-      "avg_delta": -28844.8,
-      "avg_2024": null,
-      "avg_2026": null,
-      "status": "пропал",
-      "manager_short": "Никитина",
-      "last": "2025-11-07"
-    },
-    {
       "client": "ТК СТ ООО",
-      "revenue": 1862335.33,
-      "docs": 73,
-      "avg_first": 39396.17,
-      "avg_last": 12001.98,
-      "avg_delta": -27394.19,
-      "avg_2024": 53446.47,
+      "revenue": 1824372.33,
+      "docs": 71,
+      "avg_first": 39779.49,
+      "avg_last": 12002.51,
+      "avg_delta": -27776.98,
+      "avg_2024": 56892.97,
       "avg_2026": 7517.62,
       "status": "тишина",
       "manager_short": "Гудилов",
@@ -14068,19 +11912,6 @@ window.REPORT = {
       "last": "2026-05-07"
     },
     {
-      "client": "Сорокин Захар Рамазович ИП // ЭДО",
-      "revenue": 636855.61,
-      "docs": 41,
-      "avg_first": 25986.07,
-      "avg_last": 5577.82,
-      "avg_delta": -20408.25,
-      "avg_2024": null,
-      "avg_2026": 5577.82,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "last": "2026-08-19"
-    },
-    {
       "client": "СИБМАШ ЗАВОД",
       "revenue": 157568.0,
       "docs": 11,
@@ -14095,11 +11926,11 @@ window.REPORT = {
     },
     {
       "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
-      "revenue": 4962339.93,
-      "docs": 104,
-      "avg_first": 57032.58,
-      "avg_last": 38397.03,
-      "avg_delta": -18635.55,
+      "revenue": 4940739.93,
+      "docs": 103,
+      "avg_first": 57186.79,
+      "avg_last": 38927.18,
+      "avg_delta": -18259.61,
       "avg_2024": 57963.68,
       "avg_2026": 38868.17,
       "status": "живой",
@@ -14107,17 +11938,30 @@ window.REPORT = {
       "last": "2026-08-14"
     },
     {
-      "client": "ДСС ООО",
-      "revenue": 48890.8,
-      "docs": 4,
-      "avg_first": 20837.0,
-      "avg_last": 3608.4,
-      "avg_delta": -17228.6,
+      "client": "Зорина Надежда Александровна ИП",
+      "revenue": 192625.51,
+      "docs": 9,
+      "avg_first": 31245.0,
+      "avg_last": 13529.1,
+      "avg_delta": -17715.9,
+      "avg_2024": 30666.67,
+      "avg_2026": null,
+      "status": "пропал",
+      "manager_short": "Калбаев",
+      "last": "2025-12-22"
+    },
+    {
+      "client": "Сорокин Захар Рамазович ИП // ЭДО",
+      "revenue": 544957.61,
+      "docs": 38,
+      "avg_first": 22988.86,
+      "avg_last": 5693.12,
+      "avg_delta": -17295.74,
       "avg_2024": null,
-      "avg_2026": 12222.7,
+      "avg_2026": 5577.82,
       "status": "живой",
       "manager_short": "Калбаев",
-      "last": "2026-08-13"
+      "last": "2026-08-19"
     },
     {
       "client": "ИП Казаров В.В ",
@@ -14134,11 +11978,11 @@ window.REPORT = {
     },
     {
       "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
-      "revenue": 4076716.97,
-      "docs": 106,
-      "avg_first": 46361.6,
-      "avg_last": 30557.58,
-      "avg_delta": -15804.02,
+      "revenue": 4073316.97,
+      "docs": 105,
+      "avg_first": 47193.39,
+      "avg_last": 30552.09,
+      "avg_delta": -16641.29,
       "avg_2024": 64233.22,
       "avg_2026": 24547.87,
       "status": "живой",
@@ -14157,19 +12001,6 @@ window.REPORT = {
       "status": "пропал",
       "manager_short": "Гудилов",
       "last": "2024-07-09"
-    },
-    {
-      "client": "Зорина Надежда Александровна ИП",
-      "revenue": 235825.51,
-      "docs": 10,
-      "avg_first": 31251.84,
-      "avg_last": 15913.26,
-      "avg_delta": -15338.58,
-      "avg_2024": 30666.67,
-      "avg_2026": 43200.0,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "last": "2026-03-27"
     },
     {
       "client": "Якушев Вадим Николаевич ИП",
@@ -14250,17 +12081,30 @@ window.REPORT = {
       "last": "2026-04-06"
     },
     {
-      "client": "ТСТ ООО 7203274578",
-      "revenue": 37244.87,
-      "docs": 6,
-      "avg_first": 11320.87,
-      "avg_last": 1094.08,
-      "avg_delta": -10226.79,
+      "client": "ТНТ ООО // ЭДО",
+      "revenue": 26701.0,
+      "docs": 4,
+      "avg_first": 12129.0,
+      "avg_last": 1221.5,
+      "avg_delta": -10907.5,
       "avg_2024": null,
+      "avg_2026": 970.33,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "last": "2026-08-19"
+    },
+    {
+      "client": "Баязитов Ридан ФЛ",
+      "revenue": 138222.56,
+      "docs": 12,
+      "avg_first": 16951.5,
+      "avg_last": 6085.59,
+      "avg_delta": -10865.91,
+      "avg_2024": 16272.71,
       "avg_2026": null,
       "status": "пропал",
-      "manager_short": "Никитина",
-      "last": "2025-10-23"
+      "manager_short": "Зубарева",
+      "last": "2025-12-11"
     },
     {
       "client": "СТАЛЬСТРОЙИНДУСТРИЯ72 ООО",
@@ -14274,32 +12118,6 @@ window.REPORT = {
       "status": "пропал",
       "manager_short": "Гудилов",
       "last": "2024-09-02"
-    },
-    {
-      "client": "МАЛЬКОВСКОЕ АО",
-      "revenue": 108332.0,
-      "docs": 8,
-      "avg_first": 18581.5,
-      "avg_last": 8501.5,
-      "avg_delta": -10080.0,
-      "avg_2024": 16755.2,
-      "avg_2026": 9059.0,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "last": "2026-05-12"
-    },
-    {
-      "client": "БУРСТРОЙВОД ООО // ЭДО",
-      "revenue": 1189716.02,
-      "docs": 118,
-      "avg_first": 14925.62,
-      "avg_last": 5239.06,
-      "avg_delta": -9686.57,
-      "avg_2024": null,
-      "avg_2026": 5003.45,
-      "status": "живой",
-      "manager_short": "Калбаев",
-      "last": "2026-08-16"
     },
     {
       "client": "ДОМ ИНВЕСТ ООО // ЭДО",
@@ -14339,6 +12157,19 @@ window.REPORT = {
       "status": "пропал",
       "manager_short": "Гудилов",
       "last": "2025-04-23"
+    },
+    {
+      "client": "БУРСТРОЙВОД ООО // ЭДО",
+      "revenue": 1051901.02,
+      "docs": 112,
+      "avg_first": 13831.79,
+      "avg_last": 4952.16,
+      "avg_delta": -8879.63,
+      "avg_2024": null,
+      "avg_2026": 5003.45,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "last": "2026-08-16"
     },
     {
       "client": "ПК МОРОШКА ДВ ООО",
@@ -14393,19 +12224,6 @@ window.REPORT = {
       "last": "2026-02-06"
     },
     {
-      "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
-      "revenue": 205686.63,
-      "docs": 18,
-      "avg_first": 15236.51,
-      "avg_last": 7617.56,
-      "avg_delta": -7618.95,
-      "avg_2024": null,
-      "avg_2026": 4289.82,
-      "status": "уходит",
-      "manager_short": "Калбаев",
-      "last": "2026-03-13"
-    },
-    {
       "client": "ПК СК ООО 7203450150",
       "revenue": 865164.19,
       "docs": 40,
@@ -14417,6 +12235,32 @@ window.REPORT = {
       "status": "пропал",
       "manager_short": "Гудилов",
       "last": "2026-01-30"
+    },
+    {
+      "client": "МЕТАЛЛСНАБСБЫТ ООО КОМПАНИЯ // ЭДО",
+      "revenue": 45494.0,
+      "docs": 7,
+      "avg_first": 10557.0,
+      "avg_last": 3455.75,
+      "avg_delta": -7101.25,
+      "avg_2024": 15176.0,
+      "avg_2026": 4004.33,
+      "status": "живой",
+      "manager_short": "Гудилов",
+      "last": "2026-07-20"
+    },
+    {
+      "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
+      "revenue": 886946.28,
+      "docs": 89,
+      "avg_first": 13500.83,
+      "avg_last": 6509.11,
+      "avg_delta": -6991.72,
+      "avg_2024": null,
+      "avg_2026": 6788.92,
+      "status": "живой",
+      "manager_short": "Калбаев",
+      "last": "2026-08-15"
     }
   ],
   "like_down": [
@@ -14432,9 +12276,9 @@ window.REPORT = {
     {
       "client": "Дмитриев Евгений ФЛ",
       "avg_2024": 4964.0,
-      "avg_2026": 526.27,
-      "delta_pct": -89.4,
-      "revenue": 621460.57,
+      "avg_2026": 537.85,
+      "delta_pct": -89.2,
+      "revenue": 621003.79,
       "manager_short": "Зубарева",
       "status": "тишина"
     },
@@ -14457,22 +12301,22 @@ window.REPORT = {
       "status": "пропал"
     },
     {
-      "client": "СТРОЙ ООО 7203523471 // ЭДО",
-      "avg_2024": 35100.0,
-      "avg_2026": 4809.33,
-      "delta_pct": -86.3,
-      "revenue": 351190.64,
-      "manager_short": "Никитина",
-      "status": "пропал"
-    },
-    {
       "client": "ТК СТ ООО",
-      "avg_2024": 53446.47,
+      "avg_2024": 56892.97,
       "avg_2026": 7517.62,
-      "delta_pct": -85.9,
-      "revenue": 1862335.33,
+      "delta_pct": -86.8,
+      "revenue": 1824372.33,
       "manager_short": "Гудилов",
       "status": "тишина"
+    },
+    {
+      "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
+      "avg_2024": 1394.42,
+      "avg_2026": 208.0,
+      "delta_pct": -85.1,
+      "revenue": 81704.5,
+      "manager_short": "Калбаев",
+      "status": "уходит"
     },
     {
       "client": "''ПСК''ТЮМЕНЬСТРОЙМОНТАЖ'' // ЭДО // АРД",
@@ -14511,15 +12355,6 @@ window.REPORT = {
       "status": "уходит"
     },
     {
-      "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
-      "avg_2024": 1248.79,
-      "avg_2026": 208.0,
-      "delta_pct": -83.3,
-      "revenue": 89179.5,
-      "manager_short": "Калбаев",
-      "status": "уходит"
-    },
-    {
       "client": "ПК ВОСТОК",
       "avg_2024": 17370.0,
       "avg_2026": 3720.67,
@@ -14533,16 +12368,16 @@ window.REPORT = {
       "avg_2024": 9468.93,
       "avg_2026": 2029.2,
       "delta_pct": -78.6,
-      "revenue": 607210.34,
+      "revenue": 593413.34,
       "manager_short": "Калбаев",
       "status": "уходит"
     },
     {
       "client": "ЭВЕНТУМ СК ООО // ЭДО",
       "avg_2024": 11081.62,
-      "avg_2026": 2571.13,
-      "delta_pct": -76.8,
-      "revenue": 566469.44,
+      "avg_2026": 2541.07,
+      "delta_pct": -77.1,
+      "revenue": 557523.42,
       "manager_short": "Калбаев",
       "status": "живой"
     },
@@ -14562,6 +12397,15 @@ window.REPORT = {
       "delta_pct": -73.6,
       "revenue": 45494.0,
       "manager_short": "Гудилов",
+      "status": "живой"
+    },
+    {
+      "client": "ТАТРУС ООО // ЭДО",
+      "avg_2024": 19827.12,
+      "avg_2026": 5522.8,
+      "delta_pct": -72.1,
+      "revenue": 853954.51,
+      "manager_short": "Калбаев",
       "status": "живой"
     },
     {
@@ -14587,7 +12431,7 @@ window.REPORT = {
       "avg_2024": 5869.97,
       "avg_2026": 1770.57,
       "delta_pct": -69.8,
-      "revenue": 570869.12,
+      "revenue": 568321.06,
       "manager_short": "Гудилов",
       "status": "живой"
     },
@@ -14597,15 +12441,6 @@ window.REPORT = {
       "avg_2026": 1544.2,
       "delta_pct": -68.2,
       "revenue": 179980.08,
-      "manager_short": "Калбаев",
-      "status": "живой"
-    },
-    {
-      "client": "ТАТРУС ООО // ЭДО",
-      "avg_2024": 19827.12,
-      "avg_2026": 6314.71,
-      "delta_pct": -68.2,
-      "revenue": 891154.51,
       "manager_short": "Калбаев",
       "status": "живой"
     },
@@ -14641,8 +12476,17 @@ window.REPORT = {
       "avg_2024": 64233.22,
       "avg_2026": 24547.87,
       "delta_pct": -61.8,
-      "revenue": 4076716.97,
+      "revenue": 4073316.97,
       "manager_short": "Калбаев",
+      "status": "живой"
+    },
+    {
+      "client": "ЦЕНТР ФАСАДОВ ООО // ЭДО",
+      "avg_2024": 16692.03,
+      "avg_2026": 6604.67,
+      "delta_pct": -60.4,
+      "revenue": 1175744.12,
+      "manager_short": "Гудилов",
       "status": "живой"
     }
   ],
@@ -14651,10 +12495,10 @@ window.REPORT = {
       "name": "Калбаев Ислам Илгизович",
       "short": "Калбаев",
       "role": "b2b",
-      "revenue": 37627200.33,
-      "docs": 3304,
-      "clients": 301,
-      "avg_check": 11388.38,
+      "revenue": 35637317.06,
+      "docs": 3155,
+      "clients": 263,
+      "avg_check": 11295.5,
       "top_clients": [
         {
           "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
@@ -14664,14 +12508,14 @@ window.REPORT = {
         },
         {
           "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
-          "revenue": 2306967.38,
-          "docs": 122,
+          "revenue": 2260767.38,
+          "docs": 121,
           "last": "2026-02-05"
         },
         {
           "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
-          "revenue": 1653744.47,
-          "docs": 56,
+          "revenue": 1650344.47,
+          "docs": 55,
           "last": "2026-02-06"
         },
         {
@@ -14687,22 +12531,16 @@ window.REPORT = {
           "last": "2026-02-06"
         },
         {
-          "client": "Калбаев Ислам ФЛ",
-          "revenue": 1122610.86,
-          "docs": 84,
-          "last": "2026-08-05"
-        },
-        {
           "client": "ТД БЕТОН ООО // ЭДО",
           "revenue": 1115416.51,
           "docs": 59,
           "last": "2026-02-09"
         },
         {
-          "client": "БУРСТРОЙВОД ООО // ЭДО",
-          "revenue": 893068.72,
-          "docs": 70,
-          "last": "2026-02-06"
+          "client": "Калбаев Ислам ФЛ",
+          "revenue": 1031113.24,
+          "docs": 68,
+          "last": "2026-01-21"
         },
         {
           "client": "МАРТЕНСИТ ООО // ЭДО",
@@ -14715,6 +12553,12 @@ window.REPORT = {
           "revenue": 771732.38,
           "docs": 102,
           "last": "2026-02-09"
+        },
+        {
+          "client": "БУРСТРОЙВОД ООО // ЭДО",
+          "revenue": 755253.72,
+          "docs": 64,
+          "last": "2026-02-06"
         },
         {
           "client": "СТРОИТЕЛЬНЫЕ ТЕХНОЛОГИИ ООО",
@@ -14735,12 +12579,6 @@ window.REPORT = {
           "last": "2026-01-30"
         },
         {
-          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
-          "revenue": 631700.48,
-          "docs": 44,
-          "last": "2026-08-13"
-        },
-        {
           "client": "ТМ-РЕСУРС.УРАЛ ООО // ЭДО",
           "revenue": 585590.81,
           "docs": 73,
@@ -14751,6 +12589,12 @@ window.REPORT = {
           "revenue": 571774.46,
           "docs": 34,
           "last": "2025-01-11"
+        },
+        {
+          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
+          "revenue": 570248.22,
+          "docs": 41,
+          "last": "2026-02-09"
         },
         {
           "client": "ТОДЭП ГРУПП ООО // ЭДО",
@@ -14766,15 +12610,15 @@ window.REPORT = {
         },
         {
           "client": "ТПК ГАЗ ООО 7207022846 // ЭДО",
-          "revenue": 544778.24,
-          "docs": 83,
+          "revenue": 532978.24,
+          "docs": 82,
           "last": "2026-01-29"
         },
         {
           "client": "ФЕРРУМ ООО // ЭДО",
-          "revenue": 533518.86,
-          "docs": 37,
-          "last": "2026-07-07"
+          "revenue": 517696.23,
+          "docs": 35,
+          "last": "2026-01-22"
         }
       ],
       "all_clients": [
@@ -14786,14 +12630,14 @@ window.REPORT = {
         },
         {
           "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
-          "revenue": 2306967.38,
-          "docs": 122,
+          "revenue": 2260767.38,
+          "docs": 121,
           "last": "2026-02-05"
         },
         {
           "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
-          "revenue": 1653744.47,
-          "docs": 56,
+          "revenue": 1650344.47,
+          "docs": 55,
           "last": "2026-02-06"
         },
         {
@@ -14809,22 +12653,16 @@ window.REPORT = {
           "last": "2026-02-06"
         },
         {
-          "client": "Калбаев Ислам ФЛ",
-          "revenue": 1122610.86,
-          "docs": 84,
-          "last": "2026-08-05"
-        },
-        {
           "client": "ТД БЕТОН ООО // ЭДО",
           "revenue": 1115416.51,
           "docs": 59,
           "last": "2026-02-09"
         },
         {
-          "client": "БУРСТРОЙВОД ООО // ЭДО",
-          "revenue": 893068.72,
-          "docs": 70,
-          "last": "2026-02-06"
+          "client": "Калбаев Ислам ФЛ",
+          "revenue": 1031113.24,
+          "docs": 68,
+          "last": "2026-01-21"
         },
         {
           "client": "МАРТЕНСИТ ООО // ЭДО",
@@ -14837,6 +12675,12 @@ window.REPORT = {
           "revenue": 771732.38,
           "docs": 102,
           "last": "2026-02-09"
+        },
+        {
+          "client": "БУРСТРОЙВОД ООО // ЭДО",
+          "revenue": 755253.72,
+          "docs": 64,
+          "last": "2026-02-06"
         },
         {
           "client": "СТРОИТЕЛЬНЫЕ ТЕХНОЛОГИИ ООО",
@@ -14857,12 +12701,6 @@ window.REPORT = {
           "last": "2026-01-30"
         },
         {
-          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
-          "revenue": 631700.48,
-          "docs": 44,
-          "last": "2026-08-13"
-        },
-        {
           "client": "ТМ-РЕСУРС.УРАЛ ООО // ЭДО",
           "revenue": 585590.81,
           "docs": 73,
@@ -14873,6 +12711,12 @@ window.REPORT = {
           "revenue": 571774.46,
           "docs": 34,
           "last": "2025-01-11"
+        },
+        {
+          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
+          "revenue": 570248.22,
+          "docs": 41,
+          "last": "2026-02-09"
         },
         {
           "client": "ТОДЭП ГРУПП ООО // ЭДО",
@@ -14888,27 +12732,15 @@ window.REPORT = {
         },
         {
           "client": "ТПК ГАЗ ООО 7207022846 // ЭДО",
-          "revenue": 544778.24,
-          "docs": 83,
+          "revenue": 532978.24,
+          "docs": 82,
           "last": "2026-01-29"
         },
         {
           "client": "ФЕРРУМ ООО // ЭДО",
-          "revenue": 533518.86,
-          "docs": 37,
-          "last": "2026-07-07"
-        },
-        {
-          "client": "Сорокин Захар Рамазович ИП // ЭДО",
-          "revenue": 478781.36,
-          "docs": 19,
-          "last": "2025-11-27"
-        },
-        {
-          "client": "ТАТРУС ООО // ЭДО",
-          "revenue": 464091.08,
-          "docs": 45,
-          "last": "2026-02-25"
+          "revenue": 517696.23,
+          "docs": 35,
+          "last": "2026-01-22"
         },
         {
           "client": "ТЕХПРОМСЕРВИС ИНН 7203172456",
@@ -14917,16 +12749,22 @@ window.REPORT = {
           "last": "2026-02-03"
         },
         {
+          "client": "Сорокин Захар Рамазович ИП // ЭДО",
+          "revenue": 427823.36,
+          "docs": 17,
+          "last": "2025-11-27"
+        },
+        {
+          "client": "ТАТРУС ООО // ЭДО",
+          "revenue": 426891.08,
+          "docs": 42,
+          "last": "2026-02-06"
+        },
+        {
           "client": "ЦЕНТРСПЕЦТЕХ ООО // ЭДО",
           "revenue": 407441.73,
           "docs": 37,
           "last": "2026-02-06"
-        },
-        {
-          "client": "ТЮМЕНПОЛИМЕРГАЗ // ЭДО",
-          "revenue": 390171.49,
-          "docs": 50,
-          "last": "2026-08-13"
         },
         {
           "client": "ПРЕМИУМ ФАСАД ООО // ЭДО",
@@ -14942,8 +12780,8 @@ window.REPORT = {
         },
         {
           "client": "РУСЭКО ООО // ЭДО",
-          "revenue": 379862.1,
-          "docs": 26,
+          "revenue": 366065.1,
+          "docs": 25,
           "last": "2026-02-05"
         },
         {
@@ -14954,8 +12792,8 @@ window.REPORT = {
         },
         {
           "client": "ЦЕНТР ФАСАДОВ ООО // ЭДО",
-          "revenue": 352127.02,
-          "docs": 24,
+          "revenue": 347977.02,
+          "docs": 23,
           "last": "2025-11-24"
         },
         {
@@ -14965,16 +12803,16 @@ window.REPORT = {
           "last": "2025-09-30"
         },
         {
-          "client": "СТРОЙСИБ ООО // ЭДО",
-          "revenue": 338383.22,
-          "docs": 93,
+          "client": "ТЮМЕНПОЛИМЕРГАЗ // ЭДО",
+          "revenue": 337898.94,
+          "docs": 46,
           "last": "2026-02-05"
         },
         {
-          "client": "РАССВЕТ КФХ // ЭДО",
-          "revenue": 333076.44,
-          "docs": 31,
-          "last": "2026-08-13"
+          "client": "СТРОЙСИБ ООО // ЭДО",
+          "revenue": 310401.22,
+          "docs": 91,
+          "last": "2026-02-05"
         },
         {
           "client": "Выползов Дмитрий Николаевич ИП // ЭДО",
@@ -14987,12 +12825,6 @@ window.REPORT = {
           "revenue": 274369.0,
           "docs": 39,
           "last": "2026-01-29"
-        },
-        {
-          "client": "РА-СТРОЙ ООО // ЭДО",
-          "revenue": 264536.0,
-          "docs": 6,
-          "last": "2025-08-11"
         },
         {
           "client": "АСТ СЕРВИС-ТЮМЕНЬ ООО // ЭДО",
@@ -15014,21 +12846,9 @@ window.REPORT = {
         },
         {
           "client": "ЭВЕНТУМ СК ООО // ЭДО",
-          "revenue": 246088.41,
-          "docs": 50,
-          "last": "2026-08-13"
-        },
-        {
-          "client": "Зорина Надежда Александровна ИП",
-          "revenue": 235825.51,
-          "docs": 10,
-          "last": "2026-03-27"
-        },
-        {
-          "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
-          "revenue": 235662.86,
-          "docs": 18,
-          "last": "2026-02-12"
+          "revenue": 237142.39,
+          "docs": 47,
+          "last": "2026-02-09"
         },
         {
           "client": "СИТИСЕРВИС ООО // ЭДО",
@@ -15049,6 +12869,12 @@ window.REPORT = {
           "last": "2026-02-06"
         },
         {
+          "client": "РАССВЕТ КФХ // ЭДО",
+          "revenue": 212636.3,
+          "docs": 22,
+          "last": "2025-12-26"
+        },
+        {
           "client": "АТ-ТРАНС ООО // ЭДО",
           "revenue": 206638.99,
           "docs": 25,
@@ -15061,10 +12887,22 @@ window.REPORT = {
           "last": "2026-02-09"
         },
         {
-          "client": "ТРАНСМАШ ООО 7203306501 // ЭДО",
-          "revenue": 200337.08,
-          "docs": 53,
+          "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
+          "revenue": 203232.86,
+          "docs": 17,
           "last": "2026-02-06"
+        },
+        {
+          "client": "ТРАНСМАШ ООО 7203306501 // ЭДО",
+          "revenue": 197789.02,
+          "docs": 52,
+          "last": "2026-02-06"
+        },
+        {
+          "client": "Зорина Надежда Александровна ИП",
+          "revenue": 192625.51,
+          "docs": 9,
+          "last": "2025-12-22"
         },
         {
           "client": "ВОСХОД ООО (УЛЫБКА) // ЭДО",
@@ -15077,12 +12915,6 @@ window.REPORT = {
           "revenue": 181739.16,
           "docs": 29,
           "last": "2026-01-30"
-        },
-        {
-          "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
-          "revenue": 180744.63,
-          "docs": 14,
-          "last": "2026-02-03"
         },
         {
           "client": "УАП ЕВРОПА+АЗИЯ ООО",
@@ -15107,18 +12939,6 @@ window.REPORT = {
           "revenue": 149379.2,
           "docs": 6,
           "last": "2025-12-15"
-        },
-        {
-          "client": "МОЙ ДОМ ООО // ЭДО",
-          "revenue": 138743.05,
-          "docs": 9,
-          "last": "2026-04-25"
-        },
-        {
-          "client": "ВОСХОД АО 7203006385",
-          "revenue": 136347.76,
-          "docs": 18,
-          "last": "2026-02-09"
         },
         {
           "client": "ПРЕМИУМ БОРДЮР ООО // ЭДО",
@@ -15157,16 +12977,16 @@ window.REPORT = {
           "last": "2026-02-06"
         },
         {
-          "client": "АГАТ ООО 7224088580",
-          "revenue": 119321.47,
-          "docs": 18,
-          "last": "2026-08-05"
-        },
-        {
           "client": "Бронников Тимофей Владимирович ИП",
           "revenue": 117404.0,
           "docs": 2,
           "last": "2025-02-21"
+        },
+        {
+          "client": "АГАТ ООО 7224088580",
+          "revenue": 117231.47,
+          "docs": 17,
+          "last": "2025-12-23"
         },
         {
           "client": "СК БИКАС ООО // ЭДО",
@@ -15211,6 +13031,12 @@ window.REPORT = {
           "last": "2025-09-11"
         },
         {
+          "client": "ВОСХОД АО 7203006385",
+          "revenue": 97258.76,
+          "docs": 16,
+          "last": "2026-02-09"
+        },
+        {
           "client": "ДИКТИС",
           "revenue": 96570.0,
           "docs": 1,
@@ -15229,22 +13055,22 @@ window.REPORT = {
           "last": "2025-10-13"
         },
         {
-          "client": "Баязитов Ридан ФЛ",
-          "revenue": 88136.99,
-          "docs": 9,
-          "last": "2026-06-25"
-        },
-        {
           "client": "ЭВЕРЕСТДОР ООО // ЭДО",
           "revenue": 87951.99,
           "docs": 19,
           "last": "2026-02-05"
         },
         {
+          "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
+          "revenue": 85549.61,
+          "docs": 13,
+          "last": "2026-02-03"
+        },
+        {
           "client": "ПРОМЕТАЛЛ ООО",
-          "revenue": 85727.23,
-          "docs": 12,
-          "last": "2026-07-15"
+          "revenue": 83664.73,
+          "docs": 11,
+          "last": "2026-01-30"
         },
         {
           "client": "ТПЗ ООО",
@@ -15277,12 +13103,6 @@ window.REPORT = {
           "last": "2026-01-22"
         },
         {
-          "client": "ТПК ТЕСЛА ООО // ЭДО",
-          "revenue": 75049.08,
-          "docs": 15,
-          "last": "2026-07-26"
-        },
-        {
           "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
           "revenue": 73907.0,
           "docs": 3,
@@ -15293,6 +13113,12 @@ window.REPORT = {
           "revenue": 73242.0,
           "docs": 4,
           "last": "2024-11-18"
+        },
+        {
+          "client": "ТПК ТЕСЛА ООО // ЭДО",
+          "revenue": 71941.08,
+          "docs": 13,
+          "last": "2026-01-15"
         },
         {
           "client": "АКВАИНЖ ООО",
@@ -15325,18 +13151,6 @@ window.REPORT = {
           "last": "2025-08-28"
         },
         {
-          "client": "Роженцева Екатерина Александровна ИП 720302540710 // ЭДО",
-          "revenue": 65060.0,
-          "docs": 3,
-          "last": "2025-04-14"
-        },
-        {
-          "client": "Интернет Магазин ФЛ",
-          "revenue": 64960.0,
-          "docs": 2,
-          "last": "2026-05-16"
-        },
-        {
           "client": "УСС ООО 7203490917",
           "revenue": 64698.0,
           "docs": 8,
@@ -15349,46 +13163,22 @@ window.REPORT = {
           "last": "2026-02-05"
         },
         {
-          "client": "СК РИКО ООО // ЭДО",
-          "revenue": 59000.0,
-          "docs": 1,
-          "last": "2025-12-30"
-        },
-        {
-          "client": "ПРАЙМ ТЕХНОЛОДЖИ ООО",
-          "revenue": 58300.0,
-          "docs": 1,
-          "last": "2025-07-25"
+          "client": "МОЙ ДОМ ООО // ЭДО",
+          "revenue": 57982.99,
+          "docs": 7,
+          "last": "2026-02-17"
         },
         {
           "client": "НОВОКСТРОЙ ООО // ЭДО",
-          "revenue": 57530.31,
-          "docs": 9,
-          "last": "2026-06-08"
-        },
-        {
-          "client": "МАЛЬКОВСКОЕ АО",
-          "revenue": 56168.0,
-          "docs": 4,
-          "last": "2026-05-12"
-        },
-        {
-          "client": "Аминова Нурания Каримовна ИП",
-          "revenue": 54179.48,
-          "docs": 5,
-          "last": "2026-05-31"
+          "revenue": 53980.31,
+          "docs": 6,
+          "last": "2026-01-17"
         },
         {
           "client": "Патриотов Денис ФЛ",
           "revenue": 53590.62,
           "docs": 3,
           "last": "2024-12-10"
-        },
-        {
-          "client": "ЭЛКОМ ООО // ЭДО",
-          "revenue": 52527.97,
-          "docs": 26,
-          "last": "2026-02-09"
         },
         {
           "client": "СУ-47 ООО 7203533470 // ЭДО",
@@ -15409,16 +13199,22 @@ window.REPORT = {
           "last": "2025-12-26"
         },
         {
+          "client": "ЭЛКОМ ООО // ЭДО",
+          "revenue": 48903.97,
+          "docs": 25,
+          "last": "2026-02-09"
+        },
+        {
           "client": "ССТ ООО // ЭДО   ",
           "revenue": 46711.88,
           "docs": 13,
           "last": "2025-08-20"
         },
         {
-          "client": "АМАКОН ООО // ЭДО",
-          "revenue": 46673.37,
-          "docs": 11,
-          "last": "2026-06-25"
+          "client": "МАЛЬКОВСКОЕ АО",
+          "revenue": 45778.0,
+          "docs": 3,
+          "last": "2025-11-19"
         },
         {
           "client": "Ушакова Елена Юрьевна",
@@ -15433,10 +13229,10 @@ window.REPORT = {
           "last": "2025-03-06"
         },
         {
-          "client": "ДСС ООО",
-          "revenue": 43681.6,
-          "docs": 3,
-          "last": "2026-08-13"
+          "client": "Аминова Нурания Каримовна ИП",
+          "revenue": 43149.32,
+          "docs": 4,
+          "last": "2025-10-24"
         },
         {
           "client": "БМ ООО НПО // ЭДО",
@@ -15457,16 +13253,16 @@ window.REPORT = {
           "last": "2025-06-25"
         },
         {
+          "client": "РА-СТРОЙ ООО // ЭДО",
+          "revenue": 41900.0,
+          "docs": 2,
+          "last": "2025-07-31"
+        },
+        {
           "client": "МЕТАЛЛ-МОНТАЖ ООО",
           "revenue": 41181.0,
           "docs": 17,
           "last": "2025-11-28"
-        },
-        {
-          "client": "Назмутдинов Фаим Загитович ФЛ",
-          "revenue": 40908.85,
-          "docs": 2,
-          "last": "2026-05-11"
         },
         {
           "client": "СЕРВИС - ЭКОЛОГИЯ ООО 7204174618 // ЭДО",
@@ -15475,10 +13271,22 @@ window.REPORT = {
           "last": "2025-08-01"
         },
         {
+          "client": "АМАКОН ООО // ЭДО",
+          "revenue": 39875.37,
+          "docs": 9,
+          "last": "2026-01-23"
+        },
+        {
           "client": "МАШСИБ ООО",
           "revenue": 38853.4,
           "docs": 5,
           "last": "2026-02-04"
+        },
+        {
+          "client": "Интернет Магазин ФЛ",
+          "revenue": 38850.0,
+          "docs": 1,
+          "last": "2025-04-10"
         },
         {
           "client": "МАСТЕР-ЦЕНТР ООО // ЭДО",
@@ -15503,12 +13311,6 @@ window.REPORT = {
           "revenue": 36990.0,
           "docs": 1,
           "last": "2025-10-24"
-        },
-        {
-          "client": "МОЛОЧНЫЙ ЗАВОД АБСОЛЮТ ООО",
-          "revenue": 36709.0,
-          "docs": 1,
-          "last": "2025-12-08"
         },
         {
           "client": "АРМАДА ООО // ЭДО",
@@ -15539,12 +13341,6 @@ window.REPORT = {
           "revenue": 33361.0,
           "docs": 6,
           "last": "2025-12-25"
-        },
-        {
-          "client": "ГРАНДБАЗИС ООО",
-          "revenue": 33027.5,
-          "docs": 3,
-          "last": "2025-10-22"
         },
         {
           "client": "ТОК ООО 7203542097 // ЭДО",
@@ -15613,18 +13409,6 @@ window.REPORT = {
           "last": "2025-05-28"
         },
         {
-          "client": "ТЭС ООО // ЭДО",
-          "revenue": 27142.56,
-          "docs": 11,
-          "last": "2026-05-04"
-        },
-        {
-          "client": "СИМ ООО",
-          "revenue": 27000.0,
-          "docs": 1,
-          "last": "2025-07-22"
-        },
-        {
           "client": "СВАРПРО ООО // ЭДО",
           "revenue": 26865.0,
           "docs": 5,
@@ -15635,12 +13419,6 @@ window.REPORT = {
           "revenue": 26660.0,
           "docs": 1,
           "last": "2025-10-11"
-        },
-        {
-          "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
-          "revenue": 26598.9,
-          "docs": 4,
-          "last": "2025-11-14"
         },
         {
           "client": "ДУЭТ ООО",
@@ -15679,6 +13457,24 @@ window.REPORT = {
           "last": "2025-08-12"
         },
         {
+          "client": "Роженцева Екатерина Александровна ИП 720302540710 // ЭДО",
+          "revenue": 24665.0,
+          "docs": 1,
+          "last": "2025-04-14"
+        },
+        {
+          "client": "ТЭС ООО // ЭДО",
+          "revenue": 24572.56,
+          "docs": 10,
+          "last": "2026-02-06"
+        },
+        {
+          "client": "Баязитов Ридан ФЛ",
+          "revenue": 24313.56,
+          "docs": 5,
+          "last": "2025-12-11"
+        },
+        {
           "client": "ТНТ ООО // ЭДО",
           "revenue": 23790.0,
           "docs": 1,
@@ -15689,6 +13485,12 @@ window.REPORT = {
           "revenue": 23490.0,
           "docs": 2,
           "last": "2024-11-29"
+        },
+        {
+          "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
+          "revenue": 23000.9,
+          "docs": 3,
+          "last": "2025-11-14"
         },
         {
           "client": "ПК МОРОШКА ДВ ООО",
@@ -15721,18 +13523,6 @@ window.REPORT = {
           "last": "2026-02-06"
         },
         {
-          "client": "ГЕАН ООО // ЭДО",
-          "revenue": 21900.0,
-          "docs": 1,
-          "last": "2025-10-31"
-        },
-        {
-          "client": "Исоматов Иноят",
-          "revenue": 21847.0,
-          "docs": 1,
-          "last": "2026-05-23"
-        },
-        {
           "client": "Романчук Татьяна Ивановна",
           "revenue": 21297.0,
           "docs": 2,
@@ -15749,12 +13539,6 @@ window.REPORT = {
           "revenue": 20258.56,
           "docs": 5,
           "last": "2024-12-13"
-        },
-        {
-          "client": "АВТО-25 ООО",
-          "revenue": 20214.75,
-          "docs": 1,
-          "last": "2026-07-31"
         },
         {
           "client": "ФГП ВО ЖДТ РОССИИ",
@@ -15781,28 +13565,10 @@ window.REPORT = {
           "last": "2026-01-15"
         },
         {
-          "client": "Хованов Олег Алексеевич ИП",
-          "revenue": 19732.0,
-          "docs": 2,
-          "last": "2025-07-04"
-        },
-        {
           "client": "Горчаков Дмитрий ФЛ",
           "revenue": 19600.0,
           "docs": 1,
           "last": "2025-04-09"
-        },
-        {
-          "client": "СТИЛЬ ЖИЗНИ ООО",
-          "revenue": 19380.0,
-          "docs": 2,
-          "last": "2025-08-14"
-        },
-        {
-          "client": "ГРАДОЛИК ООО // ЭДО",
-          "revenue": 19349.97,
-          "docs": 4,
-          "last": "2026-04-13"
         },
         {
           "client": "СБИ ООО // ЭДО",
@@ -15829,34 +13595,22 @@ window.REPORT = {
           "last": "2025-02-14"
         },
         {
-          "client": "НЕОСТРОЙ ООО // ЭДО",
-          "revenue": 18539.0,
-          "docs": 5,
-          "last": "2026-06-08"
-        },
-        {
           "client": "СК СИБСТРОЙГРАД ООО // ЭДО",
           "revenue": 18235.0,
           "docs": 3,
           "last": "2025-09-29"
         },
         {
-          "client": "ЗСТД ООО // ЭДО",
-          "revenue": 18150.0,
+          "client": "ГРАНДБАЗИС ООО",
+          "revenue": 18088.5,
           "docs": 1,
-          "last": "2025-11-07"
+          "last": "2025-10-22"
         },
         {
-          "client": "Люблинская Виолетта Павловна ФЛ",
-          "revenue": 17785.9,
-          "docs": 1,
-          "last": "2025-10-06"
-        },
-        {
-          "client": "ПРЕМЬЕРСТРОЙ АО // ЭДО",
-          "revenue": 17300.0,
-          "docs": 1,
-          "last": "2025-04-23"
+          "client": "НЕОСТРОЙ ООО // ЭДО",
+          "revenue": 17365.0,
+          "docs": 3,
+          "last": "2025-04-15"
         },
         {
           "client": "М-КРАФТ ООО",
@@ -15865,22 +13619,10 @@ window.REPORT = {
           "last": "2025-06-26"
         },
         {
-          "client": "ПЕТРОЭНЕРГОКОМПЛЕКТ ООО // ЭДО",
-          "revenue": 17160.0,
-          "docs": 3,
-          "last": "2025-07-22"
-        },
-        {
           "client": "ТЮМЕНЬСПЕЦСТАЛЬ ООО ПК",
           "revenue": 17062.52,
           "docs": 8,
           "last": "2025-12-22"
-        },
-        {
-          "client": "ГРИН-РЭД ООО ТСК",
-          "revenue": 16980.0,
-          "docs": 1,
-          "last": "2024-11-22"
         },
         {
           "client": "ПАРТНЕР ООО 7203289158 // ЭДО",
@@ -15913,12 +13655,6 @@ window.REPORT = {
           "last": "2025-07-29"
         },
         {
-          "client": "ТЮМЕНГАЗСТРОЙ ООО СЗ",
-          "revenue": 14500.0,
-          "docs": 2,
-          "last": "2025-07-14"
-        },
-        {
           "client": "ВЕВАНТА ООО // ЭДО",
           "revenue": 14350.0,
           "docs": 5,
@@ -15943,22 +13679,16 @@ window.REPORT = {
           "last": "2025-06-23"
         },
         {
-          "client": "Снохин Вячеслав Николаевич ИП",
-          "revenue": 13663.0,
-          "docs": 5,
-          "last": "2024-11-15"
+          "client": "ГРАДОЛИК ООО // ЭДО",
+          "revenue": 13629.97,
+          "docs": 3,
+          "last": "2025-10-27"
         },
         {
           "client": "ГАРАНТ ООО (только предоплата)",
           "revenue": 13420.0,
           "docs": 3,
           "last": "2025-04-29"
-        },
-        {
-          "client": "СМУ 17 ООО // ЭДО",
-          "revenue": 13410.0,
-          "docs": 1,
-          "last": "2025-06-23"
         },
         {
           "client": "ОКНАСТРОЙ ООО",
@@ -15971,12 +13701,6 @@ window.REPORT = {
           "revenue": 12847.14,
           "docs": 3,
           "last": "2025-09-19"
-        },
-        {
-          "client": "РММ ООО",
-          "revenue": 12828.0,
-          "docs": 4,
-          "last": "2025-11-21"
         },
         {
           "client": "СПС-ХОЛДИНГ ООО",
@@ -15997,6 +13721,12 @@ window.REPORT = {
           "last": "2025-05-29"
         },
         {
+          "client": "Снохин Вячеслав Николаевич ИП",
+          "revenue": 11703.0,
+          "docs": 4,
+          "last": "2024-11-15"
+        },
+        {
           "client": "ТЕХНОСЕРВИС ООО 7203476648 // ЭДО",
           "revenue": 11551.15,
           "docs": 2,
@@ -16007,12 +13737,6 @@ window.REPORT = {
           "revenue": 11478.49,
           "docs": 1,
           "last": "2025-10-21"
-        },
-        {
-          "client": "МСК ООО (Гаврилов)",
-          "revenue": 11407.0,
-          "docs": 1,
-          "last": "2024-11-22"
         },
         {
           "client": "ПРОМПОЛТЮМЕНЬ ООО СК 7203501125 // ЭДО",
@@ -16045,10 +13769,10 @@ window.REPORT = {
           "last": "2025-08-02"
         },
         {
-          "client": "Карасёв Евгений Вячеславович ИП // ЭДО",
-          "revenue": 9990.0,
-          "docs": 1,
-          "last": "2024-11-22"
+          "client": "РММ ООО",
+          "revenue": 9508.0,
+          "docs": 3,
+          "last": "2025-05-28"
         },
         {
           "client": "Саргсян Артур ФЛ",
@@ -16061,12 +13785,6 @@ window.REPORT = {
           "revenue": 9283.0,
           "docs": 1,
           "last": "2025-05-19"
-        },
-        {
-          "client": "АРГОПЛАСТ ООО // ЭДО",
-          "revenue": 8493.0,
-          "docs": 2,
-          "last": "2025-10-17"
         },
         {
           "client": "ЛЮКССТРОЙ ООО",
@@ -16135,22 +13853,10 @@ window.REPORT = {
           "last": "2025-11-13"
         },
         {
-          "client": "ЖЕМЧУЖИНА ЗАО",
-          "revenue": 6800.0,
-          "docs": 1,
-          "last": "2024-11-25"
-        },
-        {
           "client": "Ишанов Сираж Урунгалиевич ИП",
           "revenue": 6760.0,
           "docs": 2,
           "last": "2025-11-21"
-        },
-        {
-          "client": "ЗАВОД ОКОН ООО // ЭДО",
-          "revenue": 6748.32,
-          "docs": 1,
-          "last": "2025-08-14"
         },
         {
           "client": "СИСТЕМА БЕЗОПАСНОСТИ ООО",
@@ -16171,18 +13877,6 @@ window.REPORT = {
           "last": "2025-09-09"
         },
         {
-          "client": "БРОННИЦА ООО",
-          "revenue": 6500.0,
-          "docs": 1,
-          "last": "2024-11-14"
-        },
-        {
-          "client": "ТОПЕНАР ООО ЭДО",
-          "revenue": 6476.0,
-          "docs": 1,
-          "last": "2024-12-25"
-        },
-        {
           "client": "МЕТАЛЛСНАБСБЫТ ООО КОМПАНИЯ // ЭДО",
           "revenue": 6450.0,
           "docs": 4,
@@ -16199,12 +13893,6 @@ window.REPORT = {
           "revenue": 6390.0,
           "docs": 1,
           "last": "2025-08-08"
-        },
-        {
-          "client": "Гольнев Сергей",
-          "revenue": 6333.16,
-          "docs": 4,
-          "last": "2026-05-16"
         },
         {
           "client": "НУЛЛА ООО",
@@ -16243,12 +13931,6 @@ window.REPORT = {
           "last": "2025-11-18"
         },
         {
-          "client": "АМ - ГРУПП ООО 7202230715 // ЭДО",
-          "revenue": 5692.25,
-          "docs": 2,
-          "last": "2026-07-22"
-        },
-        {
           "client": "ГАРНИ ГРУПП ООО",
           "revenue": 5670.0,
           "docs": 2,
@@ -16261,28 +13943,10 @@ window.REPORT = {
           "last": "2025-08-06"
         },
         {
-          "client": "ГУД ХАУС ООО // ЭДО",
-          "revenue": 5450.0,
-          "docs": 1,
-          "last": "2026-07-29"
-        },
-        {
-          "client": "Кожевникова Ольга ФЛ",
-          "revenue": 5209.0,
-          "docs": 1,
-          "last": "2026-04-17"
-        },
-        {
           "client": "Ситников Олег Игоревич ФЛ",
           "revenue": 5003.6,
           "docs": 1,
           "last": "2025-12-28"
-        },
-        {
-          "client": "Алешкова Юлия ФЛ",
-          "revenue": 4877.63,
-          "docs": 3,
-          "last": "2026-05-16"
         },
         {
           "client": "АВТОГРАД МАСТЕР ООО // ЭДО",
@@ -16333,12 +13997,6 @@ window.REPORT = {
           "last": "2025-10-01"
         },
         {
-          "client": "АРКАДА ООО 7204189036 // ЭДО",
-          "revenue": 3840.0,
-          "docs": 2,
-          "last": "2025-09-03"
-        },
-        {
           "client": "ДИЗТОП ООО // ЭДО",
           "revenue": 3717.3,
           "docs": 3,
@@ -16357,16 +14015,16 @@ window.REPORT = {
           "last": "2024-11-22"
         },
         {
-          "client": "Дмитриев Сергей Дмитриевич ИП",
-          "revenue": 3700.0,
-          "docs": 1,
-          "last": "2025-06-10"
-        },
-        {
           "client": "СПК АМИДИС ООО // ЭДО ",
           "revenue": 3555.0,
           "docs": 1,
           "last": "2024-12-11"
+        },
+        {
+          "client": "АРКАДА ООО 7204189036 // ЭДО",
+          "revenue": 3420.0,
+          "docs": 1,
+          "last": "2025-09-03"
         },
         {
           "client": "Дистрибьютор СТМ ФЛ",
@@ -16379,12 +14037,6 @@ window.REPORT = {
           "revenue": 3170.76,
           "docs": 1,
           "last": "2026-01-27"
-        },
-        {
-          "client": "Синиченков Дмитрий Николаевич ИП ",
-          "revenue": 3125.0,
-          "docs": 1,
-          "last": "2026-04-08"
         },
         {
           "client": "Булатов Саит Сабитович ИП",
@@ -16403,12 +14055,6 @@ window.REPORT = {
           "revenue": 2822.0,
           "docs": 1,
           "last": "2024-11-07"
-        },
-        {
-          "client": "ИНТЕРСТРОЙ ООО",
-          "revenue": 2780.0,
-          "docs": 1,
-          "last": "2024-12-12"
         },
         {
           "client": "ЮГ72 ООО",
@@ -16471,18 +14117,6 @@ window.REPORT = {
           "last": "2024-10-25"
         },
         {
-          "client": "МАОУ СОШ №45 ГОРОДА ТЮМЕНИ // ЭДО",
-          "revenue": 1794.0,
-          "docs": 1,
-          "last": "2026-02-25"
-        },
-        {
-          "client": "Охотников Сергей Александрович ИП",
-          "revenue": 1660.0,
-          "docs": 1,
-          "last": "2026-07-29"
-        },
-        {
           "client": "Малявка Жанна Фаритовна ИП",
           "revenue": 1558.0,
           "docs": 1,
@@ -16493,12 +14127,6 @@ window.REPORT = {
           "revenue": 1540.0,
           "docs": 1,
           "last": "2024-11-12"
-        },
-        {
-          "client": "МАФЕСТ ООО // ЭДО",
-          "revenue": 1520.5,
-          "docs": 1,
-          "last": "2026-01-20"
         },
         {
           "client": "ПАРТНЕР ООО  ТПП",
@@ -16513,16 +14141,22 @@ window.REPORT = {
           "last": "2025-08-15"
         },
         {
-          "client": "СК ВЕКТОР ООО // ЭДО",
-          "revenue": 1350.0,
-          "docs": 1,
-          "last": "2025-05-14"
-        },
-        {
           "client": "СКС ООО 6686170036",
           "revenue": 805.0,
           "docs": 1,
           "last": "2026-01-13"
+        },
+        {
+          "client": "АРГОПЛАСТ ООО // ЭДО",
+          "revenue": 690.0,
+          "docs": 1,
+          "last": "2025-08-22"
+        },
+        {
+          "client": "АМ - ГРУПП ООО 7202230715 // ЭДО",
+          "revenue": 680.0,
+          "docs": 1,
+          "last": "2025-10-21"
         },
         {
           "client": "БИНГ ООО",
@@ -16549,34 +14183,16 @@ window.REPORT = {
           "last": "2025-05-07"
         },
         {
-          "client": "Дмитриев Евгений ФЛ",
-          "revenue": 456.78,
-          "docs": 1,
-          "last": "2026-06-04"
-        },
-        {
           "client": "МОНТАЖНЫЕ ТЕХНОЛОГИИ ООО // ЭДО",
           "revenue": 445.0,
           "docs": 1,
           "last": "2025-11-25"
         },
         {
-          "client": "СТИМУЛ ООО",
-          "revenue": 373.08,
-          "docs": 1,
-          "last": "2025-09-24"
-        },
-        {
           "client": "ДОР-СЕРВИС ООО СК 7203168594 // ЭДО",
           "revenue": 371.8,
           "docs": 1,
           "last": "2025-08-16"
-        },
-        {
-          "client": "ЕВРАКОР АО (отгрузка только по согласованным счетам! Гаврилов)",
-          "revenue": 285.0,
-          "docs": 1,
-          "last": "2024-12-13"
         },
         {
           "client": "СПЕКТР ООО // ЭДО",
@@ -16590,10 +14206,10 @@ window.REPORT = {
       "name": "Гудилов Евгений Николаевич",
       "short": "Гудилов",
       "role": "former",
-      "revenue": 31692308.31,
-      "docs": 2486,
-      "clients": 263,
-      "avg_check": 12748.31,
+      "revenue": 31636336.26,
+      "docs": 2480,
+      "clients": 262,
+      "avg_check": 12756.59,
       "top_clients": [
         {
           "client": "ИП Казаров В.В ",
@@ -16615,8 +14231,8 @@ window.REPORT = {
         },
         {
           "client": "ТК СТ ООО",
-          "revenue": 999970.57,
-          "docs": 16,
+          "revenue": 962007.57,
+          "docs": 14,
           "last": "2024-10-30"
         },
         {
@@ -16737,8 +14353,8 @@ window.REPORT = {
         },
         {
           "client": "ТК СТ ООО",
-          "revenue": 999970.57,
-          "docs": 16,
+          "revenue": 962007.57,
+          "docs": 14,
           "last": "2024-10-30"
         },
         {
@@ -16964,16 +14580,16 @@ window.REPORT = {
           "last": "2024-10-02"
         },
         {
-          "client": "МП ПРОМЕТЕЙ ООО ИНН 7203449370",
-          "revenue": 184080.6,
-          "docs": 28,
-          "last": "2024-10-22"
-        },
-        {
           "client": "РУСЭКО ООО // ЭДО",
           "revenue": 176858.91,
           "docs": 38,
           "last": "2024-10-03"
+        },
+        {
+          "client": "МП ПРОМЕТЕЙ ООО ИНН 7203449370",
+          "revenue": 176220.6,
+          "docs": 27,
+          "last": "2024-10-22"
         },
         {
           "client": "ВАГОННОЕ ДЕПО ТЮМЕНЬ ООО // ЭДО",
@@ -17834,12 +15450,6 @@ window.REPORT = {
           "last": "2024-06-19"
         },
         {
-          "client": "ЕСБ ООО // ЭДО !!!НЕ ОТГРУЖАТЬ БЕЗ СОГЛАСОВАНИЯ 89220466777 АНТОН!!!",
-          "revenue": 9774.05,
-          "docs": 2,
-          "last": "2024-10-11"
-        },
-        {
           "client": "РСМП ООО // ЭДО",
           "revenue": 9720.0,
           "docs": 3,
@@ -17900,16 +15510,16 @@ window.REPORT = {
           "last": "2024-05-28"
         },
         {
-          "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
-          "revenue": 7964.5,
-          "docs": 6,
-          "last": "2024-10-18"
-        },
-        {
           "client": "ЕВРАКОР АО (отгрузка только по согласованным счетам! Гаврилов)",
           "revenue": 7816.0,
           "docs": 4,
           "last": "2024-05-31"
+        },
+        {
+          "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
+          "revenue": 7589.5,
+          "docs": 5,
+          "last": "2024-10-18"
         },
         {
           "client": "СИБИРЬ ООО ТК",
@@ -18294,1237 +15904,6 @@ window.REPORT = {
           "revenue": 390.0,
           "docs": 1,
           "last": "2024-07-31"
-        }
-      ]
-    },
-    {
-      "name": "Никитина Юлия",
-      "short": "Никитина",
-      "role": "b2b",
-      "revenue": 8274847.32,
-      "docs": 1085,
-      "clients": 183,
-      "avg_check": 7626.59,
-      "top_clients": [
-        {
-          "client": "ПЕРЕСТРОЙ-КА! ООО // ЭДО",
-          "revenue": 629523.5,
-          "docs": 73,
-          "last": "2026-01-30"
-        },
-        {
-          "client": "ДОРСТРОЙИНЖИНИРИНГ ООО // ЭДО",
-          "revenue": 515289.98,
-          "docs": 41,
-          "last": "2026-01-30"
-        },
-        {
-          "client": "СТРОЙ СТАР ООО // ЭДО",
-          "revenue": 482301.78,
-          "docs": 42,
-          "last": "2026-02-04"
-        },
-        {
-          "client": "ТЗ СИБГАЗАППАРАТ ООО // ЭДО",
-          "revenue": 333077.56,
-          "docs": 66,
-          "last": "2026-01-29"
-        },
-        {
-          "client": "СТРОЙ КАПИТАЛ ООО // ЭДО",
-          "revenue": 312006.53,
-          "docs": 32,
-          "last": "2026-02-04"
-        },
-        {
-          "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
-          "revenue": 280192.41,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "УНИВЕРСТРОЙ72 ООО // ЭДО",
-          "revenue": 247355.38,
-          "docs": 13,
-          "last": "2025-10-06"
-        },
-        {
-          "client": "ПРОМСТРОЙ ООО 7204097787 // ЭДО",
-          "revenue": 241588.65,
-          "docs": 39,
-          "last": "2025-12-30"
-        },
-        {
-          "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
-          "revenue": 235130.32,
-          "docs": 7,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
-          "revenue": 232173.2,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "СТРОЙ ООО 7203523471 // ЭДО",
-          "revenue": 198756.64,
-          "docs": 47,
-          "last": "2026-01-25"
-        },
-        {
-          "client": "ЗЖБИ АРСЕНАЛ ООО // ЭДО",
-          "revenue": 197837.94,
-          "docs": 29,
-          "last": "2025-12-26"
-        },
-        {
-          "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
-          "revenue": 179315.24,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "Корякин Артем Михайлович ФЛ",
-          "revenue": 155474.0,
-          "docs": 7,
-          "last": "2025-12-25"
-        },
-        {
-          "client": "Интернет Магазин ФЛ",
-          "revenue": 144855.0,
-          "docs": 1,
-          "last": "2025-06-23"
-        },
-        {
-          "client": "ТД БЕТОН ООО // ЭДО",
-          "revenue": 143277.51,
-          "docs": 10,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
-          "revenue": 123805.8,
-          "docs": 11,
-          "last": "2026-08-10"
-        },
-        {
-          "client": "Кропачев Алексей Андреевич ИП",
-          "revenue": 115239.7,
-          "docs": 12,
-          "last": "2025-12-26"
-        },
-        {
-          "client": "БУРСТРОЙВОД ООО // ЭДО",
-          "revenue": 113985.26,
-          "docs": 17,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "АСТАР-ГРУПП ООО // ЭДО",
-          "revenue": 107947.13,
-          "docs": 8,
-          "last": "2026-08-07"
-        }
-      ],
-      "all_clients": [
-        {
-          "client": "ПЕРЕСТРОЙ-КА! ООО // ЭДО",
-          "revenue": 629523.5,
-          "docs": 73,
-          "last": "2026-01-30"
-        },
-        {
-          "client": "ДОРСТРОЙИНЖИНИРИНГ ООО // ЭДО",
-          "revenue": 515289.98,
-          "docs": 41,
-          "last": "2026-01-30"
-        },
-        {
-          "client": "СТРОЙ СТАР ООО // ЭДО",
-          "revenue": 482301.78,
-          "docs": 42,
-          "last": "2026-02-04"
-        },
-        {
-          "client": "ТЗ СИБГАЗАППАРАТ ООО // ЭДО",
-          "revenue": 333077.56,
-          "docs": 66,
-          "last": "2026-01-29"
-        },
-        {
-          "client": "СТРОЙ КАПИТАЛ ООО // ЭДО",
-          "revenue": 312006.53,
-          "docs": 32,
-          "last": "2026-02-04"
-        },
-        {
-          "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
-          "revenue": 280192.41,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "УНИВЕРСТРОЙ72 ООО // ЭДО",
-          "revenue": 247355.38,
-          "docs": 13,
-          "last": "2025-10-06"
-        },
-        {
-          "client": "ПРОМСТРОЙ ООО 7204097787 // ЭДО",
-          "revenue": 241588.65,
-          "docs": 39,
-          "last": "2025-12-30"
-        },
-        {
-          "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
-          "revenue": 235130.32,
-          "docs": 7,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
-          "revenue": 232173.2,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "СТРОЙ ООО 7203523471 // ЭДО",
-          "revenue": 198756.64,
-          "docs": 47,
-          "last": "2026-01-25"
-        },
-        {
-          "client": "ЗЖБИ АРСЕНАЛ ООО // ЭДО",
-          "revenue": 197837.94,
-          "docs": 29,
-          "last": "2025-12-26"
-        },
-        {
-          "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
-          "revenue": 179315.24,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "Корякин Артем Михайлович ФЛ",
-          "revenue": 155474.0,
-          "docs": 7,
-          "last": "2025-12-25"
-        },
-        {
-          "client": "Интернет Магазин ФЛ",
-          "revenue": 144855.0,
-          "docs": 1,
-          "last": "2025-06-23"
-        },
-        {
-          "client": "ТД БЕТОН ООО // ЭДО",
-          "revenue": 143277.51,
-          "docs": 10,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
-          "revenue": 123805.8,
-          "docs": 11,
-          "last": "2026-08-10"
-        },
-        {
-          "client": "Кропачев Алексей Андреевич ИП",
-          "revenue": 115239.7,
-          "docs": 12,
-          "last": "2025-12-26"
-        },
-        {
-          "client": "БУРСТРОЙВОД ООО // ЭДО",
-          "revenue": 113985.26,
-          "docs": 17,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "АСТАР-ГРУПП ООО // ЭДО",
-          "revenue": 107947.13,
-          "docs": 8,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "ЗСТД ООО // ЭДО",
-          "revenue": 107639.6,
-          "docs": 3,
-          "last": "2025-10-22"
-        },
-        {
-          "client": "КОМПЛЕКТ-ЦЕНТР ЖБИ ООО",
-          "revenue": 99990.0,
-          "docs": 1,
-          "last": "2026-02-25"
-        },
-        {
-          "client": "ЗАРЯДНЫЕ СИСТЕМЫ ООО 7203538975 // ЭДО",
-          "revenue": 98164.75,
-          "docs": 31,
-          "last": "2025-12-26"
-        },
-        {
-          "client": "СИБГАЗКРАНСЕРВИС ООО // ЭДО",
-          "revenue": 91152.02,
-          "docs": 24,
-          "last": "2026-01-22"
-        },
-        {
-          "client": "ТЮМЕНПОЛИМЕРГАЗ // ЭДО",
-          "revenue": 86410.2,
-          "docs": 13,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "ТСК-УВАТ ООО // ЭДО",
-          "revenue": 74277.3,
-          "docs": 11,
-          "last": "2026-01-30"
-        },
-        {
-          "client": "УАП ЕВРОПА+АЗИЯ ООО",
-          "revenue": 71652.1,
-          "docs": 13,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "ЦЕНТР ФАСАДОВ ООО // ЭДО",
-          "revenue": 70982.0,
-          "docs": 5,
-          "last": "2026-07-21"
-        },
-        {
-          "client": "ЛЕОН ООО // ЭДО",
-          "revenue": 70801.52,
-          "docs": 7,
-          "last": "2026-01-26"
-        },
-        {
-          "client": "Багутский Андрей Владимирович ФЛ",
-          "revenue": 65200.0,
-          "docs": 3,
-          "last": "2026-04-06"
-        },
-        {
-          "client": "НЕОКОМ-ТМН ООО // ЭДО",
-          "revenue": 63883.4,
-          "docs": 8,
-          "last": "2026-07-31"
-        },
-        {
-          "client": "ТМС ООО 7202159237 // ЭДО",
-          "revenue": 63654.8,
-          "docs": 11,
-          "last": "2026-01-16"
-        },
-        {
-          "client": "ДОРСНАБ ООО // ЭДО",
-          "revenue": 63646.0,
-          "docs": 14,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "РАССВЕТ ООО // ЭДО",
-          "revenue": 58990.0,
-          "docs": 1,
-          "last": "2025-09-15"
-        },
-        {
-          "client": "ЭЛКОМ ООО // ЭДО",
-          "revenue": 53393.36,
-          "docs": 19,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "МАРТЕНСИТ ООО // ЭДО",
-          "revenue": 51589.09,
-          "docs": 6,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "СИТИСЕРВИС ООО // ЭДО",
-          "revenue": 50733.37,
-          "docs": 6,
-          "last": "2026-06-25"
-        },
-        {
-          "client": "Багутский Андрей Владимирович ИП",
-          "revenue": 50570.0,
-          "docs": 4,
-          "last": "2026-02-20"
-        },
-        {
-          "client": "МПК СТРОЙМОНТАЖ ООО // ЭДО",
-          "revenue": 48249.75,
-          "docs": 6,
-          "last": "2026-01-19"
-        },
-        {
-          "client": "Осинцева Оксана Сергеевна ФЛ",
-          "revenue": 47735.65,
-          "docs": 11,
-          "last": "2026-05-01"
-        },
-        {
-          "client": "ВОСХОД АО 7203006385",
-          "revenue": 47514.0,
-          "docs": 3,
-          "last": "2026-07-24"
-        },
-        {
-          "client": "Емельянцева Анастасия Владимировна ИП",
-          "revenue": 47399.0,
-          "docs": 3,
-          "last": "2025-08-20"
-        },
-        {
-          "client": "СТРОИТЕЛЬНЫЕ ТЕХНОЛОГИИ ООО",
-          "revenue": 45489.5,
-          "docs": 7,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "ТМ-РЕСУРС.УРАЛ ООО // ЭДО",
-          "revenue": 43971.0,
-          "docs": 4,
-          "last": "2026-07-31"
-        },
-        {
-          "client": "МЕТАЛЛ ООО",
-          "revenue": 41925.0,
-          "docs": 1,
-          "last": "2026-02-27"
-        },
-        {
-          "client": "ЭВЕНТУМ СК ООО // ЭДО",
-          "revenue": 41013.26,
-          "docs": 10,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "Глухов Андрей Владимирович ФЛ",
-          "revenue": 39070.68,
-          "docs": 2,
-          "last": "2026-07-16"
-        },
-        {
-          "client": "ТЮМЕНЬ СТАЛЬКОНСТРУКЦИЯ ООО",
-          "revenue": 38839.45,
-          "docs": 4,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "ТЕХПРОМСЕРВИС ИНН 7203172456",
-          "revenue": 38830.0,
-          "docs": 6,
-          "last": "2026-03-20"
-        },
-        {
-          "client": "Чижовкина Ольга Владимировна ИП // ЭДО",
-          "revenue": 38530.0,
-          "docs": 1,
-          "last": "2026-03-16"
-        },
-        {
-          "client": "Сорокин Захар Рамазович ИП // ЭДО",
-          "revenue": 38450.0,
-          "docs": 7,
-          "last": "2026-08-04"
-        },
-        {
-          "client": "ТСТ ООО 7203274578",
-          "revenue": 37244.87,
-          "docs": 6,
-          "last": "2025-10-23"
-        },
-        {
-          "client": "ТОДЭП ГРУПП ООО // ЭДО",
-          "revenue": 36859.7,
-          "docs": 13,
-          "last": "2026-08-06"
-        },
-        {
-          "client": "ЕВРО ТРЕЙД ООО",
-          "revenue": 36356.87,
-          "docs": 3,
-          "last": "2026-03-20"
-        },
-        {
-          "client": "АСТ СЕРВИС-ТЮМЕНЬ ООО // ЭДО",
-          "revenue": 34318.15,
-          "docs": 8,
-          "last": "2026-08-10"
-        },
-        {
-          "client": "Ускоглазов Илья ФЛ",
-          "revenue": 34061.0,
-          "docs": 8,
-          "last": "2025-12-30"
-        },
-        {
-          "client": "ЗАПСИБЭНЕРГО ООО",
-          "revenue": 33430.0,
-          "docs": 7,
-          "last": "2025-12-26"
-        },
-        {
-          "client": "НВСТК ООО // ЭДО",
-          "revenue": 32950.0,
-          "docs": 5,
-          "last": "2026-08-04"
-        },
-        {
-          "client": "ПРАЙД ООО",
-          "revenue": 31490.0,
-          "docs": 1,
-          "last": "2025-10-28"
-        },
-        {
-          "client": "ТОКС-ЛОГИСТИК ООО",
-          "revenue": 30892.0,
-          "docs": 1,
-          "last": "2026-03-18"
-        },
-        {
-          "client": "СТРОЙСИБ ООО // ЭДО",
-          "revenue": 30377.42,
-          "docs": 11,
-          "last": "2026-08-05"
-        },
-        {
-          "client": "КОМПЛЕКС-СТРОЙ-ТЮМЕНЬ ООО",
-          "revenue": 27550.0,
-          "docs": 1,
-          "last": "2026-03-17"
-        },
-        {
-          "client": "АМАКОН ООО // ЭДО",
-          "revenue": 27402.0,
-          "docs": 4,
-          "last": "2026-08-04"
-        },
-        {
-          "client": "ТНТ ООО // ЭДО",
-          "revenue": 26502.0,
-          "docs": 6,
-          "last": "2025-11-24"
-        },
-        {
-          "client": "ТРАКСЕРВИС ЛОГИСТИК ООО // ЭДО",
-          "revenue": 26069.7,
-          "docs": 2,
-          "last": "2026-03-03"
-        },
-        {
-          "client": "ТАТРУС ООО // ЭДО",
-          "revenue": 25860.0,
-          "docs": 3,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "Истомина Екатерина Сергеевна ИП",
-          "revenue": 25502.7,
-          "docs": 5,
-          "last": "2025-12-18"
-        },
-        {
-          "client": "Семёнова Екатерина Владимировна ИП // ЭДО",
-          "revenue": 25388.0,
-          "docs": 1,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "МОЙ ДОМ ООО // ЭДО",
-          "revenue": 25141.62,
-          "docs": 3,
-          "last": "2026-03-13"
-        },
-        {
-          "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
-          "revenue": 24942.0,
-          "docs": 4,
-          "last": "2026-03-13"
-        },
-        {
-          "client": "НПО ТОКС АО // ЭДО",
-          "revenue": 22937.0,
-          "docs": 8,
-          "last": "2026-08-05"
-        },
-        {
-          "client": "СДЭК-ЦЕНТР ЛОГИСТИК ООО // ЭДО",
-          "revenue": 22208.35,
-          "docs": 7,
-          "last": "2026-01-14"
-        },
-        {
-          "client": "Фахрутдинова Ильзида Ильзуровна ИП // ЭДО",
-          "revenue": 21910.34,
-          "docs": 5,
-          "last": "2026-01-20"
-        },
-        {
-          "client": "Зинченко Денис Андреевич ИП 723004094800//ЭДО",
-          "revenue": 21694.0,
-          "docs": 2,
-          "last": "2025-07-03"
-        },
-        {
-          "client": "БМ ООО НПО // ЭДО",
-          "revenue": 20802.0,
-          "docs": 6,
-          "last": "2026-08-10"
-        },
-        {
-          "client": "НОВОКСТРОЙ ООО // ЭДО",
-          "revenue": 20572.0,
-          "docs": 3,
-          "last": "2026-03-20"
-        },
-        {
-          "client": "Постников Сергей Петрович ИП // ЭДО",
-          "revenue": 20161.0,
-          "docs": 1,
-          "last": "2025-10-20"
-        },
-        {
-          "client": "ТПК ГАЗ ООО 7207022846 // ЭДО",
-          "revenue": 19364.68,
-          "docs": 6,
-          "last": "2026-07-22"
-        },
-        {
-          "client": "ГАЛЕОН-АРТ ООО // ЭДО",
-          "revenue": 19170.21,
-          "docs": 13,
-          "last": "2026-08-05"
-        },
-        {
-          "client": "ОЛЕКС ГРУПП ООО // ЭДО",
-          "revenue": 19076.02,
-          "docs": 9,
-          "last": "2026-07-31"
-        },
-        {
-          "client": "ИМПУЛЬС ООО // ЭДО",
-          "revenue": 18870.0,
-          "docs": 8,
-          "last": "2025-12-22"
-        },
-        {
-          "client": "СК ВИТЯЗЬ ООО // ЭДО",
-          "revenue": 15643.8,
-          "docs": 6,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "СТИЛЬ ЖИЗНИ ООО",
-          "revenue": 15496.0,
-          "docs": 1,
-          "last": "2026-03-04"
-        },
-        {
-          "client": "ТРАНСМАШ ООО 7203306501 // ЭДО",
-          "revenue": 15471.0,
-          "docs": 8,
-          "last": "2026-08-05"
-        },
-        {
-          "client": "КОМПАНИЯ ТОИР ООО",
-          "revenue": 15311.38,
-          "docs": 13,
-          "last": "2025-11-06"
-        },
-        {
-          "client": "ТК СТ ООО",
-          "revenue": 15242.0,
-          "docs": 2,
-          "last": "2026-03-03"
-        },
-        {
-          "client": "ИНТЕГРАЛ-ИНВЕСТ ООО // ЭДО",
-          "revenue": 15000.0,
-          "docs": 1,
-          "last": "2026-07-21"
-        },
-        {
-          "client": "НОВ-ЭКОЛОГИЯ ООО // ЭДО",
-          "revenue": 14938.5,
-          "docs": 7,
-          "last": "2025-11-14"
-        },
-        {
-          "client": "ТОИР ООО ТМЗ // ЭДО",
-          "revenue": 14553.0,
-          "docs": 2,
-          "last": "2025-11-25"
-        },
-        {
-          "client": "Боков Анатолий Алексеевич ИП",
-          "revenue": 13510.0,
-          "docs": 1,
-          "last": "2026-02-10"
-        },
-        {
-          "client": "ПРЕМИУМ ФАСАД ООО // ЭДО",
-          "revenue": 13500.0,
-          "docs": 1,
-          "last": "2026-08-10"
-        },
-        {
-          "client": "АРМАДА ООО // ЭДО",
-          "revenue": 12885.0,
-          "docs": 2,
-          "last": "2025-07-29"
-        },
-        {
-          "client": "ЦЕНТРСПЕЦТЕХ ООО // ЭДО",
-          "revenue": 12753.82,
-          "docs": 6,
-          "last": "2026-04-24"
-        },
-        {
-          "client": "ОСНОВА ДОМА ООО 7203384115 // ЭДО",
-          "revenue": 12576.0,
-          "docs": 7,
-          "last": "2026-08-06"
-        },
-        {
-          "client": "ТЮМЕНЬКАПСТРОЙ ООО // ЭДО",
-          "revenue": 12355.0,
-          "docs": 1,
-          "last": "2025-12-04"
-        },
-        {
-          "client": "АЗИМУТ А ООО // ЭДО",
-          "revenue": 12180.0,
-          "docs": 1,
-          "last": "2026-02-10"
-        },
-        {
-          "client": "НПЦ ЭВРИКА ООО",
-          "revenue": 12044.0,
-          "docs": 1,
-          "last": "2026-02-04"
-        },
-        {
-          "client": "Соловьёв Андрей Валерьевич ИП",
-          "revenue": 11925.0,
-          "docs": 2,
-          "last": "2025-10-22"
-        },
-        {
-          "client": "КЛЯКСА ООО // ЭДО",
-          "revenue": 11911.3,
-          "docs": 4,
-          "last": "2025-08-12"
-        },
-        {
-          "client": "Усачев Николай Викторович ИП // ЭДО",
-          "revenue": 11799.0,
-          "docs": 3,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "АТ-ТРАНС ООО // ЭДО",
-          "revenue": 11740.07,
-          "docs": 5,
-          "last": "2026-08-06"
-        },
-        {
-          "client": "СУ-47 ООО 7203533470 // ЭДО",
-          "revenue": 11580.0,
-          "docs": 1,
-          "last": "2026-08-03"
-        },
-        {
-          "client": "Шершнева Алена Алексеевна ИП",
-          "revenue": 10780.0,
-          "docs": 1,
-          "last": "2025-11-21"
-        },
-        {
-          "client": "ТЮМЕНЬАВТОТРАНС ООО",
-          "revenue": 9990.0,
-          "docs": 1,
-          "last": "2025-05-27"
-        },
-        {
-          "client": "ВОСХОД ООО (УЛЫБКА) // ЭДО",
-          "revenue": 9927.0,
-          "docs": 1,
-          "last": "2026-03-20"
-        },
-        {
-          "client": "АРМАТ-М ООО ДСК // ЭДО",
-          "revenue": 9470.0,
-          "docs": 2,
-          "last": "2026-08-10"
-        },
-        {
-          "client": "АГАТ ООО 7224088580",
-          "revenue": 9150.0,
-          "docs": 3,
-          "last": "2026-07-31"
-        },
-        {
-          "client": "Бусыгин Александр Евгеньевич ИП // ЭДО",
-          "revenue": 9045.0,
-          "docs": 1,
-          "last": "2025-10-16"
-        },
-        {
-          "client": "Шоломов Александр Сергеевич",
-          "revenue": 9000.0,
-          "docs": 1,
-          "last": "2026-01-30"
-        },
-        {
-          "client": "НЕОСТРОЙ ООО // ЭДО",
-          "revenue": 8768.3,
-          "docs": 2,
-          "last": "2026-07-17"
-        },
-        {
-          "client": "МЕРИДИАН ООО 7204156270",
-          "revenue": 8651.0,
-          "docs": 1,
-          "last": "2026-06-24"
-        },
-        {
-          "client": "СЭТ ООО",
-          "revenue": 8450.0,
-          "docs": 1,
-          "last": "2025-05-15"
-        },
-        {
-          "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
-          "revenue": 8219.0,
-          "docs": 3,
-          "last": "2026-05-11"
-        },
-        {
-          "client": "Симонян Акоб Эдуардович ИП",
-          "revenue": 7990.0,
-          "docs": 1,
-          "last": "2025-11-28"
-        },
-        {
-          "client": "СТРОЙЭНЕРДЖИ ООО 8603222512 // ЭДО",
-          "revenue": 7990.0,
-          "docs": 1,
-          "last": "2026-01-23"
-        },
-        {
-          "client": "ГУД ХАУС ООО // ЭДО",
-          "revenue": 7970.0,
-          "docs": 2,
-          "last": "2026-08-04"
-        },
-        {
-          "client": "Уткин Владимир Павлович ИП",
-          "revenue": 7956.0,
-          "docs": 2,
-          "last": "2026-03-23"
-        },
-        {
-          "client": "Хачукаев Хасан Магомедович ИП",
-          "revenue": 7745.0,
-          "docs": 1,
-          "last": "2026-01-28"
-        },
-        {
-          "client": "РММ ООО",
-          "revenue": 7354.0,
-          "docs": 1,
-          "last": "2026-03-16"
-        },
-        {
-          "client": "ОТЕЧЕСТВО ООО АТП",
-          "revenue": 7178.0,
-          "docs": 1,
-          "last": "2025-09-25"
-        },
-        {
-          "client": "ИСТОК ООО",
-          "revenue": 7100.0,
-          "docs": 1,
-          "last": "2026-04-23"
-        },
-        {
-          "client": "СВ КОМПЛЕКТАЦИЯ ООО // ЭДО ",
-          "revenue": 7100.0,
-          "docs": 1,
-          "last": "2025-08-19"
-        },
-        {
-          "client": "ЭВЕРЕСТДОР ООО // ЭДО",
-          "revenue": 7095.0,
-          "docs": 2,
-          "last": "2026-07-24"
-        },
-        {
-          "client": "Севоян Сюзанна Саркисовна ИП ЭДО ",
-          "revenue": 6625.0,
-          "docs": 1,
-          "last": "2025-11-07"
-        },
-        {
-          "client": "РАССВЕТ КФХ // ЭДО",
-          "revenue": 6518.0,
-          "docs": 1,
-          "last": "2026-03-03"
-        },
-        {
-          "client": "ХЛЕБОКОМБИНАТ АБСОЛЮТ ООО",
-          "revenue": 6100.0,
-          "docs": 1,
-          "last": "2026-02-26"
-        },
-        {
-          "client": "АСУ ООО // ЭДО",
-          "revenue": 6086.42,
-          "docs": 3,
-          "last": "2026-04-24"
-        },
-        {
-          "client": "Цилин Алексей Анатольевич ИП // ЭДО",
-          "revenue": 5940.0,
-          "docs": 1,
-          "last": "2026-07-16"
-        },
-        {
-          "client": "РСМП ООО // ЭДО",
-          "revenue": 5936.0,
-          "docs": 2,
-          "last": "2025-12-19"
-        },
-        {
-          "client": "Орехов Роман Андреевич ИП",
-          "revenue": 5892.0,
-          "docs": 3,
-          "last": "2025-10-01"
-        },
-        {
-          "client": "МАСТЕР-ЦЕНТР ООО // ЭДО",
-          "revenue": 5806.0,
-          "docs": 1,
-          "last": "2026-03-03"
-        },
-        {
-          "client": "СЗ СИБМАШ-СЕВЕРСТРОЙ ООО",
-          "revenue": 5705.0,
-          "docs": 2,
-          "last": "2025-11-20"
-        },
-        {
-          "client": "ТРИУМФ ООО 7224044007",
-          "revenue": 5616.0,
-          "docs": 1,
-          "last": "2025-09-16"
-        },
-        {
-          "client": "АРС-ПРОМ ООО ПФ",
-          "revenue": 5560.0,
-          "docs": 1,
-          "last": "2026-08-07"
-        },
-        {
-          "client": "ПРОМЕТАЛЛ ООО",
-          "revenue": 5479.0,
-          "docs": 3,
-          "last": "2026-07-17"
-        },
-        {
-          "client": "ПСК ООО 7203280892 // ЭДО",
-          "revenue": 5373.84,
-          "docs": 2,
-          "last": "2026-07-28"
-        },
-        {
-          "client": "МАШТЕХСЕРВИС ООО // ЭДО",
-          "revenue": 4847.0,
-          "docs": 3,
-          "last": "2025-12-21"
-        },
-        {
-          "client": "ПСГ ООО // ЭДО",
-          "revenue": 4490.0,
-          "docs": 1,
-          "last": "2025-06-23"
-        },
-        {
-          "client": "А-ЗАВОД ПТО ООО // ЭДО",
-          "revenue": 4240.0,
-          "docs": 1,
-          "last": "2026-07-24"
-        },
-        {
-          "client": "ЗАПАД ООО (ш) 7203390599 // ЭДО // ПП",
-          "revenue": 4206.76,
-          "docs": 4,
-          "last": "2026-03-05"
-        },
-        {
-          "client": "БРАСТ ООО // ЭДО",
-          "revenue": 4129.15,
-          "docs": 4,
-          "last": "2025-07-25"
-        },
-        {
-          "client": "ПЕРИЛАТЕХСТРОЙ ООО // ЭДО",
-          "revenue": 3978.0,
-          "docs": 1,
-          "last": "2026-03-03"
-        },
-        {
-          "client": "МИР ООО СК // ЭДО",
-          "revenue": 3884.0,
-          "docs": 4,
-          "last": "2025-10-17"
-        },
-        {
-          "client": "ЛИДЕР ООО ПСК",
-          "revenue": 3780.0,
-          "docs": 2,
-          "last": "2025-12-30"
-        },
-        {
-          "client": "АКГ ООО",
-          "revenue": 3614.0,
-          "docs": 1,
-          "last": "2025-09-11"
-        },
-        {
-          "client": "Филиповский Максим Витальевич ФЛ",
-          "revenue": 3230.0,
-          "docs": 1,
-          "last": "2025-08-18"
-        },
-        {
-          "client": "НТС ООО // ЭДО",
-          "revenue": 3155.59,
-          "docs": 3,
-          "last": "2026-08-03"
-        },
-        {
-          "client": "УК ПРОСПЕКТ ООО",
-          "revenue": 2990.0,
-          "docs": 2,
-          "last": "2026-07-30"
-        },
-        {
-          "client": "РУСЭКО ООО // ЭДО",
-          "revenue": 2914.0,
-          "docs": 1,
-          "last": "2026-03-05"
-        },
-        {
-          "client": "ЭКСПРЕСС ООО 7202170086",
-          "revenue": 2907.0,
-          "docs": 2,
-          "last": "2026-07-22"
-        },
-        {
-          "client": "Полушин Алексей Юрьевич ФЛ",
-          "revenue": 2855.0,
-          "docs": 1,
-          "last": "2026-02-27"
-        },
-        {
-          "client": "ПРЕМИУМ БОРДЮР ООО // ЭДО",
-          "revenue": 2810.0,
-          "docs": 2,
-          "last": "2026-07-27"
-        },
-        {
-          "client": "ПК ВОСТОК",
-          "revenue": 2641.0,
-          "docs": 2,
-          "last": "2026-07-17"
-        },
-        {
-          "client": "Анисов Айткен Тобыктыевич ИП // ЭДО",
-          "revenue": 2629.0,
-          "docs": 1,
-          "last": "2026-02-28"
-        },
-        {
-          "client": "МК ЭНЕРГИЯ ООО // ЭДО // АРД",
-          "revenue": 2520.0,
-          "docs": 3,
-          "last": "2026-08-05"
-        },
-        {
-          "client": "Такунцев Павел Александрович ИП",
-          "revenue": 2459.0,
-          "docs": 1,
-          "last": "2025-07-10"
-        },
-        {
-          "client": "УРАЛ-ГРУПП ООО ПСК",
-          "revenue": 2365.0,
-          "docs": 3,
-          "last": "2025-11-12"
-        },
-        {
-          "client": "Вологжанин Кирилл Сергеевич ИП",
-          "revenue": 2275.0,
-          "docs": 1,
-          "last": "2025-09-01"
-        },
-        {
-          "client": "Рябцев Дмитрий Григорьевич ИП",
-          "revenue": 2169.0,
-          "docs": 3,
-          "last": "2026-08-05"
-        },
-        {
-          "client": "ДИАЛОГ+ ООО // ЭДО",
-          "revenue": 2080.38,
-          "docs": 2,
-          "last": "2026-03-03"
-        },
-        {
-          "client": "Белоусов Константин ФЛ",
-          "revenue": 1960.0,
-          "docs": 1,
-          "last": "2025-09-26"
-        },
-        {
-          "client": "ВЕВАНТА ООО // ЭДО",
-          "revenue": 1949.0,
-          "docs": 1,
-          "last": "2025-09-29"
-        },
-        {
-          "client": "ТЗБ-МАКС ООО",
-          "revenue": 1763.74,
-          "docs": 1,
-          "last": "2025-05-28"
-        },
-        {
-          "client": "ТЮМЕНЬСПЕЦСТАЛЬ ООО ПК",
-          "revenue": 1750.0,
-          "docs": 1,
-          "last": "2026-02-20"
-        },
-        {
-          "client": "МЕТАЛЛСНАБСБЫТ ООО КОМПАНИЯ // ЭДО",
-          "revenue": 1560.0,
-          "docs": 1,
-          "last": "2026-07-20"
-        },
-        {
-          "client": "СПТ-ЗАПАДНАЯ СИБИРЬ ООО",
-          "revenue": 1550.82,
-          "docs": 1,
-          "last": "2026-02-11"
-        },
-        {
-          "client": "Аминова Нурания Каримовна ИП",
-          "revenue": 1290.0,
-          "docs": 1,
-          "last": "2026-02-16"
-        },
-        {
-          "client": "Гаврилов Владислав Андреевич ФЛ",
-          "revenue": 1192.0,
-          "docs": 1,
-          "last": "2025-10-24"
-        },
-        {
-          "client": "СМУ ООО // ЭДО",
-          "revenue": 1062.0,
-          "docs": 2,
-          "last": "2026-03-13"
-        },
-        {
-          "client": "ЭТАЛОН ООО ИНН 7202241080 // ЭДО",
-          "revenue": 1030.0,
-          "docs": 1,
-          "last": "2026-07-01"
-        },
-        {
-          "client": "ТЭС ООО // ЭДО",
-          "revenue": 980.0,
-          "docs": 1,
-          "last": "2026-02-20"
-        },
-        {
-          "client": "ПРОМПОЛТЮМЕНЬ ООО СК 7203501125 // ЭДО",
-          "revenue": 971.0,
-          "docs": 1,
-          "last": "2026-02-13"
-        },
-        {
-          "client": "СНАБИНЖИНИРИНГ ООО",
-          "revenue": 880.0,
-          "docs": 2,
-          "last": "2026-03-20"
-        },
-        {
-          "client": "Долматов Рафаиль Фаильевич ИП",
-          "revenue": 810.0,
-          "docs": 1,
-          "last": "2026-03-06"
-        },
-        {
-          "client": "ПРИНЦИП-Т ООО // ЭДО",
-          "revenue": 804.0,
-          "docs": 1,
-          "last": "2025-06-05"
-        },
-        {
-          "client": "ТОИР-ИНВЕСТ ООО УК",
-          "revenue": 790.0,
-          "docs": 1,
-          "last": "2025-07-29"
-        },
-        {
-          "client": "ЭНЕРГОДРАЙВ ООО // ЭДО",
-          "revenue": 620.0,
-          "docs": 1,
-          "last": "2025-09-17"
-        },
-        {
-          "client": "СТРОЙСЕРВИС ООО (Лебедева) // ЭДО 7203375061",
-          "revenue": 562.0,
-          "docs": 1,
-          "last": "2026-01-19"
-        },
-        {
-          "client": "ПМК ООО",
-          "revenue": 534.0,
-          "docs": 1,
-          "last": "2026-01-23"
-        },
-        {
-          "client": "АВТО-ДИНА ООО",
-          "revenue": 475.49,
-          "docs": 1,
-          "last": "2025-11-12"
-        },
-        {
-          "client": "''ПСК''ТЮМЕНЬСТРОЙМОНТАЖ'' // ЭДО // АРД",
-          "revenue": 430.0,
-          "docs": 1,
-          "last": "2026-02-12"
-        },
-        {
-          "client": "ГЕОСТРОЙ ООО РСК // ЭДО",
-          "revenue": 390.0,
-          "docs": 1,
-          "last": "2025-06-02"
-        },
-        {
-          "client": "КРИСТЕЛЬ ООО // ЭДО",
-          "revenue": 360.0,
-          "docs": 1,
-          "last": "2025-09-17"
         }
       ]
     },
@@ -20340,13 +16719,770 @@ window.REPORT = {
       ]
     },
     {
+      "name": "Никитина Юлия",
+      "short": "Никитина",
+      "role": "b2b",
+      "revenue": 3411904.66,
+      "docs": 433,
+      "clients": 104,
+      "avg_check": 7879.69,
+      "top_clients": [
+        {
+          "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
+          "revenue": 280192.41,
+          "docs": 8,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
+          "revenue": 235130.32,
+          "docs": 7,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
+          "revenue": 232173.2,
+          "docs": 8,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
+          "revenue": 179315.24,
+          "docs": 8,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ТД БЕТОН ООО // ЭДО",
+          "revenue": 143277.51,
+          "docs": 10,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
+          "revenue": 123805.8,
+          "docs": 11,
+          "last": "2026-08-10"
+        },
+        {
+          "client": "БУРСТРОЙВОД ООО // ЭДО",
+          "revenue": 113985.26,
+          "docs": 17,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "АСТАР-ГРУПП ООО // ЭДО",
+          "revenue": 103395.13,
+          "docs": 7,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "КОМПЛЕКТ-ЦЕНТР ЖБИ ООО",
+          "revenue": 99990.0,
+          "docs": 1,
+          "last": "2026-02-25"
+        },
+        {
+          "client": "ТЮМЕНПОЛИМЕРГАЗ // ЭДО",
+          "revenue": 85748.79,
+          "docs": 11,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "УАП ЕВРОПА+АЗИЯ ООО",
+          "revenue": 71652.1,
+          "docs": 13,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ЦЕНТР ФАСАДОВ ООО // ЭДО",
+          "revenue": 70982.0,
+          "docs": 5,
+          "last": "2026-07-21"
+        },
+        {
+          "client": "Багутский Андрей Владимирович ФЛ",
+          "revenue": 65200.0,
+          "docs": 3,
+          "last": "2026-04-06"
+        },
+        {
+          "client": "НЕОКОМ-ТМН ООО // ЭДО",
+          "revenue": 63883.4,
+          "docs": 8,
+          "last": "2026-07-31"
+        },
+        {
+          "client": "ДОРСНАБ ООО // ЭДО",
+          "revenue": 63646.0,
+          "docs": 14,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ЭЛКОМ ООО // ЭДО",
+          "revenue": 53393.36,
+          "docs": 19,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "МАРТЕНСИТ ООО // ЭДО",
+          "revenue": 51589.09,
+          "docs": 6,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "Багутский Андрей Владимирович ИП",
+          "revenue": 50570.0,
+          "docs": 4,
+          "last": "2026-02-20"
+        },
+        {
+          "client": "СИТИСЕРВИС ООО // ЭДО",
+          "revenue": 48125.64,
+          "docs": 5,
+          "last": "2026-06-25"
+        },
+        {
+          "client": "ВОСХОД АО 7203006385",
+          "revenue": 47514.0,
+          "docs": 3,
+          "last": "2026-07-24"
+        }
+      ],
+      "all_clients": [
+        {
+          "client": "МПФ ПОЛИМЕРСТРОЙ ООО 7203258449 // ЭДО",
+          "revenue": 280192.41,
+          "docs": 8,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "КОМЕК МАШИНЕРИ ООО // ЭДО",
+          "revenue": 235130.32,
+          "docs": 7,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "НИК УНИВЕРСАЛ ООО // ЭДО",
+          "revenue": 232173.2,
+          "docs": 8,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ГИДРОТЕХ-К ООО 7203525091 // ЭДО",
+          "revenue": 179315.24,
+          "docs": 8,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ТД БЕТОН ООО // ЭДО",
+          "revenue": 143277.51,
+          "docs": 10,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "СИБИРЬКОТЛОСЕРВИС ООО // ЭДО",
+          "revenue": 123805.8,
+          "docs": 11,
+          "last": "2026-08-10"
+        },
+        {
+          "client": "БУРСТРОЙВОД ООО // ЭДО",
+          "revenue": 113985.26,
+          "docs": 17,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "АСТАР-ГРУПП ООО // ЭДО",
+          "revenue": 103395.13,
+          "docs": 7,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "КОМПЛЕКТ-ЦЕНТР ЖБИ ООО",
+          "revenue": 99990.0,
+          "docs": 1,
+          "last": "2026-02-25"
+        },
+        {
+          "client": "ТЮМЕНПОЛИМЕРГАЗ // ЭДО",
+          "revenue": 85748.79,
+          "docs": 11,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "УАП ЕВРОПА+АЗИЯ ООО",
+          "revenue": 71652.1,
+          "docs": 13,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ЦЕНТР ФАСАДОВ ООО // ЭДО",
+          "revenue": 70982.0,
+          "docs": 5,
+          "last": "2026-07-21"
+        },
+        {
+          "client": "Багутский Андрей Владимирович ФЛ",
+          "revenue": 65200.0,
+          "docs": 3,
+          "last": "2026-04-06"
+        },
+        {
+          "client": "НЕОКОМ-ТМН ООО // ЭДО",
+          "revenue": 63883.4,
+          "docs": 8,
+          "last": "2026-07-31"
+        },
+        {
+          "client": "ДОРСНАБ ООО // ЭДО",
+          "revenue": 63646.0,
+          "docs": 14,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ЭЛКОМ ООО // ЭДО",
+          "revenue": 53393.36,
+          "docs": 19,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "МАРТЕНСИТ ООО // ЭДО",
+          "revenue": 51589.09,
+          "docs": 6,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "Багутский Андрей Владимирович ИП",
+          "revenue": 50570.0,
+          "docs": 4,
+          "last": "2026-02-20"
+        },
+        {
+          "client": "СИТИСЕРВИС ООО // ЭДО",
+          "revenue": 48125.64,
+          "docs": 5,
+          "last": "2026-06-25"
+        },
+        {
+          "client": "ВОСХОД АО 7203006385",
+          "revenue": 47514.0,
+          "docs": 3,
+          "last": "2026-07-24"
+        },
+        {
+          "client": "СТРОИТЕЛЬНЫЕ ТЕХНОЛОГИИ ООО",
+          "revenue": 45489.5,
+          "docs": 7,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ТМ-РЕСУРС.УРАЛ ООО // ЭДО",
+          "revenue": 43971.0,
+          "docs": 4,
+          "last": "2026-07-31"
+        },
+        {
+          "client": "МЕТАЛЛ ООО",
+          "revenue": 41925.0,
+          "docs": 1,
+          "last": "2026-02-27"
+        },
+        {
+          "client": "ЭВЕНТУМ СК ООО // ЭДО",
+          "revenue": 41013.26,
+          "docs": 10,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "Осинцева Оксана Сергеевна ФЛ",
+          "revenue": 39560.65,
+          "docs": 7,
+          "last": "2026-05-01"
+        },
+        {
+          "client": "Глухов Андрей Владимирович ФЛ",
+          "revenue": 39070.68,
+          "docs": 2,
+          "last": "2026-07-16"
+        },
+        {
+          "client": "ТЮМЕНЬ СТАЛЬКОНСТРУКЦИЯ ООО",
+          "revenue": 38839.45,
+          "docs": 4,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ТЕХПРОМСЕРВИС ИНН 7203172456",
+          "revenue": 38830.0,
+          "docs": 6,
+          "last": "2026-03-20"
+        },
+        {
+          "client": "Чижовкина Ольга Владимировна ИП // ЭДО",
+          "revenue": 38530.0,
+          "docs": 1,
+          "last": "2026-03-16"
+        },
+        {
+          "client": "Сорокин Захар Рамазович ИП // ЭДО",
+          "revenue": 38450.0,
+          "docs": 7,
+          "last": "2026-08-04"
+        },
+        {
+          "client": "ТОДЭП ГРУПП ООО // ЭДО",
+          "revenue": 36859.7,
+          "docs": 13,
+          "last": "2026-08-06"
+        },
+        {
+          "client": "ЕВРО ТРЕЙД ООО",
+          "revenue": 36356.87,
+          "docs": 3,
+          "last": "2026-03-20"
+        },
+        {
+          "client": "АСТ СЕРВИС-ТЮМЕНЬ ООО // ЭДО",
+          "revenue": 34318.15,
+          "docs": 8,
+          "last": "2026-08-10"
+        },
+        {
+          "client": "НВСТК ООО // ЭДО",
+          "revenue": 32950.0,
+          "docs": 5,
+          "last": "2026-08-04"
+        },
+        {
+          "client": "ТОКС-ЛОГИСТИК ООО",
+          "revenue": 30892.0,
+          "docs": 1,
+          "last": "2026-03-18"
+        },
+        {
+          "client": "СТРОЙСИБ ООО // ЭДО",
+          "revenue": 30377.42,
+          "docs": 11,
+          "last": "2026-08-05"
+        },
+        {
+          "client": "АМАКОН ООО // ЭДО",
+          "revenue": 27402.0,
+          "docs": 4,
+          "last": "2026-08-04"
+        },
+        {
+          "client": "ТРАКСЕРВИС ЛОГИСТИК ООО // ЭДО",
+          "revenue": 26069.7,
+          "docs": 2,
+          "last": "2026-03-03"
+        },
+        {
+          "client": "ТАТРУС ООО // ЭДО",
+          "revenue": 25860.0,
+          "docs": 3,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "Семёнова Екатерина Владимировна ИП // ЭДО",
+          "revenue": 25388.0,
+          "docs": 1,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "МОЙ ДОМ ООО // ЭДО",
+          "revenue": 25141.62,
+          "docs": 3,
+          "last": "2026-03-13"
+        },
+        {
+          "client": "Хакназаров Кимёназар Юлдошевич ИП // ЭДО",
+          "revenue": 24942.0,
+          "docs": 4,
+          "last": "2026-03-13"
+        },
+        {
+          "client": "НПО ТОКС АО // ЭДО",
+          "revenue": 22937.0,
+          "docs": 8,
+          "last": "2026-08-05"
+        },
+        {
+          "client": "БМ ООО НПО // ЭДО",
+          "revenue": 20802.0,
+          "docs": 6,
+          "last": "2026-08-10"
+        },
+        {
+          "client": "НОВОКСТРОЙ ООО // ЭДО",
+          "revenue": 20572.0,
+          "docs": 3,
+          "last": "2026-03-20"
+        },
+        {
+          "client": "ГАЛЕОН-АРТ ООО // ЭДО",
+          "revenue": 19170.21,
+          "docs": 13,
+          "last": "2026-08-05"
+        },
+        {
+          "client": "ОЛЕКС ГРУПП ООО // ЭДО",
+          "revenue": 19076.02,
+          "docs": 9,
+          "last": "2026-07-31"
+        },
+        {
+          "client": "СК ВИТЯЗЬ ООО // ЭДО",
+          "revenue": 15643.8,
+          "docs": 6,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "СТИЛЬ ЖИЗНИ ООО",
+          "revenue": 15496.0,
+          "docs": 1,
+          "last": "2026-03-04"
+        },
+        {
+          "client": "ТРАНСМАШ ООО 7203306501 // ЭДО",
+          "revenue": 15471.0,
+          "docs": 8,
+          "last": "2026-08-05"
+        },
+        {
+          "client": "ТК СТ ООО",
+          "revenue": 15242.0,
+          "docs": 2,
+          "last": "2026-03-03"
+        },
+        {
+          "client": "ИНТЕГРАЛ-ИНВЕСТ ООО // ЭДО",
+          "revenue": 15000.0,
+          "docs": 1,
+          "last": "2026-07-21"
+        },
+        {
+          "client": "ТПК ГАЗ ООО 7207022846 // ЭДО",
+          "revenue": 13784.68,
+          "docs": 5,
+          "last": "2026-07-22"
+        },
+        {
+          "client": "Боков Анатолий Алексеевич ИП",
+          "revenue": 13510.0,
+          "docs": 1,
+          "last": "2026-02-10"
+        },
+        {
+          "client": "ПРЕМИУМ ФАСАД ООО // ЭДО",
+          "revenue": 13500.0,
+          "docs": 1,
+          "last": "2026-08-10"
+        },
+        {
+          "client": "ЦЕНТРСПЕЦТЕХ ООО // ЭДО",
+          "revenue": 12753.82,
+          "docs": 6,
+          "last": "2026-04-24"
+        },
+        {
+          "client": "ОСНОВА ДОМА ООО 7203384115 // ЭДО",
+          "revenue": 12576.0,
+          "docs": 7,
+          "last": "2026-08-06"
+        },
+        {
+          "client": "Усачев Николай Викторович ИП // ЭДО",
+          "revenue": 11799.0,
+          "docs": 3,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "АТ-ТРАНС ООО // ЭДО",
+          "revenue": 11740.07,
+          "docs": 5,
+          "last": "2026-08-06"
+        },
+        {
+          "client": "СУ-47 ООО 7203533470 // ЭДО",
+          "revenue": 11580.0,
+          "docs": 1,
+          "last": "2026-08-03"
+        },
+        {
+          "client": "ВОСХОД ООО (УЛЫБКА) // ЭДО",
+          "revenue": 9927.0,
+          "docs": 1,
+          "last": "2026-03-20"
+        },
+        {
+          "client": "АРМАТ-М ООО ДСК // ЭДО",
+          "revenue": 9470.0,
+          "docs": 2,
+          "last": "2026-08-10"
+        },
+        {
+          "client": "АГАТ ООО 7224088580",
+          "revenue": 9150.0,
+          "docs": 3,
+          "last": "2026-07-31"
+        },
+        {
+          "client": "МЕРИДИАН ООО 7204156270",
+          "revenue": 8651.0,
+          "docs": 1,
+          "last": "2026-06-24"
+        },
+        {
+          "client": "ГУД ХАУС ООО // ЭДО",
+          "revenue": 7970.0,
+          "docs": 2,
+          "last": "2026-08-04"
+        },
+        {
+          "client": "Уткин Владимир Павлович ИП",
+          "revenue": 7956.0,
+          "docs": 2,
+          "last": "2026-03-23"
+        },
+        {
+          "client": "РММ ООО",
+          "revenue": 7354.0,
+          "docs": 1,
+          "last": "2026-03-16"
+        },
+        {
+          "client": "ИСТОК ООО",
+          "revenue": 7100.0,
+          "docs": 1,
+          "last": "2026-04-23"
+        },
+        {
+          "client": "ЭВЕРЕСТДОР ООО // ЭДО",
+          "revenue": 7095.0,
+          "docs": 2,
+          "last": "2026-07-24"
+        },
+        {
+          "client": "РАССВЕТ КФХ // ЭДО",
+          "revenue": 6518.0,
+          "docs": 1,
+          "last": "2026-03-03"
+        },
+        {
+          "client": "ХЛЕБОКОМБИНАТ АБСОЛЮТ ООО",
+          "revenue": 6100.0,
+          "docs": 1,
+          "last": "2026-02-26"
+        },
+        {
+          "client": "АСУ ООО // ЭДО",
+          "revenue": 6086.42,
+          "docs": 3,
+          "last": "2026-04-24"
+        },
+        {
+          "client": "Цилин Алексей Анатольевич ИП // ЭДО",
+          "revenue": 5940.0,
+          "docs": 1,
+          "last": "2026-07-16"
+        },
+        {
+          "client": "МАСТЕР-ЦЕНТР ООО // ЭДО",
+          "revenue": 5806.0,
+          "docs": 1,
+          "last": "2026-03-03"
+        },
+        {
+          "client": "АРС-ПРОМ ООО ПФ",
+          "revenue": 5560.0,
+          "docs": 1,
+          "last": "2026-08-07"
+        },
+        {
+          "client": "ПРОМЕТАЛЛ ООО",
+          "revenue": 5479.0,
+          "docs": 3,
+          "last": "2026-07-17"
+        },
+        {
+          "client": "ПСК ООО 7203280892 // ЭДО",
+          "revenue": 5373.84,
+          "docs": 2,
+          "last": "2026-07-28"
+        },
+        {
+          "client": "ВЕРХОЛАЗ ООО 7203366934 // ЭДО",
+          "revenue": 5079.0,
+          "docs": 2,
+          "last": "2026-05-11"
+        },
+        {
+          "client": "НЕОСТРОЙ ООО // ЭДО",
+          "revenue": 4420.0,
+          "docs": 1,
+          "last": "2026-07-17"
+        },
+        {
+          "client": "А-ЗАВОД ПТО ООО // ЭДО",
+          "revenue": 4240.0,
+          "docs": 1,
+          "last": "2026-07-24"
+        },
+        {
+          "client": "ЗАПАД ООО (ш) 7203390599 // ЭДО // ПП",
+          "revenue": 4206.76,
+          "docs": 4,
+          "last": "2026-03-05"
+        },
+        {
+          "client": "ПЕРИЛАТЕХСТРОЙ ООО // ЭДО",
+          "revenue": 3978.0,
+          "docs": 1,
+          "last": "2026-03-03"
+        },
+        {
+          "client": "НТС ООО // ЭДО",
+          "revenue": 3155.59,
+          "docs": 3,
+          "last": "2026-08-03"
+        },
+        {
+          "client": "УК ПРОСПЕКТ ООО",
+          "revenue": 2990.0,
+          "docs": 2,
+          "last": "2026-07-30"
+        },
+        {
+          "client": "РУСЭКО ООО // ЭДО",
+          "revenue": 2914.0,
+          "docs": 1,
+          "last": "2026-03-05"
+        },
+        {
+          "client": "ЭКСПРЕСС ООО 7202170086",
+          "revenue": 2907.0,
+          "docs": 2,
+          "last": "2026-07-22"
+        },
+        {
+          "client": "Полушин Алексей Юрьевич ФЛ",
+          "revenue": 2855.0,
+          "docs": 1,
+          "last": "2026-02-27"
+        },
+        {
+          "client": "ПРЕМИУМ БОРДЮР ООО // ЭДО",
+          "revenue": 2810.0,
+          "docs": 2,
+          "last": "2026-07-27"
+        },
+        {
+          "client": "ПК ВОСТОК",
+          "revenue": 2641.0,
+          "docs": 2,
+          "last": "2026-07-17"
+        },
+        {
+          "client": "Анисов Айткен Тобыктыевич ИП // ЭДО",
+          "revenue": 2629.0,
+          "docs": 1,
+          "last": "2026-02-28"
+        },
+        {
+          "client": "МК ЭНЕРГИЯ ООО // ЭДО // АРД",
+          "revenue": 2520.0,
+          "docs": 3,
+          "last": "2026-08-05"
+        },
+        {
+          "client": "Рябцев Дмитрий Григорьевич ИП",
+          "revenue": 2169.0,
+          "docs": 3,
+          "last": "2026-08-05"
+        },
+        {
+          "client": "ДИАЛОГ+ ООО // ЭДО",
+          "revenue": 2080.38,
+          "docs": 2,
+          "last": "2026-03-03"
+        },
+        {
+          "client": "ТЮМЕНЬСПЕЦСТАЛЬ ООО ПК",
+          "revenue": 1750.0,
+          "docs": 1,
+          "last": "2026-02-20"
+        },
+        {
+          "client": "МЕТАЛЛСНАБСБЫТ ООО КОМПАНИЯ // ЭДО",
+          "revenue": 1560.0,
+          "docs": 1,
+          "last": "2026-07-20"
+        },
+        {
+          "client": "СПТ-ЗАПАДНАЯ СИБИРЬ ООО",
+          "revenue": 1550.82,
+          "docs": 1,
+          "last": "2026-02-11"
+        },
+        {
+          "client": "Аминова Нурания Каримовна ИП",
+          "revenue": 1290.0,
+          "docs": 1,
+          "last": "2026-02-16"
+        },
+        {
+          "client": "СМУ ООО // ЭДО",
+          "revenue": 1062.0,
+          "docs": 2,
+          "last": "2026-03-13"
+        },
+        {
+          "client": "ЭТАЛОН ООО ИНН 7202241080 // ЭДО",
+          "revenue": 1030.0,
+          "docs": 1,
+          "last": "2026-07-01"
+        },
+        {
+          "client": "ТЭС ООО // ЭДО",
+          "revenue": 980.0,
+          "docs": 1,
+          "last": "2026-02-20"
+        },
+        {
+          "client": "ПРОМПОЛТЮМЕНЬ ООО СК 7203501125 // ЭДО",
+          "revenue": 971.0,
+          "docs": 1,
+          "last": "2026-02-13"
+        },
+        {
+          "client": "СНАБИНЖИНИРИНГ ООО",
+          "revenue": 880.0,
+          "docs": 2,
+          "last": "2026-03-20"
+        },
+        {
+          "client": "Долматов Рафаиль Фаильевич ИП",
+          "revenue": 810.0,
+          "docs": 1,
+          "last": "2026-03-06"
+        },
+        {
+          "client": "''ПСК''ТЮМЕНЬСТРОЙМОНТАЖ'' // ЭДО // АРД",
+          "revenue": 430.0,
+          "docs": 1,
+          "last": "2026-02-12"
+        }
+      ]
+    },
+    {
       "name": "Касса и прочие авторы",
       "short": "Касса / прочие",
       "role": "other",
-      "revenue": 14785542.71,
-      "docs": 1427,
-      "clients": 195,
-      "avg_check": 10361.28,
+      "revenue": 14561605.08,
+      "docs": 1411,
+      "clients": 187,
+      "avg_check": 10320.06,
       "top_clients": [],
       "all_clients": []
     }
@@ -20363,50 +17499,35 @@ window.REPORT = {
     },
     "Никитина": {
       "2026-07": 880104.6,
-      "2026-04": 65501.42,
-      "2026-03": 1148563.51,
-      "2026-02": 902155.61,
+      "2026-04": 63836.42,
+      "2026-03": 1121013.51,
+      "2026-02": 843190.61,
       "2026-08": 418103.47,
       "2026-06": 76742.0,
-      "2026-05": 8914.05,
-      "2025-11": 348485.46,
-      "2025-09": 578456.02,
-      "2025-07": 691357.06,
-      "2025-08": 683533.37,
-      "2025-10": 725257.28,
-      "2025-06": 635301.36,
-      "2025-12": 357218.19,
-      "2026-01": 273975.72,
-      "2025-05": 481178.2
+      "2026-05": 8914.05
     },
     "Калбаев": {
-      "2025-11": 2507963.12,
-      "2025-08": 3041748.2,
-      "2026-07": 191417.91,
-      "2024-12": 3058026.16,
-      "2025-10": 3197610.96,
-      "2026-01": 1192357.38,
-      "2025-09": 3410042.21,
-      "2025-03": 869613.29,
-      "2025-12": 2556331.48,
-      "2026-08": 31100.27,
-      "2024-11": 3043320.77,
-      "2025-05": 2608086.1,
-      "2025-06": 2714456.69,
-      "2026-04": 77672.51,
-      "2026-05": 206256.33,
-      "2026-06": 169322.87,
-      "2025-07": 3323958.94,
+      "2025-11": 2262039.12,
+      "2025-08": 2760587.88,
+      "2024-12": 3048065.16,
+      "2025-10": 3146722.06,
+      "2026-01": 1190836.88,
+      "2025-09": 3409669.13,
+      "2025-03": 855816.29,
+      "2025-12": 2337253.46,
+      "2024-11": 2991643.77,
+      "2025-05": 2593830.1,
+      "2025-06": 2696507.69,
+      "2025-07": 3118822.94,
       "2025-02": 1019690.69,
-      "2024-10": 693117.61,
+      "2024-10": 691157.61,
       "2025-01": 597215.8,
-      "2025-04": 2526441.36,
-      "2026-02": 548249.68,
-      "2026-03": 43200.0
+      "2025-04": 2466198.3,
+      "2026-02": 451260.18
     },
     "Гудилов": {
-      "2024-10": 3175597.54,
-      "2024-09": 3593659.49,
+      "2024-10": 3120000.49,
+      "2024-09": 3593284.49,
       "2024-12": 3419.0,
       "2024-11": 194341.8,
       "2024-05": 3586558.73,
@@ -20419,6 +17540,6 @@ window.REPORT = {
       "2024-02": 1835475.73
     }
   },
-  "unique_docs": 9061,
+  "unique_docs": 8238,
   "raw_rows": 13783
 };
