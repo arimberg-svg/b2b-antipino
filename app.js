@@ -283,6 +283,44 @@
     })
     .join("");
 
+  const leavingNow = R.lost_clients
+    .filter(
+      (c) =>
+        c.status === "уходит" &&
+        c.revenue >= 100000 &&
+        !/калбаев ислам/i.test(c.client)
+    )
+    .slice(0, 12);
+  document.getElementById("act-leaving").innerHTML = leavingNow
+    .map(
+      (c) => `<tr class="leaving">
+        <td>${c.client}</td>
+        <td>${c.manager_short}</td>
+        <td class="num">${rub(c.revenue)}</td>
+        <td class="num">${c.silent_days} дн.</td>
+      </tr>`
+    )
+    .join("");
+
+  const gudBook = R.lost_clients
+    .filter(
+      (c) =>
+        c.manager_short === "Гудилов" &&
+        c.status === "пропал" &&
+        c.revenue >= 300000 &&
+        !/гудилов/i.test(c.client)
+    )
+    .slice(0, 12);
+  document.getElementById("act-gud").innerHTML = gudBook
+    .map(
+      (c) => `<tr class="gone">
+        <td>${c.client}</td>
+        <td class="num">${rub(c.revenue)}</td>
+        <td>${iso(c.last)}</td>
+      </tr>`
+    )
+    .join("");
+
   document.getElementById("foot").textContent =
     `«У Михалыча» · только Магазин №10 / Старый Тобольский тракт 3 км, 6 ст4 · реализации 1С ${iso(R.period.from)} — ${iso(R.period.to)} · собрано ${R.as_of}. Другие магазины и РЦ исключены.`;
 })();
