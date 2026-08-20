@@ -42,15 +42,9 @@
   document.getElementById("a-check-p").textContent =
     `Средний чек отгрузки ${rub(K.avg_check_2024)} в 2024 → ${rub(K.avg_check_2026)} в 2026. У ${K.like_clients} клиентов, кто покупал в оба года, чек тоже −${Math.abs(K.like_delta_pct)}%. Это не только уход крупных.`;
 
-  const mgrs = R.managers.filter((m) => m.role === "b2b");
-  const gud = R.managers.find((m) => m.short === "Гудилов");
-  const lead = mgrs[0];
-  document.getElementById("a-mgr").textContent = lead
-    ? `${lead.short}: ${mln(lead.revenue)}`
-    : "Менеджеры";
-  document.getElementById("a-mgr-p").textContent = gud
-    ? `Сейчас Калбаев, Никитина, Глухов. Раньше лидер — Гудилов (${mln(gud.revenue)}, ${gud.clients} клиентов). Большая часть его книги в пропавших.`
-    : "";
+  document.getElementById("a-mgr").textContent = "ОМ сейчас — Яковлева";
+  document.getElementById("a-mgr-p").textContent =
+    "Гудилов, Калбаев и Глухов уволены. Никитина переведена в старшие продавцы-консультанты. Цифры ниже — кто выписывал реализации. Книгу Antipino ведёт Александра Яковлева.";
 
   const y24 = R.years.find((y) => y.year === "2024");
   const y25 = R.years.find((y) => y.year === "2025");
@@ -288,7 +282,8 @@
       (c) =>
         c.status === "уходит" &&
         c.revenue >= 100000 &&
-        !/калбаев ислам/i.test(c.client)
+        !/калбаев ислам/i.test(c.client) &&
+        ["Калбаев", "Гудилов", "Глухов"].includes(c.manager_short)
     )
     .slice(0, 12);
   document.getElementById("act-leaving").innerHTML = leavingNow
@@ -302,21 +297,23 @@
     )
     .join("");
 
-  const gudBook = R.lost_clients
+  const claimNow = R.clients
     .filter(
       (c) =>
-        c.manager_short === "Гудилов" &&
-        c.status === "пропал" &&
-        c.revenue >= 300000 &&
-        !/гудилов/i.test(c.client)
+        ["Калбаев", "Гудилов", "Глухов", "Никитина"].includes(c.manager_short) &&
+        c.status === "живой" &&
+        c.significant
     )
-    .slice(0, 12);
-  document.getElementById("act-gud").innerHTML = gudBook
+    .sort((a, b) => b.revenue - a.revenue)
+    .slice(0, 15);
+  document.getElementById("act-claim").innerHTML = claimNow
     .map(
-      (c) => `<tr class="gone">
+      (c) => `<tr>
         <td>${c.client}</td>
+        <td>${c.manager_short}</td>
         <td class="num">${rub(c.revenue)}</td>
-        <td>${iso(c.last)}</td>
+        <td class="num">${c.y2026 ? rub(c.y2026) : "—"}</td>
+        <td>${c.silent_days} дн.</td>
       </tr>`
     )
     .join("");
