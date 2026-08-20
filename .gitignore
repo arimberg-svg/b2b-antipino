@@ -1,0 +1,7 @@
+*.mxl
+_*.py
+_*.txt
+site/
+report_data.json
+.DS_Store
+Thumbs.db
