@@ -326,6 +326,47 @@
     )
     .join("");
 
+  const A = window.AUGUST;
+  if (A) {
+    document.getElementById("aug-stats").innerHTML = [
+      [`${mln(A.plan)}`, "План августа"],
+      [`${rub(A.done)}`, `Факт на ${A.as_of}`],
+      [`${rub(A.gap)}`, "Осталось", true],
+      [`${rub(A.need_per_day)}`, `${A.days_left} дн. · в день`, true],
+    ]
+      .map(
+        ([v, l, hl]) =>
+          `<article${hl ? ' class="hl"' : ""}><b>${v}</b><span>${l}</span></article>`
+      )
+      .join("");
+
+    document.getElementById("aug-close").innerHTML = A.close
+      .map(
+        (c) => `<tr>
+        <td>${clientLabel(c.client)}</td>
+        <td class="num">${c.aug ? rub(c.aug) : "—"}</td>
+        <td class="num">${rub(c.sum90)}</td>
+        <td class="num">${c.freq90}</td>
+        <td class="num">${rub(c.avg)}</td>
+        <td>${c.why}</td>
+      </tr>`
+      )
+      .join("");
+
+    document.getElementById("aug-freq").innerHTML = A.freq_big
+      .map(
+        (c) => `<tr>
+        <td>${clientLabel(c.client)}</td>
+        <td class="num">${c.freq90}</td>
+        <td class="num">${rub(c.sum90)}</td>
+        <td class="num">${rub(c.avg)}</td>
+        <td class="num">${c.aug ? rub(c.aug) : "—"}</td>
+        <td>${iso(c.last)}</td>
+      </tr>`
+      )
+      .join("");
+  }
+
   document.getElementById("foot").textContent =
     `«У Михалыча» · только Магазин №10 / Старый Тобольский тракт 3 км, 6 ст4 · реализации 1С ${iso(R.period.from)} — ${iso(R.period.to)} · собрано ${R.as_of}. Другие магазины и РЦ исключены.`;
 })();

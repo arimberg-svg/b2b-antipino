@@ -436,6 +436,8 @@ tr.silent { background: #fffdf5; }
   font-weight: 700;
 }
 
+.plan-stats { grid-template-columns: repeat(4, 1fr); }
+
 @media (max-width: 960px) {
   .answers, .stats, .mgr-cards, .month-grid, .actions { grid-template-columns: 1fr 1fr; }
 }
@@ -506,13 +508,8 @@ tr.silent { background: #fffdf5; }
 
 .banner p { margin: 0; color: var(--muted); font-weight: 600; font-size: 14px; }
 
-.who {
-  margin: 0 0 6px;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--p);
+.panel h3.who {
+  margin: 16px 0 6px;
 }
 
 @media (max-width: 720px) {
